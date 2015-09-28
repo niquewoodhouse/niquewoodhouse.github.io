@@ -34,4 +34,12 @@ $('#brand_id').click(function(){
 	  	});
 	  
 	  }
+
+	  	$("#close_sesame, nav a").click(function () {
+ 		 $("nav").slideToggle("slow");
+	});
+
+	  	 
+
+
 });

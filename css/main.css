@@ -53,11 +53,12 @@ body {
 	-o-transition: background-color 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out;
 	/*border: 10px solid white;*/
+	font-family:"aktiv-grotesk-std", Helvetica, Arial, sans-serif;
 }
 
 span {display:block;}
 
-/* Typography */
+/* == Typography == */
 
 h1, h2 {
 	font-size: 25px;
@@ -66,6 +67,8 @@ h1, h2 {
 	color: white;
 	/*font-family:'Avenir LT W01 85 Heavy';*/
 	}
+
+
 	
 .fw800 {font-weight:800;}
 .tCenter {text-align:center;}
@@ -78,7 +81,35 @@ h2 {margin-bottom: 40px;}
 
 .bold {font-weight:900;}
 
+h4 {font-size: 1.5rem;
+    line-height: 1.2em;
+	margin:40px auto !important;}
+
+h3 {
+	display:block;letter-spacing: 0.8em;text-transform: uppercase;margin:5px 0px 30px 0px;
+}	
+
+h3::before {
+	content: '';
+	border-top:1px solid #8fb9e7;
+	width:20px;
+	height:3px;
+	margin:20px;
+	display:block;
+}
+
+h3::after {
+	content: '';
+	border-top:0px solid pink;
+	width:20px;
+	height:40px;
+	margin:20px;
+	display:block;
+}
+
 .screen-text {font-size:16px;line-height:23px;}
+
+.description ul.quotes {font-size:0.65em;}
 
 
 ul,li {
@@ -98,8 +129,7 @@ ul li {
 ul a {
 	text-decoration: none; 
 	font-size: 10px; 
-	color: white; 
-	text-transform: uppercase;
+	
 	}
 
 a:hover {color: #fff;}
@@ -109,86 +139,96 @@ a:hover {color: #fff;}
 /* === Palette === */
 .color-intro, .color-footer {background-color: #191c23;}
 .color-wirewax {background-color: #f2f1f1;}
-.color-4mat {background-color: #D0E3DF;}
-.color-gigb {background-color: #131313;}
+.color-WWXBrand {background-color: #f2f1f1;}
+.color-fourmat {background-color: #D0E3DF;}
+.color-remington {background-color: #131313;}
 .color-nick {background-color: #f3f3f8;}
-.color-spotify {background-color: #65a100;}
-.color-shaot {background-color: #ffbf00;}
-.color-spotify-mobile {background-color: #65a100;}
-.color-svt-humor {background-color: #e64662;}
-.color-svt {background-color: #333333;}
-.color-telia {background-color: #ef6ea3;}
-.color-spotify-radio {background-color: #649a00;}
-.color-doberman {background-color: #666666;}
-.color-dottirsonur {background-color: #4c1774;}
-.color-itshowtime {background-color: #46adb2;}
-.color-artiitii {background-color: #f2b600;}
+.color-workList {background-color: #f1f1f1;}
+
+
+
+
 
 .blueGrey {color:#4e5561;}
 
-#nick .description {color:#444;}
+#nick .description {color: rgb(144, 144, 144);}
 
-#4mat div.description p.bold {color:rgb(42, 42, 44);}
+.description img {margin:10px 0px 30px 0px;}
+
+#fourmat div.description p.bold {color:rgb(42, 42, 44);}
+
+.color-wirewax .screen-text p {color:rgb(144,144,144);}
+
+.color-wirewax .screen-text p.bold {color:#111011;}
+
+/* === Media handling == */
+
+.screeniOSVideo {width:300px;margin:5px 80px 5px 0px;}
+
+.shadow {-webkit-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);}
+
+.mobileExplain {margin:50px auto;}
+
+.fRight {float:right;}
+
+.fLeft {float:left;}
+
+.block {display:block;}
+
+.mAuto {margin:0 auto;}
+
+.overlay {position:fixed;background:rgba(0, 0, 0, 0.90);height:100%;width:100%;z-index: -1;}
+
+img.half {width:48%;margin:20px 20px 0px 0px;}
 
 nav {
 	/*font-family:'Avenir LT W01 85 Heavy';*/
-	position: fixed;
 	bottom: 0px; left: 0px;
 	font-size: 10px;
-	text-transform: uppercase;
+	text-transform: none;
 	top:0px;
-	width:30px;
-	height:100%;
-	background:#181818;
-	
+	width:100%;
 }
 
 /*nav ul#the_grid {display:none;}*/
 
+#close_sesame {position:absolute;top:20px;right:20px;}
+
+ul#the_grid li.feature {width:49%;}
+
+ul#the_grid li.nonfeature {width:33%;}
+
+ul#the_grid {margin:0 auto;width:100%;}
+
 nav a {
 	display:block;
-	height: 9px; width: 150px;
 	line-height: 9px;
+	
+	margin:25px 0px 20px 30px;
 }
 
-nav i {
-	text-indent: -9999px;
-	overflow: hidden;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background: #878787;
-	background: rgba(0,0,0, .2);
-	display: inline-block;
-	_display: block;
-	width: 6px;
-	height: 6px;
-	margin-right: 6px;
+nav a p {
+	padding:29px 0 24px 0;
+	line-height:1.5em;
+	font-size:15px;
+	color:#696969;
 }
 
-nav a:hover i{
-	background: rgba(0,0,0, 0.5);
-}
-
-nav .active a i{
-	background: rgba(255,255,255, 1);
-}
+nav a p span {display:block;color:#1e1e1e;}
 
 nav li {
-	height: 9px;
-	line-height: 9px;
-	margin-bottom: 9px;
+	
+	margin-bottom: 9px;display:inline-block;
 }
 
-nav ul li span {display: none;}
-nav ul li:hover span {display: inline-block;}
+
 
 .section {
 	width: 100%;
 	/*text-align: center;*/
 	min-height: 500px;
-	
-
 	
 }
 
@@ -211,40 +251,36 @@ nav ul li:hover span {display: inline-block;}
 #brand_id {
 	position: fixed;
 	top: 20px; left: 20px;
-
 }
+
+
 
 .intro-heading {
 	font-size: 1.8em;
 	line-height: 2.1em;
-
 }
-
 
 .section {margin: 0 auto;}
 
 .intro-description,
-.description {
+ {
 	font-size: 18px;
 	line-height: 34px;
 	/*font-family:'Avenir LT W01 45 Book';*/
 	margin: 0 auto 40px auto;
-	max-width:1100px;
+	
 }
+
+.description {}
 
 .intro-description a {
 	color:#fff; border-bottom:1px solid rgba(255, 255, 255, 0.3);text-decoration:none;}
 
-.description p {
-	max-width: 790px;
-	/*float:left;*/
-	display:block;
-}
-.screen-text p {max-width:450px;margin:0 auto;}
+.screen-text p, .screen-text h4, .description p, .description ul, .intro-description p {max-width:450px;margin:0px auto 80px auto;line-height: 1.7;}
 
 .screen-text img {margin:0 auto;}
 
-.description img {float:right;max-width:400px;}
+/*.description img {float:right;max-width:400px;}*/
 
 .description p.meta {font-size:0.8em;line-height:1.4em;}
 
@@ -254,10 +290,8 @@ nav ul li:hover span {display: inline-block;}
 	text-transform: none;
 }
 
-.description a {
-	text-decoration: none;
-	color: white;
-}
+.description a {text-decoration:underline;}
+
 
 .launch a {
 	color: white;
@@ -268,8 +302,6 @@ nav ul li:hover span {display: inline-block;}
 	display: inline-block;
 }
 
-
-
 .screens {
 	margin-top: 80px;
 }
@@ -277,7 +309,6 @@ nav ul li:hover span {display: inline-block;}
 .screens img {
 	margin-bottom: 10px;
 }
-
 
 
 .video-container {
@@ -349,8 +380,7 @@ ul a {
 	text-decoration: none; 
 	font-size: 8px; 
 	line-height: 18px;
-	color: white; 
-	text-transform: uppercase;
+	
 }
 
 .brand {
@@ -445,8 +475,7 @@ ul a {
 	text-decoration: none; 
 	font-size: 8px; 
 	line-height: 18px;
-	color: white; 
-	text-transform: uppercase;
+	
 }
 
 .brand {
