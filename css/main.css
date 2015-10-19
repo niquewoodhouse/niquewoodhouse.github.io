@@ -93,7 +93,7 @@ span {display:block;}
 
 body.color-wirewax #fooTah a, body.color-WWXBrand #fooTah a {color:#444;}
 body.color-intro a.work {opacity:0;}
-body.color-intro .section#wirewax {opacity: 0;}
+/*body.color-intro .section#wirewax {opacity: 0;}*/
 #galaxyWWX {background-image:url('../i/project/wwx/folio2015_wwxIconIntro.png');background-position: top center;background-repeat: no-repeat;background-size: 35%;}
 #galaxyWWX p.explain {margin:90px 0 90px 0;}
 #nicki {background-image:url('../i/project/wwx/folio2015_wwxIconIntro.png');background-position: top center;background-repeat: no-repeat;background-size: 35%;}
@@ -135,6 +135,8 @@ h2 {margin-bottom: 40px;}
 .quotey a, .quotey a:hover {
 	font-size:14px;color:#c69c6d;text-align: center !important;display:block;
 }
+
+.quotey a {margin:-50px 0 0 0;}
 
 .bodyCopy, .description, .screen-text {font-family:"aktiv-grotesk-std", Helvetica, Arial, sans-serif;}
 
@@ -226,7 +228,7 @@ a:hover {color: #fff;}
 
 #nick .description {color: rgb(144, 144, 144);}
 
-.description img, .description video {margin:10px 0px 30px 0px;}
+.description img, .description video {margin:10px 0px 30px 0px;max-width: 100%;}
 
 #fourmat div.description p.bold {color:rgb(42, 42, 44);}
 
@@ -298,7 +300,7 @@ nav {
 
 ul#the_grid li.feature {width:33%;}
 
-ul#the_grid li.nonfeature, .description ul li.nonfeature {width:33%;display:inline-block;}
+ul#the_grid li.nonfeature, .description ul li.nonfeature {width:32.5%;display:inline-block;}
 
 body.color-wirewax li.nonfeature {margin:25px 0 0 0;}
 body.color-wirewax li.nonfeature p {width:80%;}
@@ -310,7 +312,9 @@ ul#the_grid {margin:0 auto;width:100%;}
 	font-size:20px;display:block;margin:0 0 10px 0;
 }
 
-.description ul li.nonfeature p {font-size:13px;}
+.description ul li.nonfeature span.author {color:#c69c6d;}
+
+.description ul li.nonfeature p,  .description ul li.nonfeature span.author {font-size:13px;}
 
 
 .description ul li.nonfeature a {text-decoration: none;}
@@ -413,7 +417,18 @@ nav li {
 	text-transform: none;
 }
 
-.description a {text-decoration:underline;}
+.description a {text-decoration:underline;color:#c69c6d;}
+
+
+.description a:after {
+	content: '';
+	border-bottom:1px solid #c69c6d;
+	
+	height:3px;
+	display:inline-block
+	width:100%l;
+	
+	}
 
 
 
@@ -475,6 +490,27 @@ nav li {
 }
 
 
+/* Screen width 1000px --------- */
+@media screen and (max-width: 1200px)
+
+
+
+ {
+
+ul#the_grid li.nonfeature, .description ul li.nonfeature {
+	width:80%;
+}
+
+body.color-wirewax li.nonfeature p {
+	width:100%;
+}
+
+div#wirewaxThreeQuotes ul li {
+	width:33%;
+}
+
+
+}
 
 /* Smartphones (portrait) ----------- */
 @media screen and (max-width: 320px) {
