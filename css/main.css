@@ -228,7 +228,7 @@ a:hover {color: #fff;}
 
 #nick .description {color: rgb(144, 144, 144);}
 
-.description img, .description video {margin:10px 0px 30px 0px;max-width: 100%;}
+.description img, .description video {margin:10px 0px 30px 0px;max-width: 95% !important;}
 
 #fourmat div.description p.bold {color:rgb(42, 42, 44);}
 
@@ -256,7 +256,7 @@ box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);}
 
 .overlay {position:fixed;background:rgba(0, 0, 0, 0.90);height:100%;width:100%;z-index: -1;}
 
-img.half {width:48% !important;margin:20px 20px 20px 0px;}
+img.half, video.half {width:48% !important;margin:20px 20px 20px 0px;}
 img.logoCluster {width:58%;margin:-50px 0 70px 0;}
 
 body.color-nick img.half {width:40% !important;margin:20px 30px;}
