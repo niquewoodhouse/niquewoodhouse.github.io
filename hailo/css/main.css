@@ -1,0 +1,701 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+	background: #fff;
+	
+	/*font-family: 'Avenir LT W01 55 Roman', 'Avenir', helvetica, arial;*/
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+	/*border: 10px solid white;*/
+	font-family:"aktiv-grotesk-std", Helvetica, Arial, sans-serif;
+}
+
+span {display:block;}
+
+#fooTah {
+	margin: 0;
+    padding: 0 0 25px;
+    height: auto;
+    width: 100%;
+    color: rgba(255,255,255,.502);
+    position: fixed;
+    top: 20px;
+    z-index: 21;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+#fooTah .fLeft {float: left;margin:0px 0px 0px 40px;}
+
+#fooTah .fRight {float: right; text-align: right;margin:0px 40px 0px 0px;}
+
+#fooTah a, #footer .intro-description a {
+	transition: color 300ms ease-out;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,.502);
+        color: rgba(255,255,255,.502);
+    display: inline-block;
+    vertical-align: top;
+    margin:0px 0px 0px 30px;
+    line-height:20px;
+    font-size:13px;
+}
+
+#fooTah .fLeft a.first, #footer .intro-description a.first {margin:0 0 0 0 !important;}
+
+#fooTah a:hover {color:white;}
+
+body.color-wirewax #fooTah a, body.color-WWXBrand #fooTah a {color:#444;}
+body.color-intro a.work {opacity:0;}
+/*body.color-intro .section#wirewax {opacity: 0;}*/
+#galaxyWWX {background-image:url('../i/project/wwx/folio2015_wwxIconIntro.png');background-position: top center;background-repeat: no-repeat;background-size: 35%;}
+#galaxyWWX p.explain {margin:90px 0 90px 0;}
+#nicki {background-image:url('../i/project/wwx/folio2015_wwxIconIntro.png');background-position: top center;background-repeat: no-repeat;background-size: 35%;}
+
+#borders div {position:fixed;background:#c69c6d;}
+
+#borders div.left {width:5px;height:100%;left:0px;top:0px;}
+#borders div.right {width:5px;height:100%;right:0px;top:0px;}
+#borders div.top {width:100%;height:5px;left:0px;top:0px;}
+#borders div.bottom {width:100%;height:5px;bottom:0px;left:0px;}
+
+/* == Typography == */
+
+h1, h2 {
+	font-size: 25px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: white;
+	/*font-family:'Avenir LT W01 85 Heavy';
+	font-family: 'Vollkorn', serif !important;*/
+	
+	}
+
+
+	
+h1, h2, h3, .quotey, h4 {font-family: 'Playfair Display', serif;}
+
+.fw800 {font-weight:800;}
+.tCenter {text-align:center;}
+
+h2 {margin-bottom: 40px;}
+
+.quotey {
+	text-align: center;font-size:37px;max-width:900px !important;
+}
+
+.quotey span {font-size:20px;}
+
+.quotey a, .quotey a:hover {
+	font-size:14px;color:#c69c6d;text-align: center !important;display:block;
+}
+
+.quotey a {margin:-50px 0 0 0;}
+
+.bodyCopy, .description, .screen-text {font-family:"aktiv-grotesk-std", Helvetica, Arial, sans-serif;}
+
+.Georgia {font-family:Georgia, serif;}
+
+.bold {font-weight:900;}
+
+h4 {font-size: 1.5rem;
+    line-height: 1.2em;
+	margin:40px auto !important;}
+
+h3 {
+	display:block;letter-spacing: 0.8em;text-transform: uppercase;margin:5px 0px 90px 0px;font-size:40px;
+}	
+
+span.subTitle::before {
+	content: '';
+	border-top:1px solid #c69c6d;
+	width:20px;
+	height:3px;
+	margin:20px;
+	display:block;
+}
+
+span.subTitle::after {
+	content: '';
+	border-top:0px solid pink;
+	width:20px;
+	height:5px;
+	margin:20px;
+	display:block;
+}
+
+span.subTitle, span.subTitle2 {
+	font-size:0.75em;text-transform: uppercase;letter-spacing: 2px;color:#c69c6d;font-weight:800;margin:30px 0;
+}
+
+span.subTitle2 {
+	color:#666;
+}
+
+
+
+.screen-text {font-size:16px;line-height:23px;}
+
+.description ul.quotes {font-size:0.65em;}
+
+#wirewax span.bigTitle {font-size:100px;line-height:100px;}
+
+
+ul,li {
+	margin: 0; 
+	padding: 0;
+	}
+	
+ul span {
+	display: inline-block;
+}
+
+ul li {
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+ul a {
+	text-decoration: none; 
+	font-size: 10px; 
+	
+	}
+
+a:hover {color: #fff;}
+
+.screens img {margin:0 auto;}
+
+/* === Palette === */
+.color-intro, .color-footer {background-color: #191c23;}
+.color-wirewax {background-color: #f2f1f1;}
+.color-WWXBrand {background-color: #212121;}
+.color-fourmat {background-color: #D0E3DF;}
+.color-remington {background-color: #232323;}
+.color-nick {background-color: #f3f3f8;}
+.color-workList {background-color: #f1f1f1;}
+
+
+
+
+
+.blueGrey {color:#4e5561;}
+
+#nick .description {color: rgb(144, 144, 144);}
+
+.description img, .description video {margin:10px 0px 30px 0px;max-width: 95% !important;}
+
+#fourmat div.description p.bold {color:rgb(42, 42, 44);}
+
+.color-wirewax .screen-text p {color:rgb(144,144,144);}
+
+.color-wirewax .screen-text p.bold {color:#111011;}
+
+/* === Media handling == */
+
+.screeniOSVideo {width:300px;margin:5px 80px 5px 0px;}
+
+.shadow {-webkit-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);}
+
+.mobileExplain {margin:50px auto;}
+
+.fRight {float:right;}
+
+.fLeft {float:left;}
+
+.block {display:block;}
+
+.mAuto {margin:0 auto;}
+
+.overlay {position:fixed;background:rgba(0, 0, 0, 0.90);height:100%;width:100%;z-index: -1;}
+
+img.half, video.half {width:48% !important;margin:20px 20px 20px 0px;}
+img.logoCluster {width:58%;margin:-50px 0 70px 0;}
+
+body.color-nick img.half {width:40% !important;margin:20px 30px;}
+
+.sectionSplit {width:90%;display:block;margin:20px auto;min-height:800px;}
+
+.sectionSplitSmall {min-height:300px;}
+
+.sectionSplit div.fLeft {
+	
+}
+
+.sectionSplit div.fRight {
+	
+}
+
+.sectionSplit div p {line-height:145%;}
+
+.sectionSplit div.big {
+	width:60%;
+}
+
+.sectionSplit div.small {
+	width:30%;
+}
+
+body.color-WWXBrand .sectionSplitSmall {min-height:450px !important;}
+
+nav {
+	/*font-family:'Avenir LT W01 85 Heavy';*/
+	bottom: 0px; left: 0px;
+	font-size: 10px;
+	text-transform: none;
+	top:0px;
+	width:100%;
+}
+
+/*nav ul#the_grid {display:none;}*/
+
+#close_sesame {position:absolute;top:20px;right:20px;}
+
+ul#the_grid li.feature {width:33%;}
+
+ul#the_grid li.nonfeature, .description ul li.nonfeature {width:32.5%;display:inline-block;}
+
+body.color-wirewax li.nonfeature {margin:25px 0 0 0;}
+body.color-wirewax li.nonfeature p {width:80%;}
+/*body.color-wirewax li.nonfeature a p {color:red;}*/
+
+ul#the_grid {margin:0 auto;width:100%;}
+
+.description ul li.nonfeature span {
+	font-size:20px;display:block;margin:0 0 10px 0;
+}
+
+.description ul li.nonfeature span.author {color:#c69c6d;}
+
+.description ul li.nonfeature p,  .description ul li.nonfeature span.author {font-size:13px;}
+
+
+.description ul li.nonfeature a {text-decoration: none;}
+
+nav a {
+	display:block;
+	line-height: 9px;
+	
+	margin:25px 0px 20px 30px;
+}
+
+nav a p {
+	padding:29px 0 24px 0;
+	line-height:1.5em;
+	font-size:15px;
+	color:#696969;
+}
+
+nav a p span {display:block;color:#fff;}
+
+nav li {
+	
+	margin-bottom: 9px;display:inline-block;
+}
+
+
+
+.section {
+	width: 100%;
+	/*text-align: center;*/
+	min-height: 500px;
+	
+}
+
+.section-wrap {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 100px 20px 180px 20px;
+}
+
+.section-wrap img {
+	max-width: 100%;
+}
+
+.brand {
+	
+	margin-bottom: 50px;
+
+}
+
+#brand_id {
+	position: fixed;
+	top: 20px; left: 20px;
+}
+
+
+
+.intro-heading {
+	font-size: 1.8em;
+	line-height: 2.1em;
+}
+
+.section {margin: 0 auto;}
+
+.intro-description,
+ {
+	font-size: 18px;
+	line-height: 34px;
+	/*font-family:'Avenir LT W01 45 Book';*/
+	margin: 0 auto 40px auto;
+	
+}
+
+.description {}
+
+.intro-description a {
+	color:#fff; border-bottom:1px solid rgba(255, 255, 255, 0.3);text-decoration:none;}
+
+.screen-text p, .screen-text h4, .description p, .intro-description p {max-width:450px;margin:0px auto 80px auto;line-height: 1.7;}
+
+.screen-text h4 {
+	color:#3e3e3e;
+}
+
+.description h4 {margin:30px auto;max-width:450px;}
+
+.screen-text p, .description p {
+	color:#6c6c6c;
+}
+
+.screen-text img {margin:0 auto;}
+
+/*.description img {float:right;max-width:400px;}*/
+
+.description p.meta {font-size:0.8em;line-height:1.4em;}
+
+.description p.meta-1 {margin:20px 0 0 0;}
+
+.intro-description {
+	text-transform: none;
+}
+
+.description a {text-decoration:underline;color:#c69c6d;}
+
+
+.description a:after {
+	content: '';
+	border-bottom:1px solid #c69c6d;
+	
+	height:3px;
+	display:inline-block
+	width:100%l;
+	
+	}
+
+
+
+.launch a {
+	color: white;
+	text-decoration: none;
+}
+
+.launch span {
+	display: inline-block;
+}
+
+.screens {
+	margin-top: 80px;
+}
+
+.screens img {
+	margin-bottom: 10px;
+}
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.screen-text {
+	margin: -23px auto 40px auto;
+	text-align: left;
+	
+}
+
+.screen-text strong{
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	/*font-family:'Avenir LT W01 85 Heavy';*/
+}
+
+#intro,#footer {
+	padding: 220px 0 100px 0;
+
+	/*font-family:'Avenir LT W01 85 Heavy';*/
+	
+}
+
+
+/* Screen width 1000px --------- */
+@media screen and (max-width: 1200px)
+
+
+
+ {
+
+ul#the_grid li.nonfeature, .description ul li.nonfeature {
+	width:80%;
+}
+
+body.color-wirewax li.nonfeature p {
+	width:100%;
+}
+
+div#wirewaxThreeQuotes ul li {
+	width:33%;
+}
+
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 320px) {
+.description {
+	/*font-family:'Avenir LT W01 45 Book';*/
+	font-size: 14px;
+	margin: 0 auto 20px auto;
+	line-height: 21px;
+}
+
+nav {
+	/*font-family:'Avenir LT W01 85 Heavy';*/
+	position: fixed;
+	bottom: 10px; left: -120px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+#brand_id {
+
+	position: fixed;
+	top: 10px; left: -120px;
+
+}
+
+ul a {
+	text-decoration: none; 
+	font-size: 8px; 
+	line-height: 18px;
+	
+}
+
+.brand {
+	margin-bottom: 20px;
+}
+
+.section-wrap {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 20px 20px 60px 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.screens {
+	margin-top: 30px;
+}
+
+.intro-tagline {
+	font-size: 8px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#intro,#footer {
+	font-size: 8px;
+	padding: 80px 0 0px 0;
+	text-transform: uppercase;
+	font-family:'Avenir LT W01 85 Heavy';
+}
+
+.intro-header {
+	font-size: 12px;
+	line-height: 21px;
+
+}
+
+.intro-description,
+.description {
+	max-width: 790px;
+	font-family:'Avenir LT W01 45 Book';
+	font-size: 14px;
+	margin: 0 auto 20px auto;
+	line-height: 21px;
+
+}
+
+
+.screen-text {
+	margin: -35px auto 20px auto;
+	text-align: center;
+	font-size: 10px;
+	font-family:'Avenir LT W01 65 Medium';
+	line-height: 12px;
+	
+}
+
+.screen-text strong{
+	text-transform: uppercase;
+	font-size: 8px;
+	font-family:'Avenir LT W01 85 Heavy';
+	letter-spacing: 1px;
+}
+
+.period, .role, .launch, .client, .agency {
+	font-size: 8px;
+	font-family:'Avenir LT W01 85 Heavy';
+	text-transform: uppercase;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+
+body {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition:none;
+}
+
+@media screen and (min-width: 321px) and (orientation:landscape) {
+.description {
+	font-family:'Avenir LT W01 45 Book';
+	font-size: 12px;
+	margin: 0 auto 20px auto;
+	line-height: 21px;
+}
+
+ul a {
+	text-decoration: none; 
+	font-size: 8px; 
+	line-height: 18px;
+	
+}
+
+.brand {
+	margin-bottom: 20px;
+}
+
+.section-wrap {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 20px 20px 60px 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+ul#the_grid li.nonfeature, .description ul li.nonfeature {width:90%;display:block;}
+
+.screens {
+	margin-top: 30px;
+}
+
+#intro,#footer {
+	font-size: 8px;
+	padding: 80px 0 0px 0;
+	text-transform: uppercase;
+	font-family:'Avenir LT W01 85 Heavy';
+}
+
+.screen-text {
+	margin: -35px auto 20px auto;
+	text-align: center;
+	font-size: 10px;
+	font-family:'Avenir LT W01 65 Medium';
+	line-height: 12px;
+
+}
+
+.screen-text strong{
+	text-transform: uppercase;
+	font-size: 8px;
+	font-family:'Avenir LT W01 85 Heavy';
+	letter-spacing: 1px;
+}
+
+.period, .role, .launch, .client, .agency {
+	font-size: 8px;
+	font-family:'Avenir LT W01 85 Heavy';
+	text-transform: uppercase;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+
+
+body {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition:none;
+}
+
+
+}
