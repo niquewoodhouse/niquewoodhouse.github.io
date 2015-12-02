@@ -42,6 +42,41 @@
 
 <body class="color-intro">
 
+
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+  
+  <script type="text/javascript">
+var feed = new Instafeed({
+  get: 'user',
+  clientId: '467ede5a6b9b48ae8e03f4e2582aeeb3',
+  userId: 13563994,
+  accessToken: '13563994.467ede5.bfe0ac4ed0fa4d9a84b943687922a92d',
+  resolution: 'standard_resolution',
+  limit: 9,
+  after: function () {
+    var images = $("#instafeed").find('a');
+    $.each(images, function(index, image) {
+      var delay = (index * 75) + 'ms';
+      $(image).css('-webkit-animation-delay', delay);
+      $(image).css('-moz-animation-delay', delay);
+      $(image).css('-ms-animation-delay', delay);
+      $(image).css('-o-animation-delay', delay);
+      $(image).css('animation-delay', delay);
+      //$(image).addClass('animated flipInX');
+    });
+  },
+  template: '<a href="{{link}}" target="_blank" class="instagramImg"><img src="{{image}}" /><span class="likes">&hearts; {{likes}}</span></a>'
+});
+feed.run();
+setTimeout(function(){ $('#instafeed a').attr("target","_blank"); }, 1000);
+</script>
+<!--
+<a href="{{link}}" target="_blank"><img src="{{image}}" /><span class="likes">&hearts; {{likes}}</span></a>'
+<div style="background-image:url({{image}}");"><span class="likes">&hearts; {{likes}}</span></div>
+
+
+-->
+
 	<div id="borders">
 		<div class="left">
 		</div>
@@ -58,12 +93,12 @@
 
 <div id="fooTah">
 	<div class="fLeft">
-		<a class="first" href="http://bit.ly/1FkpW15">CV</a>
+		<!--<a class="first" href="http://bit.ly/1FkpW15">CV</a>-->
 		
 	</div>
 	<div class="fRight">
 		<a href="#intro" class="work">Work</a>
-		<a href="#footer">Contact</a>
+		<a href="#footer">Profile</a>
 
 	</div>
 
@@ -84,7 +119,7 @@
 		<h1 class="intro-heading tCenter">Hey, I'm Nique. Pro surfer. Web only (afraid of sea).</h1>
 		<div class="intro-description blueGrey bodyCopy tCenter">
 			<p>
-            Freelance designer trying to make things feel simple &amp; fun.  
+            Independent designer in London, focusing on making products work, feel simple &amp; a little fun.  
             </p>
 		</div>
 
@@ -97,7 +132,7 @@
 				<li class="wirewax feature">
 					<a href="#wirewax">
 
-						<img src="i/project/wwx/folio2015_thumbWWXProd.png">
+						<img class="shadow br5" src="i/project/wwx/folio2015_thumbWWXProd.png">
 						
 						<p>
 							<span>Wirewax</span>
@@ -108,7 +143,7 @@
 
 				<li class="WWXBrand feature">
 					<a href="#WWXBrand">
-						<img src="i/project/wwx/folio2015_thumbWWXBranding.png">
+						<img class="shadow br5" src="i/project/wwx/folio2015_thumbWWXBranding.png">
 						<p>
 							<span>Wirewax</span>
 							Identity    
@@ -118,7 +153,7 @@
 
 				<li class="nick feature feature2">
 					<a href="#nick">
-						<img src="i/project/nick/folio2015_thumbMTV.png">
+						<img class="shadow br5" src="i/project/nick/folio2015_thumbMTV.png">
 
 						<p>
 							<span>Nickelodeon</span>
@@ -510,36 +545,6 @@
 
 </div>
 
-<div class="description">	
-			<center>
-				 <video id="myVideo9" class="half" autoplay loop>
-				  <source src="assets/website2b.mp4" type="video/mp4">
-				  <source src="mov_bbb.ogg" type="video/ogg">
-				  Your browser does not support HTML5 video.
-				</video>
-
-							<p>
-								<span>Website Explore</span>
-								Give audience a chance to explore tech in bitesize, contextual ways.
-							</p>
-
-				 <video id="myVideo10" class="half" autoplay loop>
-				  <source src="assets/website2c.mp4" type="video/mp4">
-				  <source src="mov_bbb.ogg" type="video/ogg">
-				  Your browser does not support HTML5 video.
-				</video>
-
-							<p>
-								<span>Showcase Explore</span>
-								Live examples with categories to help people find inspiration.
-							</p>
-
-
-				</center>
-				<!--<img src="i/project/wwx/02-Ebony---View-Two.png"/>-->
-
-  </div>
-
 
 <div class="description">	
 	
@@ -737,7 +742,7 @@
 
             	   <br>
 
-					<ul><center>
+<!--					<ul><center>
 
 				
 						<li class="nonfeature">
@@ -773,6 +778,7 @@
 						</li>						
 
 					</center></ul>	
+				-->
 
             	   <br>
 
@@ -813,38 +819,77 @@
 	
 	
 	<div class="section" id="footer">
-		<h1 class="intro-heading tCenter">So, that's me. What about you?</h1>
-		<div class="intro-description blueGrey bodyCopy tCenter">
-			
-            <center>
+		<div class="section-wrap">
+			<span class="bigNo">3.</span>
+			<h4>About</h4>
+			<!--<h1 class="intro-heading tCenter">I woke up just like dis.</h1>-->
+			<!--<img class="" src="i/peaceYo.jpg"/>-->
+			<div class="intro-description blueGrey bodyCopy description">
+				<div>
+
+		            <p class="half">I'm a self taught designer, with an obsessive curiosity that keeps my skills &amp; ambitions always growing.  
+		            	I'm passionate about transforming complex problems into simple &amp; obvious solutions. I can't swim. </p>
+		            <p class="half">For the past two years I was the first Creative Director at <a href="http://www.wirewax.com" target="_blank">Wirewax</a>. During this time share value increased 8fold &amp; our product was used by brands like Spotify, NBC Universal &amp; BBC.</p>
+		            <p class="half">Today I create my own products from my studio in London, alongside helping others with theirs.</p>
+					<p class="half">
+						<a href="http://www.twitter.com/niquewoodhouse" target="_blank"> Twitter</a>
+						<a href="http://www.linkedin.com/in/niquewoodhouse" target="_blank">Linkedin</a>
+						<a href="http://bit.ly/1FkpW15">CV</a>
+					</p>		            
+	       	 </div>
+	            <ul class="profileInfo nonfeature devilGrey">
+	            	<li class="title">I use</li>
+	            	<li>Adobe Creative Cloud</li>
+	            	<li>Sketch</li>
+	            	<li>Principle</li>
+	            	<li>Invision</li>
+	            	<li>Marvel</li>
+	            	<li>Omnigraffle</li>
+	            	<li>Axure</li>
+	            	<li>Post-it notes</li>
+	            </ul>
+	            	
+	            <ul class="profileInfo nonfeature devilGrey">
+	            	<li class="title">I design</li>
+	            	<li>Native apps</li>
+	            	<li>Software</li>
+	            	<li>Identity</li>
+	            	<li>Websites</li>
+	            	<li>Brands</li>
+	            	<li>Print</li>
+	            	<li>Marketing</li>
+	            	<li>Motion</li>
+	            </ul>
             	
-            	 
+            	 Now you know about me, tell me about you.
+
+
+       
+		</div>
+		</div>
+    
+			<div id="instafeed" class="wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+				<h1 class="intro-heading tCenter">Instagram</h1>
+			</div>
+
+           <center>
+           		<h3>Peace! </h3>
+
+
             <a class="first" href="mailto:nique.shjm.woodhouse@gmail.com">Email</a> 
 			<a href="http://www.twitter.com/niquewoodhouse" target="_blank"> Twitter</a>
 			<a href="http://instagram.com/niquewoodhouse" target="_blank"> Instagram</a>
 			<a href="http://www.linkedin.com/in/niquewoodhouse" target="_blank">Linkedin</a>
-			<!--<a href="http://bit.ly/1FkpW15">CV</a>-->
+			<a href="http://bit.ly/1FkpW15">CV</a>
 
-        </center>
-		</div>
-    
-		
-
-            
+           </center>
             
 		
-	</div>
 	
+	</div>
 </div>
-<script>
 
-var waypoint = new Waypoint({
-  element: document.getElementById('myVideo'),
-  handler: function(direction) {
-    console.log('Scrolled to waypoint!')
-  }
-})
-  
-</script>
+
+
 </body>
 </html>
