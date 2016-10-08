@@ -1,0 +1,71 @@
+nav.header {
+	padding:15px 0px;
+	top:0px;
+	left:0px;
+}
+
+a.current {
+	color:#c69c6d;
+}
+
+img.logoSvg {height:20px;fill:#c69c6d;}
+
+.holdingP .sectionTitleAlt {font-size:0.8em;top:119px;letter-spacing: 0.5em;}
+
+.holdingP {
+	overflow-x:hidden;
+}
+
+
+
+a.holdingLink {
+    text-decoration: none;
+    padding-bottom: 6px;
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0.1);	
+    margin:0px 15px 0 0;
+}
+
+a.holdingLink, .blockLi li {font-size:0.8em;}
+
+nav.header a.logo {
+	float:left;
+	border-bottom-width:0px;
+	padding-bottom: 0px;
+	width:100px;
+	overflow:hidden;
+	padding-left:50px;
+}
+
+nav.header a.logo:before {
+	content: "";
+    position: absolute;
+    top: 7px;
+    width: 2vw;
+    height: 2px;
+    left:-20px;
+    background: #c69c6d;
+    transition: color 1s cubic-bezier(.19,1,.22,1),-webkit-transform .7s cubic-bezier(.19,1,.22,1),width .8s cubic-bezier(.19,1,.22,1);
+    transition: color 1s cubic-bezier(.19,1,.22,1),transform .7s cubic-bezier(.19,1,.22,1),width .8s cubic-bezier(.19,1,.22,1);
+}
+
+nav.header a.logo:hover:before {
+	width: 39vw;
+    -webkit-transform: translate3d(140px,0px,0);
+    transform: translate3d(140px,0px,0);    
+}
+
+nav.header ul.nav {
+	margin:0px 30px 0 0;
+}
+
+nav.header ul li {
+	margin:0 25px 0 0;
+}
+
+nav.header ul.nav a.current:after {
+	content:"";
+	border-top:1px solid red;
+	width:100%;
+	margin:10px 0;
+}

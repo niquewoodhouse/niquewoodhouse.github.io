@@ -1,0 +1,195 @@
+
+@font-face {
+    font-family: 'univers_ce_45_lightregular';
+    src: url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.eot');
+    src: url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.woff2') format('woff2'),
+         url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.woff') format('woff'),
+         url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.ttf') format('truetype'),
+         url('{{site.baseurl}}/jekyll-blog/fonts/universce45light-webfont.svg#univers_ce_45_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2666666667;
+    letter-spacing: 0.02rem;
+}
+
+h4 {
+   /*
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg); 
+    float: left;
+    text-transform: uppercase;
+    */
+    font-size: 1.375rem;
+    line-height: 1.4rem;
+    transform-origin: left top 0;
+    font-weight: 500;
+    letter-spacing: 0.05rem;    
+   
+}
+
+#OhHi {font-weight:100;font-size: 2em;}
+
+h4.NinetyDegTitle {
+    letter-spacing: 0px;
+    margin-top:10px;
+}
+
+h5 {
+    font-size:1.5em;
+    margin:0px;
+}
+
+h2 {letter-spacing: 1px;}
+h2.ColourQuote {line-height:145%;font-size:2.25rem;}
+/*h2.ColourQuote:before {
+       content: '“';
+       display: block;
+       font-family: Georgia;
+       font-size:1rem;
+}*/
+
+p {line-height: 1.23rem;font-size:0.9rem;}
+
+p.smallPrint {
+    font-size:0.7em;
+}
+
+p.mediumPrint {
+    font-size:0.85em;
+}
+
+p.firstP {
+    font-size:2rem;
+    line-height: 1.37059;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+
+
+}
+
+.textCenter {text-align: center;}
+.textJustify {text-align: justify;}
+.textLeft {text-align: left;}
+.uppercase {text-transform: uppercase;}
+
+body {
+    /*font-family:"univers_ce_45_lightregular", Helvetica, Arial, sans-serif;*/
+    font-family: 'Roboto', serif;
+
+}
+
+ul.nav a {text-decoration: none !important;border:none !important;}
+
+ul.nav a, .nav-header .logo {
+    font-size:0.9rem;
+}
+
+ 
+ul.recentWork span.title, .workWide span.title {
+    font-size: 2rem;
+    display:block;
+    margin:20px 0 30px 0;
+}
+
+ul.recentWork span.subtitle, .workWide span.subtitle {
+    font-size:1rem;
+}
+
+ul.recentWork a {
+    text-decoration:none !important;
+}
+
+.bold {font-weight: 700;}
+
+.roboto {font-family: 'Roboto', sans-serif;}
+
+
+
+.pFocus {
+    font-weight: 900;
+    margin: 50px 0px;
+    font-size:1.25em;
+    padding:0px; 
+}
+
+.pFocus:before {
+    content: "";
+    width: 2vw;
+    height: 20px;
+    display:block;
+    border-top: 2px solid #c69c6d;
+    transition: color 1s cubic-bezier(.19,1,.22,1),-webkit-transform .7s cubic-bezier(.19,1,.22,1),width .8s cubic-bezier(.19,1,.22,1);
+    transition: color 1s cubic-bezier(.19,1,.22,1),transform .7s cubic-bezier(.19,1,.22,1),width .8s cubic-bezier(.19,1,.22,1);
+}
+
+.bigNo {
+    font-size: 13em;
+    font-weight: 900;
+    left:13%;
+    z-index: 90;
+}
+
+.whole .bigNo {
+    left:auto !important;
+    opacity:0.2;
+    font-weight: 100;
+}
+
+.sectionTitle {
+    top:60px;
+    left:24px;
+    line-height:250%;
+    border-bottom:2px solid #c69c6d;
+    width:16%;
+}
+
+.whole .sectionTitleAlt {
+    left:auto !important;
+    border-bottom:0px;
+    top:100px;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.lineBefore::before {
+    content: "";
+    display:block;
+    width:16%;
+    border-bottom:2px solid #c69c6d;
+    height:3px;
+    margin:30px 0;
+}
+
+.share {
+     -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg); /* Standard syntax */
+    text-transform: uppercase;
+    font-size: 0.9m;
+    line-height: 1.2em;
+    letter-spacing: 0.3em;
+}
+
+.coverplate__lock {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/* Responsive Type */
+
+@media screen and (max-width: 1000px) and (min-width:1px) {
+    .grid__lock h4 {}
+}
+
+

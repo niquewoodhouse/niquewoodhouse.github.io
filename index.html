@@ -1,149 +1,144 @@
-<html lang="en-ca">
-<head>
-	<neta charset="utf-8">
-		<title>Nique</title>
-		<link href="http://niquewoodhouse.github.io/jekyll-blog/css/main.css" rel="stylesheet">
-		
-		<meta name="description" content ="{{page.meta}}">
-
-		<style>
-			.holdingP {background:#050505;}
-			#OhHi {color:#6a6a6a;letter-spacing: 1px;} #OhHi span {display:block;margin:30px 0px;color:#434343;}
-			img.logoSvg {height:50px;}
-			.666 {olor:#6a6a6a;}
-			.43 {color:#434343;}
-
-		</style>
-</head>
-
-<body class="holdingP">
+---
+layout: default
+body-class: wider
+---
 
 
+
+<div class="wider h90 offBlackBg mediumMarginBottom">
+	<div class="grid">
+	      <div class="unit whole">
+	        <h1 class="xlargeMarginTop">I'm Nique. Pro Surfer. (Web only. Afraid of sea.)</h1>
+	        <p class="lead xlargeMarginBottom">Independent <a href="{{site.baseurl}}/jekyll-blog//about">designer</a> making experiences <a href="{{site.baseurl}}/jekyll-blog//work">work</a>, simple &amp; a little fun. </p>
+	      </div>
+	 </div>
+</div>	
 
 <div class="wider">
-	<div class="">
-
-		<div class="grid ">
-			<div class="unit whole bigGapTop">
-			<span class="gold logo relative uppercase mAuto w100">
-				<center><img class="logoSvg" src="i/niquewoodhouse-02.svg" width="50"/></center>
-			</span>			
+	<div class="grid">
+		<div class="unit whole">
+			{% assign counter = '0' %}
+			{% for page in site.pages %}
+			{% for tag in page.tags %}
+			{% if tag == "work" and counter < '8' %}
+			    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+			 <div class="grid_item"> 
+				 <a href="{{site.baseurl}}/jekyll-blog/{{page.url}}" class="grid__link animate">
+				 	<img src="{{page.thumbNail}}">
+				 	<div class="grid__lock block">	
+						<h4 class="grid__title block midnight">{{page.title}}</h4>
+						<p class="subtitle block grey">{{page.subtitle}}</p>
+					</div>				
+				</a>
 			</div>
+			{% endif %}
+			{% endfor %}
+			{% endfor %}			
+	</div>
+</div>
 
-		     <div class="unit whole smallGapTop ">
-		        <h1 id="OhHi" class="w50  mAuto">
-		        	<center>Pro surfer. <span>(Web only, afraid of sea).</span></center>
-		        </h1>
-		     <div>
+<!--
+<div class="wider midnight">
+		
+			
+		<h4 class="none">Selected work</h4><a name="work"></a>
+		{% assign counter = '0' %}
+		{% for page in site.pages %}
+		{% for tag in page.tags %}
+		{% if tag == "work" and counter < '5' %}
+		    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+		 <a href="{{site.baseurl}}/jekyll-blog/{{page.url}}">
+		 	<div class="workWide selectWorks" style="background-image:url('{{page.featureImg}}');">
+		 		<div class="wideOverlay blackBg09">
+				 	<div class="grid">
+				 			<div class="unit one-quarter">
+				 				<span class="counter">{{ counter }}</span>
+				 			</div>
+				 			<div class="unit two-thirds">
+								<span class="title block">{{page.title}}</span>
+								<span class="subtitle block">{{page.subtitle}}</span>
+				 			</div>	
+					</div>
+				</div>	
+			</div>
+		</a>
 
-		 </div>
+		{% endif %}
+		{% endfor %}
+		{% endfor %}
 
-		 <div class="grid" style="display:none;">
-		 	<div class="unit half bigGapTop mAuto">
-
-		 		<p>Nique was the first Creative Director at Wirewax, designing a freemium product used by Spotify, NBC Universal & BBC.   </p>
-
-				<p>Based in London, she is focused on extending design across government, education, and tools for the betterment of people.</p>
-
-				<p>Get in touch with questions, answers, or to say hello.</p>
-
-
-		 	</div>
-
-		 </div>
-
-
-
-		     <!--
-
-	 	<div class="unit half smallGapTop bigGapBott ghost bold">
-			<h3>Contact</h3>
-	 	</div>	
-
-				<div class="unit half smallGapTop bigGapBott grey">		
-	 				<a href="http://twitter.com/niquewoodhouse" target="_blank">Twitter</a> 
-	 				<a href="http://linkedin.com/in/niquewoodhouse" target="_blank">Linkedin</a> 
-	 				<a href="mailto:nique.shjm.woodhouse@gmail.com" target="_blank">Email</a>
-	 			</div>
-
-
-	 	<div class="unit whole relative bigGapBott">
-	 		<span class="bigNo absolute w100 textCenter">
-	 			9
-	 		</span>
-	 		<h2 class="textCenter sectionTitleAlt absolute w100" style="top:115px;font-size:0.8em;">
-	 			yrs of design
-	 		</h2>
-	 	</div>
-	 	
-	 	<div class="unit one-third bigGapTop">
-	 		<ul class="blockLi list">
-	 			<li class="gold">Experience inc</li>
-	        	<li>Nickelodeon</li>
-	        	<li>AOL</li>
-	        	<li>Universal</li>
-	        	<li>Disney</li>
-	        	<li>Paramount</li>
-	        	<li>Adidas</li>
-	        </ul>	 		 		
-	 	</div>
-	 	<div class="unit one-third bigGapTop">
-	 		<ul class="blockLi list">
-	 			<li class="gold">Awards inc</li>
-	        	<li>1x Awwwards Honorable Mention</li>
-	        	<li>1x OnePage Most Loved of the Year</li>
-	        	<li>1x Linkage Site of the week </li>
-	        	<li>1x CSS Design Awards Design of the day</li>
-	        	<li>1x IAB Best Digital Creative</li>
-	        	<li>1x Mashie</li>
-	        </ul>		 		
-	 	</div>
-	 	<div class="unit one-third bigGapTop">
-	 		<ul class="blockLi list">
-	 			<li class="gold">Contact me</li>
-	        	<li>Email</li>
-	        	<li><a href="http://twitter.com/niquewoodhouse">Twitter</a></li>
-	        	<li><a href="http://linkedin.com/in/niquewoodhouse">Linkedin</a></li>
-	        	<li><a href="tel:44747888909">+44 7478 888909</a></li>
-	        	<li><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a></li>
-	        	<li>Adidas</li>
-	        </ul>	 		
-	 	</div>	
-	 	
-
-	 	<div class="unit whole bigGapTop uppercase">
-
-	 		<ul class="blockLi list mAuto textCenter w100" style="line-height:180%;">
-	 			<li class="gold smallGapBott">Awards inc</li>
-	        	<li class="43">Awwwards Honorable Mention</li>
-	        	<li class="43">OnePage Most Loved of the Year</li>
-	        	<li class="43">Linkage Site of the week </li>
-	        	<li class="43">CSS Design Awards Design of the day</li>
-	        	<li class="43">IAB Best Digital Creative</li>
-	        	<li class="43">Mashie</li>
-	        </ul>		
-	 	</div>
-
-	 	<div class="unit whole bigGapTop uppercase">
-
-	 		<ul class="blockLi list mAuto textCenter w100" style="line-height:180%;">
-	 			<li class="gold smallGapBott">Experience inc</li>
-	        	<li class="43">Nickelodeon</li>
-	        	<li class="43">AOL</li>
-	        	<li class="43">Disney</li>
-	        	<li class="43">Paramount</li>
-	        	<li class="43">Adidas</li>
-	        	<li class="43" style="padding-bottom:200px;">Your mum</li>
-	        </ul>		
-	 	</div>	 	
- 	
-	 </div>			     
-		     
--->
-		      		               		      		      
+			
 		 
-	</div>		 
-</div>		
+</div>	
 
-</body>
-</html>
+
+
+	<div class="wider midnight ligGreyToWhite">
+		<div class="grid">
+			<ul class="recentWork">
+				<li>Selected work</li>
+					{% assign counter = '0' %}
+					{% for page in site.pages %}
+					{% for tag in page.tags %}
+					{% if tag == "work" and counter < '5' %}
+					    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+					 <a href="{{ page.permalink | prepend: site.baseurl }}/{{page.url}}">
+							<li class="block">
+								<span class="counter fLeft">{{ counter }}</span>
+								<span class="title">{{page.title}}</span>
+								<span class="subtitle">{{page.subtitle}}</span>
+							 	
+
+							</li>
+							
+
+					</a>
+
+					{% endif %}
+					{% endfor %}
+					{% endfor %}
+
+			</ul>
+		 </div>
+</div>	
+
+<div class="wider midnight ligGreyToWhite">
+		<div class="grid">
+			<ul class="recentWork">
+				<li>Selected workz</li>
+
+				{% for page in site.categories.work limit:5 %}
+				<li class="block">
+					<a class="midnight" href="{{site.baseurl}}/jekyll-blog/{{page.url}}">
+						<span class="title">{{page.title}}</span>
+						<span class="subtitle">{{page.subtitle}}</span>
+					</a>
+
+				</li>
+				{% endfor %}
+			</ul>
+		 </div>
+</div>	
+
+
+
+
+
+<div class="wider midnight ligGreyToWhite">
+		<div class="grid">
+			<ul class="recentWork">
+				<li>Selected work 2010-2015</li>
+				{% for post in site.categories.work limit:5 %}
+				<li class="block">
+					<a class="midnight" href="{{site.baseurl}}/{{post.url}}">
+						<span class="title">{{post.title}}</span>
+						<span class="subtitle">{{post.subtitle}}</span>
+					</a>
+
+				</li>
+				{% endfor %}
+			</ul>
+		 </div>
+</div>	
+-->
+

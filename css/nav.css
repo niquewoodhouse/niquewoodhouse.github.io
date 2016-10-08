@@ -1,0 +1,46 @@
+a.current {
+	color:#c69c6d;
+}
+
+a.current:after {
+	content:"";
+	height:3px;
+	display:block;
+	width:100%;
+	border-top:1px solid #c69c6d;
+
+}
+
+.nav-header {
+	font-size:1.25rem;
+}
+
+nav {
+	font-size:5rem;
+}
+
+nav.header a.logo {
+	float:left;
+}
+
+nav.header ul.nav {
+	float:right;
+}
+
+nav.header ul li {
+	margin:0 25px 0 0;
+}
+
+
+nav a.navBtn {
+    width: 100px;
+    height: 100px;
+    background: #1a1a1a;
+    display: block;
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+    margin: 7%;
+	box-shadow:0 20px 40px rgba(0,0,0,.2)
+
+}
