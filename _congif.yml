@@ -1,6 +1,6 @@
 markdown: redcarpet
 title: Nique Woodhouse
-baseurl: http://niquewoodhouse.github.io
+baseurl: http://niquewoodhouse.github.io/
 exclude: ['README.md']
 permalink: pretty
 email: nique.shjm.woodhouse@gmail.com
