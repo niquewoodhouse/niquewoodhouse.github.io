@@ -102,11 +102,4 @@ client: Appear Here, 2016
 </div>
 
 
-
-
-
-	<div class="grid bigGapBott bigGapTop">
-		{% include disclaimer.html %}
-	</div>
-
 </div>
