@@ -15,6 +15,7 @@ tags:
 featureImg: assets/work/Thumbnail/ahdestinations2@2x.png
 thumbNail: assets/work/Thumbnail/ahdestinations2@2x.png
 client: Appear Here, 2016
+bgcolor: offBlackBg
 ---
 
 <div class="wider">
@@ -30,8 +31,16 @@ client: Appear Here, 2016
 	</div>
 </div>
 
-<div class="wider offBlackBg">
+<div class="wider whitebg">
 	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
+			<div class="unit whole dBlock xl-m-b xl-m-t">
+				<h1 class="w50 s-m-l ghost">Content first.</h1>
+			</div>	 	
+	      <div class="unit one-third s-m-l m-m-t m-m-b">
+		      	<p class="">I didn't want to just look at one area of content.  </p>
+		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
+		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
+	      </div>			
 	 	<div class="unit whole">
 	 		<img class="mediumGapBott dBlock mAuto" src="assets/work/ahdestination/hackneytop1@2x.png"/> 
 	 	</div>
