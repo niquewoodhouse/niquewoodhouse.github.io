@@ -15,6 +15,9 @@ headline:  Great design has the potential to create great change.
 		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
 		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
 		      </div>
+		      <div class="unit one-third">
+
+		      </div>
 		 </div> 
 	</div>		 
 </div>		
@@ -65,7 +68,7 @@ headline:  Great design has the potential to create great change.
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
 		    <div class="unit one-third s-m-l xl-m-b">
-			        <ul class="">
+			        <ul class="listone">
 			        	<li>1x Awwwards Honorable Mention</li>
 			        	<li>1x OnePage Most Loved of the Year</li>
 			        	<li>1x Linkage Site of the week </li>
@@ -74,12 +77,11 @@ headline:  Great design has the potential to create great change.
 			        </ul>			        					        
 			</div>
 			<div class="unit one-third s-m-l xl-m-b">
-			        <ul class="">
+			        <ul class="listone">
 			        	<li>1x PromaxBDA NZ</li>
 			        	<li>2x NORA </li>
 			        	<li>1x IAB Best Digital Creative</li>
 			        	<li>1x Mashie</li>				        	
-		   
 			        </ul>							
 	        </div>				
 		</div>	
