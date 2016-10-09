@@ -9,9 +9,9 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
 			<div class="unit whole">
-				<h1 class="w50 mAuto">{{page.headline}}</h1>		
+				<h1 class="w50 m-s-l ">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit whole paddingNo">
+		      <div class="unit whole m-s-l">
 		      	<p class="mediumPrint">{{page.subtitle}}	</p>
 		      </div>
 		 </div> 
@@ -22,7 +22,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider offBlackBg">
 		<div class="grid">		
 			<div class="unit whole dBlock xl-m-b xl-m-t">
-				<h1 class="w50 mAuto ghost">I work for bold brands I believe in.</h1>
+				<h1 class="w50 m-s-l ghost">I work for bold brands I believe in.</h1>
 			</div>
 			<div class="unit one-fifth">
 				<img src="assets/logos/Logos_mtv.svg"/>
@@ -60,10 +60,10 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 
 <div class="wider whiteBg">
 		<div class="grid">
-			<div class="unit whole dBlock xl-m-t l-m-b">
-				<h1 class="w50 mAuto">I believe good design has the potential to generate positive changes, big and small. I’m always looking for opportunities to contribute to that good.</h1>
+			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
+				<h1 class="w50 mAuto">Profile</h1>
 			</div>
-		    <div class="unit half mAuto xl-m-b">
+		    <div class="unit half m-s-l xl-m-b">
 			        <p class="mTopNone">
 			        	I can't swim.  
 			        </p>
