@@ -196,9 +196,9 @@ h1:before, .underline:before {
     z-index: -1;
     width: 100%;
     content: "";
-    border-bottom: .39062vw solid #3cdee0;
+    border-bottom: .59062vw solid;
     box-sizing: border-box;
-    height: 89%;
+    height: 102%;
 }
 
 /* Responsive Type */
