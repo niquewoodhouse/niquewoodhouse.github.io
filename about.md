@@ -1,7 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-Headline: I'm a self-taught designer in London, available for freelance work.
+Headline:I believe good design has the potential to generate positive changes, big and small. I’m always looking for opportunities to contribute to that good.
 subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> +44 0 7948 888 909
 ---
 
@@ -64,7 +64,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider whiteBg">
 		<div class="grid">
 			<div class="unit whole dBlock xl-m-t l-m-b">
-				<h1 class="w50 mAuto">I believe good design has the potential to generate positive changes, both big and small. I’m always looking for opportunities in which I can contribute to these changes.</h1>
+				<h1 class="w50 mAuto">I believe good design has the potential to generate positive changes, big and small. I’m always looking for opportunities to contribute to that good.</h1>
 			</div>
 		    <div class="half mAuto xl-m-b">
 			        <p class="mTopNone">
