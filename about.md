@@ -1,7 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-Headline:Good design has the potential to generate positive changes, big and small - I’m always looking for opportunities to contribute to that good.
+Headline: Good design has the potential to generate positive changes, big and small - I’m always looking for opportunities to contribute to that good.
 subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> +44 0 7948 888 909
 ---
 
