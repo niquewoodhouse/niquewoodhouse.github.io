@@ -2,7 +2,7 @@
 layout: default
 featureImg: assets/peaceYo.jpg
 headline: Good design has the potential to create positive change - I’m always looking for opportunities to contribute to that, in any industry.
-subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>
+subtitle: Thank you for looking at my work.  For reals, thank you.  I'm a London based designer looking for freelance product design gigs.<a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
@@ -12,7 +12,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
 		      <div class="unit whole m-s-l">
-		      	<p class="mediumPrint">{{page.subtitle}}	</p>
+		      	<p class="">{{page.subtitle}}	</p>
 		      </div>
 		 </div> 
 	</div>		 
@@ -73,7 +73,9 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			</div>
 			<div class="unit one-third s-m-l xl-m-b">
 					<p class="">
-			        	As a self-taught designer, I'm never afraid of being faced with challenging tasks.  Every day I'm committed to learning something new, and I believe this quality combined with my experience gives me the ability to create rich experiences and products.
+			        	I believe in finding ways to validate ideas quickly to generate a simplifying, intuitive solution always underpinned by an insightful vision.
+						Every day I'm committed to learning something new, and I believe this quality combined with my experience gives me the ability to create rich experiences and products.  
+
 			        </p>
 			        <p class="">
 			        	I am currently open to any opportunities. <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>  
