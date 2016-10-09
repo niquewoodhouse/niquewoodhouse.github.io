@@ -1,7 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-headline: I can't swim &amp; I cried at all three Toy Story movies. 
+headline:  Good design has the potential to create positive change.
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
@@ -10,8 +10,8 @@ headline: I can't swim &amp; I cried at all three Toy Story movies.
 			<div class="unit whole">
 				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit one-third m-s-l xl-m-t">
-		      	<p class=""> Thank you for looking at my work.  For reals, thank you.  Good design has the potential to create positive change - I’m always looking for opportunities to contribute to that, in any industry. </p>
+		      <div class="unit one-third m-s-l m-m-t">
+		      	<p class="">I’m always looking for opportunities to contribute to that, in any industry. Thank you for looking at my work.  Say hi - </p>
 		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
 		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
 		      </div>
