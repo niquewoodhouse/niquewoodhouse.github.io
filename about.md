@@ -24,7 +24,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 
 <div class="wider offBlackBg">
 		<div class="grid">		
-			<div class="unit whole dBlock bigGapBott xl-m-t">
+			<div class="unit whole dBlock xl-m-b xl-m-t">
 				<h2 class="w50 mAuto textCenter ghost">I work with bold brands I believe in.</h2>
 			</div>
 			<div class="unit one-fifth">
@@ -63,7 +63,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 
 <div class="wider whiteBg">
 		<div class="grid">
-			<div class="unit whole dBlock largeGapBottom largeGapTop">
+			<div class="unit whole dBlock xl-m-t xl-m-b">
 				<h2 class="w50 mAuto textCenter ghost">I'm passionate .</h2>
 			</div>
 		    <div class="half mAuto">
