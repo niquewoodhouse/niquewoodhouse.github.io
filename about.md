@@ -65,22 +65,18 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			</div>
 		    <div class="unit one-third s-m-l xl-m-b">
 			        <p class="mTopNone">
-			        	I can't swim.  
+			        	I am a Senior Designer with over 6 years experience in designing digital experiences and products for a diverse range of audiences.  
 			        </p>
-				 	<div class="grid__lock block">	
-						<h4 class="grid__title block midnight">{{page.title}}</h4>
-						<p class="subtitle block grey">{{page.subtitle}}</p>
-					</div>						        
-			        <p class="">
-			        	 I was the first Creative Director at <a href="http://www.wirewax.com">Wirewax</a>, a video editing platform used by brands like Spotify, NBC Universal, Nike &amp; BBC.  
-					</p>
+			        <p class="mTopNone">
+			        	Thanks to an obsessive curiosity, I did a lot of different jobs before settling on design. That varied background has equiped me with a strategic mindset that looks beyond the visuals, and starts with crafting moving narratives for poweful solutions.
+			        </p>			        					        
 			</div>
 			<div class="unit one-third s-m-l xl-m-b">
 					<p class="">
-			        	I'm honored by the high regard we were held by global creative agencies, their clients &amp; the impact my role had on the bottom line - with share value increasing 8x in my 2 years of service.
+			        	As a self-taught designer, I'm never afraid of being faced with challenging tasks.  Every day I'm committed to learning something new, and I believe this quality combined with my experience gives me the ability to create rich experiences and products.
 			        </p>
 			        <p class="">
-			        	Today I create my own products from my London studio, alongside helping others with theirs around the world.  
+			        	I am currently open to any opportunities. <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>  
 			        </p>
 	        </div>				
 		</div>	
