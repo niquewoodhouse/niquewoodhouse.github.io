@@ -61,7 +61,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider whiteBg">
 		<div class="grid">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
-				<h1 class="w50 m-s-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
+				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
 		    <div class="unit one-third s-m-l xl-m-b">
 			        <p class="mTopNone">
