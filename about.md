@@ -2,7 +2,7 @@
 layout: default
 featureImg: assets/peaceYo.jpg
 Headline: Good design has the potential to create positive changes, big and small - I’m always looking for opportunities to contribute to that, in any industry.
-subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href=""tel:+4407948888909"">+44 0 7948 888 909</a>
+subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
