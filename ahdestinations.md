@@ -21,10 +21,10 @@ bgcolor: offBlackBg
 <div class="wider">
 	<div class="grid xl-m-b">
 			<div class="unit whole m-m-b s-m-l">
-				<p class="w50 s-m-b firstP">
+				<p class="w50 s-m-b firstP ghost">
 					Appear Here is the premier platform for booking retail space around the world.
 				</p>
-				<p class=" w50 darkgrey">
+				<p class=" w50 grey">
 					They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work. You should always look beyond it, and towards other problems your bosses might not even be talking about that you could solve at the same time.
 				</p>
 			</div> 	
@@ -34,7 +34,7 @@ bgcolor: offBlackBg
 <div class="wider whitebg">
 	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
 			<div class="unit whole dBlock xl-m-b xl-m-t">
-				<h1 class="w50 s-m-l ghost">Content first.</h1>
+				<h1 class="w50 s-m-l">Content first.</h1>
 			</div>	 	
 	      <div class="unit one-third s-m-l m-m-t m-m-b">
 		      	<p class="">I didn't want to just look at one area of content.  </p>
