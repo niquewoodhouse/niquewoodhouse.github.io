@@ -254,7 +254,10 @@ img.goesWithHeading {top:60px;right:0px;}
 .maxwidth500 {max-width: 500px !important;}
 .maxwidth1400 {max-width:1440px !important;padding-left:0 !important;padding-right:0 !important;}
 
-
+.introduction{
+    padding-bottom: 20vh;
+    padding-top: 30vh;
+}
 
 
 
