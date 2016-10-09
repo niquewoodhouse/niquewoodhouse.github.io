@@ -63,7 +63,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			<div class="unit whole dBlock xl-m-t l-m-b">
 				<h1 class="w50 mAuto">I believe good design has the potential to generate positive changes, big and small. I’m always looking for opportunities to contribute to that good.</h1>
 			</div>
-		    <div class="half mAuto xl-m-b">
+		    <div class="unit half mAuto xl-m-b">
 			        <p class="mTopNone">
 			        	I can't swim.  
 			        </p>
@@ -74,13 +74,15 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			        <p class="">
 			        	 I was the first Creative Director at <a href="http://www.wirewax.com">Wirewax</a>, a video editing platform used by brands like Spotify, NBC Universal, Nike &amp; BBC.  
 					</p>
+			</div>
+			<div class="unit half mAuto xl-m-b">
 					<p class="">
 			        	I'm honored by the high regard we were held by global creative agencies, their clients &amp; the impact my role had on the bottom line - with share value increasing 8x in my 2 years of service.
 			        </p>
 			        <p class="">
 			        	Today I create my own products from my London studio, alongside helping others with theirs around the world.  
 			        </p>
-			</div>
+	        </div>				
 		</div>	
 </div>	 
 
