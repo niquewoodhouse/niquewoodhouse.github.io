@@ -1,8 +1,8 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-Headline: Good design has the potential to generate positive changes, big and small - I’m always looking for opportunities to contribute to that good.
-subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> +44 0 7948 888 909
+Headline: Good design has the potential to create positive changes, big and small - I’m always looking for opportunities to contribute to that, in any industry.
+subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href=""tel:+4407948888909"">+44 0 7948 888 909</a>
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImg}}')">
@@ -12,7 +12,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
 			</div>
 		      <div class="unit whole paddingNo">
-		        <h1 class="textCenter">{{ page.Headline }}</h1>
+		        <h1 class="w50">{{ page.Headline }}</h1>
 		      </div>
 		      <div class="unit whole textCenter paddingNo">
 		      	<p class="mediumPrint">{{page.subTitle}}	</p>
