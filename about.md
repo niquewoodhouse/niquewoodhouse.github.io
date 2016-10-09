@@ -24,7 +24,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 
 <div class="wider offBlackBg">
 		<div class="grid">		
-			<div class="unit whole dBlock bigGapBott bigGapTop">
+			<div class="unit whole dBlock bigGapBott xl-m-t">
 				<h2 class="w50 mAuto textCenter ghost">I work with bold brands I believe in.</h2>
 			</div>
 			<div class="unit one-fifth">
@@ -54,7 +54,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			<div class="unit one-fifth">
 				<img src="assets/logos/Logos_remington.svg"/>
 			</div>
-			<div class="unit one-fifth">
+			<div class="unit one-fifth xl-m-b">
 				<img src="assets/logos/Logos_nike.svg"/>
 			</div>	
 		</div>		
