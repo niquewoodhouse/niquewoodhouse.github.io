@@ -5,7 +5,7 @@ Headline: I'm a self-taught designer in London, available for freelance work.
 subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> +44 0 7948 888 909
 ---
 
-<div class="wider bigGapBott h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImg}}')">
+<div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImg}}')">
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
 			<div class="unit whole textCenter paddingNo">
