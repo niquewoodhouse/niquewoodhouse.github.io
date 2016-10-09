@@ -201,6 +201,10 @@ a:hover {
 	padding-bottom:5rem !important;
 }
 
+
+.m-m-b {margin-bottom:7rem !important;}
+.m-m-t {margin-top:7rem !important;}
+.l-m-t {margin-top:10rem !important;}
 .l-m-b {margin-bottom:10rem !important;}
 .xl-m-t {margin-top: 15rem !important;}
 .xl-m-b {margin-bottom: 15rem !important;}
