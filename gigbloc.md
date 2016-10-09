@@ -117,11 +117,4 @@ client: Gigbloc, 2015
 </div>
 
 
-
-
-
-	<div class="grid bigGapBott bigGapTop">
-		{% include disclaimer.html %}
-	</div>
-
 </div>
