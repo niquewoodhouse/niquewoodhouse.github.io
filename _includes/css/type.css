@@ -200,10 +200,15 @@ h1:before, .underline:before {
     height: 110%;
 }
 
+ul.listone {
+    padding:0;
+}
+
 ul.listone li {
     display:inline-block;
     min-width:100%;
     line-height: 1.47rem;
+
 }
 
 /* Responsive Type */
