@@ -1,8 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-headline: Good design has the potential to create positive change - I’m always looking for opportunities to contribute to that, in any industry.
-subtitle: Thank you for looking at my work.  For reals, thank you.  I'm a London based designer looking for freelance product design gigs.<a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href="tel:+4407948888909">+44 0 7948 888 909</a>
+headline: Good design has the potential to create positive change - I’m always looking for opportunities to contribute to that, in any industry. 
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
@@ -11,8 +10,10 @@ subtitle: Thank you for looking at my work.  For reals, thank you.  I'm a London
 			<div class="unit whole">
 				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit whole m-s-l">
-		      	<p class="">{{page.subtitle}}	</p>
+		      <div class="unit one-third m-s-l xl-m-t">
+		      	<p class=""> Thank you for looking at my work.  For reals, thank you.  I'm a London based designer looking for freelance product design gigs. </p>
+		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
+		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
 		      </div>
 		 </div> 
 	</div>		 
