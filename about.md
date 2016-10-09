@@ -27,7 +27,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
  		 
 
 		<div class="grid">		
-			<div class="unit whole dBlock largeGapBottom largeGapTop">
+			<div class="unit whole dBlock bigGapBott bigGapTop">
 				<h2 class="w50 mAuto textCenter ghost">I work with bold brands I believe in.</h2>
 			</div>
 			<div class="unit one-fifth">
