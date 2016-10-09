@@ -18,37 +18,40 @@ client: Appear Here, 2016
 ---
 
 <div class="wider">
+	<div class="grid xl-m-b">
+			<div class="unit whole m-m-b s-m-l">
+				<p class="w50 s-m-b firstP">
+					Appear Here is the premier platform for booking retail space around the world.
+				</p>
+				<p class=" w50 darkgrey">
+					They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work. You should always look beyond it, and towards other problems your bosses might not even be talking about that you could solve at the same time.
+				</p>
+			</div> 	
+	</div>
+</div>
 
-		<div class="grid">
-				<div class="unit whole m-m-b s-m-l">
-					<p class="w50 s-m-b firstP">
-						Appear Here is the premier platform for booking retail space around the world.
-					</p>
-					<p class=" w50 darkgrey">
-						They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work.  You should always look beyond it, and towards other problems your bosses might not even forsee.
-					</p>
-				</div> 	
-		</div>
+<div class="wider offBlackBg">
+	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
+	 	<div class="unit whole">
+	 		<img class="mediumGapBott dBlock mAuto" src="assets/work/ahdestination/hackneytop1@2x.png"/> 
+	 	</div>
+			<div class="unit whole bigGapBott">
+				<p class="w50 mAuto textCenter bold uppercase smallestGapBott">
+					Exploring cities
+				</p>
+				<p class="w50 mAuto darkgrey maxwidth500">
+					I split the screen to give the locations a strong visual while delivering content.  It also helps visualise the journey of one neighbourhood to the next.	
+				</p>
+			</div> 			 	
+</div>
 
-		 <div class="grid maxwidth1400 mAuto"> 
-		 	<div class="unit whole">
-		 		<img class="mediumGapBott dBlock mAuto" src="assets/work/ahdestination/hackneytop1@2x.png"/> 
-		 	</div>
-				<div class="unit whole bigGapBott">
-					<p class="w50 mAuto textCenter bold uppercase smallestGapBott">
-						Exploring cities
-					</p>
-					<p class="w50 mAuto darkgrey maxwidth500">
-						I split the screen to give the locations a strong visual while delivering content.  It also helps visualise the journey of one neighbourhood to the next.	
-					</p>
-				</div> 			 	
+<div class="wider">
+	 	<div class="unit whole">
+	 		<img class="mediumGapBott dBlock mAuto" src="https://d13yacurqjgara.cloudfront.net/users/40433/screenshots/1748038/userguide__1_.gif"/> 
+	 	</div>
+			
 
-		 	<div class="unit whole">
-		 		<img class="mediumGapBott dBlock mAuto" src="https://d13yacurqjgara.cloudfront.net/users/40433/screenshots/1748038/userguide__1_.gif"/> 
-		 	</div>
-				
-
-		 </div>
+	 </div>
 
 		 <div class="grid mediumGapBott maxwidth1400 mAuto">
 
