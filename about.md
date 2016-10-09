@@ -1,7 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-headline:  Great design has the potential to create positive changes.
+headline:  Great design has the potential to create great change.
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
