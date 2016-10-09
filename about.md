@@ -5,14 +5,14 @@ Headline: Good design has the potential to create positive changes, big and smal
 subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> <a href=""tel:+4407948888909"">+44 0 7948 888 909</a>
 ---
 
-<div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImg}}')">
+<div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
 			<div class="unit whole textCenter paddingNo">
 				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
 			</div>
 		      <div class="unit whole paddingNo">
-		        <h1 class="w50">{{ page.Headline }}</h1>
+		        <h1 class="w50 mAuto">{{ page.Headline }}</h1>
 		      </div>
 		      <div class="unit whole textCenter paddingNo">
 		      	<p class="mediumPrint">{{page.subTitle}}	</p>
