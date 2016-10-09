@@ -5,7 +5,7 @@ subtitle: App / UI
 img: http://static1.squarespace.com/static/514e40ffe4b0e29595fe765d/t/5647bbb0e4b072d19f90d5f1/1447541681826/?format=750w
 categories: work case
 meta: Responsive website campaign
-longTitle: Discover music in your city 
+longTitle: Discover the world
 year: 2015
 role: Designer
 jobRole: UX, UI 
@@ -20,9 +20,15 @@ client: Appear Here, 2016
 <div class="wider">
 
 		<div class="grid">
-				<div class="unit whole bigGapBott">
-					<p class="w50 mAuto firstP">
-						Appear Here, the #1 site for booking retail space around the world, has guides helping people explore locations in more detail.  I designed a microsite to showcase the locations.
+				<div class="unit whole m-m-b s-m-l">
+					<p class="w50 s-m-b firstP">
+						Appear Here is the premier platform for booking retail space around the world.
+					</p>
+					<p class="darkgrey">
+						They needed a design solution to elevate their city guides above those of competitors.
+					</p>
+					<p class="darkgrey">
+						In an ambitious start-up you can't take the brief as the end goal of your work.  You should always look beyond it, and towards other problems your bosses might not even forsee.
 					</p>
 				</div> 	
 		</div>

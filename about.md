@@ -70,15 +70,15 @@ headline:  Great design has the potential to create great change.
 		    <div class="unit one-third s-m-l xl-m-b">
 			        <ul class="listone">
 			        	<li>1x Awwwards Honorable Mention</li>
-			        	<li>1x OnePage Most Loved of the Year</li>
+			        	<li>2x OnePage Most Loved</li>
 			        	<li>1x Linkage Site of the week </li>
-			        	<li>1x CSS Design Awards Design of the day</li>
+			        	<li>1x CSS Design Awards Design</li>
 		   
 			        </ul>			        					        
 			</div>
 			<div class="unit one-third s-m-l xl-m-b">
 			        <ul class="listone">
-			        	<li>1x PromaxBDA NZ</li>
+			        	<li>1x PromaxBDA</li>
 			        	<li>2x NORA </li>
 			        	<li>1x IAB Best Digital Creative</li>
 			        	<li>1x Mashie</li>				        	
