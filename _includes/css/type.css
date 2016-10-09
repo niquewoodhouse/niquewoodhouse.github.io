@@ -17,6 +17,7 @@ h1 {
     font-weight: 900;
     line-height: 1.2666666667;
     letter-spacing: 0.02rem;
+    position: relative;
 }
 
 h4 {
@@ -185,6 +186,20 @@ ul.recentWork a {
     display: inline-block;
 }
 
+
+h1:before, .underline:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    content: "";
+    border-bottom: .39062vw solid #3cdee0;
+    box-sizing: border-box;
+    height: 89%;
+}
 
 /* Responsive Type */
 
