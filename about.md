@@ -9,7 +9,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
 			<div class="unit whole">
-				<h1 class="w50 m-s-l ">{{page.headline}}</h1>		
+				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
 		      <div class="unit whole m-s-l">
 		      	<p class="mediumPrint">{{page.subtitle}}	</p>
@@ -22,7 +22,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider offBlackBg">
 		<div class="grid">		
 			<div class="unit whole dBlock xl-m-b xl-m-t">
-				<h1 class="w50 m-s-l ghost">I work for bold brands I believe in.</h1>
+				<h1 class="w50 s-m-l ghost">I work for bold brands I believe in.</h1>
 			</div>
 			<div class="unit one-fifth">
 				<img src="assets/logos/Logos_mtv.svg"/>
@@ -61,9 +61,9 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider whiteBg">
 		<div class="grid">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
-				<h1 class="w50 mAuto">Profile</h1>
+				<h1 class="w50 m-s-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
-		    <div class="unit half m-s-l xl-m-b">
+		    <div class="unit one-third s-m-l xl-m-b">
 			        <p class="mTopNone">
 			        	I can't swim.  
 			        </p>
@@ -75,7 +75,7 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			        	 I was the first Creative Director at <a href="http://www.wirewax.com">Wirewax</a>, a video editing platform used by brands like Spotify, NBC Universal, Nike &amp; BBC.  
 					</p>
 			</div>
-			<div class="unit half mAuto xl-m-b">
+			<div class="unit one-third s-m-l xl-m-b">
 					<p class="">
 			        	I'm honored by the high regard we were held by global creative agencies, their clients &amp; the impact my role had on the bottom line - with share value increasing 8x in my 2 years of service.
 			        </p>

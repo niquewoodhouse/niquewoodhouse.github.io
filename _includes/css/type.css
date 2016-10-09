@@ -195,9 +195,9 @@ h1:before, .underline:before {
     left: 0;
     width: 100%;
     content: "";
-    border-bottom: .59062vw solid;
+    border-bottom: .34062vw solid;
     box-sizing: border-box;
-    height: 105%;
+    height: 110%;
 }
 
 /* Responsive Type */
