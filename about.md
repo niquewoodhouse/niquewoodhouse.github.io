@@ -1,7 +1,7 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-headline:  Good design has the potential to create positive change.
+headline:  Great design has the potential to create positive changes.
 ---
 
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
@@ -10,8 +10,8 @@ headline:  Good design has the potential to create positive change.
 			<div class="unit whole">
 				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit one-third m-s-l m-m-t">
-		      	<p class="">I’m always looking for opportunities to contribute to that, in any industry. Thank you for looking at my work.  Say hi - </p>
+		      <div class="unit one-third s-m-l m-m-t">
+		      	<p class="">I’m always looking for opportunities to contribute to change, in any industry. Thank you for looking at my work.  Say hi - </p>
 		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
 		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
 		      </div>
