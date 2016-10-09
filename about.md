@@ -2,7 +2,6 @@
 layout: default
 featureImg: assets/peaceYo.jpg
 Headline: I'm a self-taught designer in London, available for freelance work.
-bgcolor: pitchBlackBg
 subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> +44 0 7948 888 909
 ---
 
