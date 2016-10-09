@@ -23,9 +23,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 </div>		
 
 
-<div class="wider">
- 		 
-
+<div class="wider offBlackBg">
 		<div class="grid">		
 			<div class="unit whole dBlock bigGapBott bigGapTop">
 				<h2 class="w50 mAuto textCenter ghost">I work with bold brands I believe in.</h2>
@@ -59,14 +57,17 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			</div>
 			<div class="unit one-fifth">
 				<img src="assets/logos/Logos_nike.svg"/>
-			</div>			
+			</div>	
+		</div>		
+</div>
 
 
+<div class="wider whiteBg">
+		<div class="grid">
 			<div class="unit whole dBlock largeGapBottom largeGapTop">
 				<h2 class="w50 mAuto textCenter ghost">I'm passionate .</h2>
 			</div>
-		      <div class="half mAuto">
-
+		    <div class="half mAuto">
 			        <p class="mTopNone">
 			        	I'm passionate about transforming complex problems into simple &amp; obvious solutions. I can't swim.  
 			        </p>
@@ -83,19 +84,18 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 			        <p class="">
 			        	Today I create my own products from my London studio, alongside helping others with theirs around the world.  
 			        </p>
+			</div>
+		</div>	
+</div>	 
 
-				</div>
-		</div>		 
 
-
+<div class="wider offBlackBg">
 		<div class="grid bigGapBott">
 		      <div class="unit one-third relative">
-		      		<h4 class="absolute NinetyDegTitle"><span class="gold smallGapBott">02</span> Awards</h4>	
-		      </div>				
-
-	      <div class="unit two-thirds">
-	        <ul class="w80 fRight blockLi list mediumGapBott">
-	        	
+	      		<h4 class="absolute NinetyDegTitle"><span class="gold smallGapBott">02</span> Awards</h4>	
+		  	</div>				
+	      	<div class="unit two-thirds">
+	        <ul class="w80 fRight blockLi list mediumGapBott">	
 	        	<li>1x Awwwards Honorable Mention</li>
 	        	<li>1x OnePage Most Loved of the Year</li>
 	        	<li>1x Linkage Site of the week </li>
@@ -110,12 +110,9 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 	    	<div class="unit one-third relative">
 	    		<h4 class="absolute NinetyDegTitle"><span class="gold smallGapBott">03</span> Studio</h4>	
 	    	</div>
-
 	    	<div class=" two-thirds mAuto ">
 	    		<img src="http://blog.readymag.com/wp-content/uploads/2014/11/anton-repponen-workplace-11.jpg"/>
 	    	</div>	    	
-
-   	
 	    </div>
 
 	    <div class="grid">
