@@ -24,11 +24,8 @@ client: Appear Here, 2016
 					<p class="w50 s-m-b firstP">
 						Appear Here is the premier platform for booking retail space around the world.
 					</p>
-					<p class="darkgrey">
-						They needed a design solution to elevate their city guides above those of competitors.
-					</p>
-					<p class="darkgrey">
-						In an ambitious start-up you can't take the brief as the end goal of your work.  You should always look beyond it, and towards other problems your bosses might not even forsee.
+					<p class=" w50 darkgrey">
+						They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work.  You should always look beyond it, and towards other problems your bosses might not even forsee.
 					</p>
 				</div> 	
 		</div>
