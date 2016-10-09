@@ -64,10 +64,10 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
 		    <div class="unit one-third s-m-l xl-m-b">
-			        <p class="mTopNone">
+			        <p class="">
 			        	I am a Senior Designer with over 6 years experience in designing digital experiences and products for a diverse range of audiences.  
 			        </p>
-			        <p class="mTopNone">
+			        <p class="">
 			        	Thanks to an obsessive curiosity, I did a lot of different jobs before settling on design. That varied background has equiped me with a strategic mindset that looks beyond the visuals, and starts with crafting moving narratives for poweful solutions.
 			        </p>			        					        
 			</div>
