@@ -64,7 +64,7 @@ subTitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider whiteBg">
 		<div class="grid">
 			<div class="unit whole dBlock xl-m-t xl-m-b">
-				<h2 class="w50 mAuto textCenter ghost">I believe good design has the potential to generate positive changes, both big and small. I’m always looking for opportunities in which I can contribute to these changes.</h2>
+				<h2 class="w50 mAuto textCenter">I believe good design has the potential to generate positive changes, both big and small. I’m always looking for opportunities in which I can contribute to these changes.</h2>
 			</div>
 		    <div class="half mAuto">
 			        <p class="mTopNone">
