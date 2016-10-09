@@ -8,8 +8,8 @@ subtitle: <a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@g
 <div class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImgs}}')">
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
-			<div class="unit whole w50 mAuto">
-				<h1>{{page.headline}}	</h1>		
+			<div class="unit whole">
+				<h1 class="w50 mAuto">{{page.headline}}</h1>		
 			</div>
 		      <div class="unit whole paddingNo">
 		      	<p class="mediumPrint">{{page.subtitle}}	</p>
