@@ -86,24 +86,6 @@ headline:  Great design has the potential to create positive changes.
 </div>	 
 
 
-<div class="wider offBlackBg">
-		<div class="grid bigGapBott">
-		      <div class="unit one-third relative">
-	      		<h4 class="absolute NinetyDegTitle"><span class="gold smallGapBott">02</span> Awards</h4>	
-		  	</div>				
-	      	<div class="unit two-thirds">
-	        <ul class="w80 fRight blockLi list mediumGapBott">	
-	        	<li>1x Awwwards Honorable Mention</li>
-	        	<li>1x OnePage Most Loved of the Year</li>
-	        	<li>1x Linkage Site of the week </li>
-	        	<li>1x CSS Design Awards Design of the day</li>
-	        	<li>1x IAB Best Digital Creative</li>
-	        	<li>1x Mashie</li>
-	        </ul>
-	      </div>	      	      
-	    </div>
-
-</div>
 
 
 
