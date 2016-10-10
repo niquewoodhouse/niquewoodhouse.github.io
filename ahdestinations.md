@@ -26,7 +26,7 @@ fgcolor: ghost
 					Appear Here is the premier platform for booking retail space around the world.
 				</p>
 				<p class=" w50 grey">
-					They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work. You should always look beyond it, and towards other problems your bosses might not even be talking about that you could solve at the same time.
+					They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work. You should always try to look beyond it, and towards other problems your bosses might not even be talking about that you could solve at the same time.
 				</p>
 			</div> 	
 	</div>
@@ -34,14 +34,39 @@ fgcolor: ghost
 
 <div class="wider whitebg">
 	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
-			<div class="unit whole dBlock xl-m-b xl-m-t">
-				<h1 class="w50 s-m-l">Content first.</h1>
-			</div>	 	
-	      <div class="unit one-third s-m-l m-m-t m-m-b">
-		      	<p class="">I didn't want to just look at one area of content.  </p>
-		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
-		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
-	      </div>			
+		<div class="unit whole dBlock xl-m-b xl-m-t">
+			<h1 class="w50 s-m-l">Content first.</h1>
+		</div>	 	
+      	<div class="unit one-third s-m-l s-m-t m-m-b">
+	      	<p class="">
+	      		We looked at the entire content output of the business for parallels.  If we create something for content type A, can it be useful for content types B - D?  What would make it beter?   
+	      	</p>
+	      	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>
+      	</div>			
+		<div class="wider bigGapBott h90 bgCover" style="background-image:url('assets/work/ahdestination/hackneytop1@2x.png')">
+		</div>
+		<div class="unit whole dBlock xl-m-b xl-m-t">
+			<h2 class="w50 s-m-l">Thoughts & feelings.</h2>
+		</div>		
+      	<div class="unit one-third s-m-l s-m-t m-m-b">
+	      	<p class="">
+	      		With a branding exercise I like to look at what I call a fat map.  It helps create a criteria for any creative options to be judged against.
+	      	</p>
+	      	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>
+      	</div>		
+</div>
+
+<div class="wider">	      
+	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
+		<div class="unit whole dBlock xl-m-b xl-m-t">
+			<h1 class="w50 s-m-l">Templates &amp; components.</h1>
+		</div>	
+      	<div class="unit one-third s-m-l s-m-t m-m-b">
+	      	<p class="">
+	      		Use a split panel for videos, events, FAqs, places to spaces, people's top spaces.  
+	      	</p>
+	      	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>
+      	</div>		 	
 	 	<div class="unit whole">
 	 		<img class="mediumGapBott dBlock mAuto" src="assets/work/ahdestination/hackneytop1@2x.png"/> 
 	 	</div>
@@ -53,6 +78,7 @@ fgcolor: ghost
 					I split the screen to give the locations a strong visual while delivering content.  It also helps visualise the journey of one neighbourhood to the next.	
 				</p>
 			</div> 			 	
+	</div>
 </div>
 
 <div class="wider">
