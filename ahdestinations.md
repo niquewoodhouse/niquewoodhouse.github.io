@@ -43,7 +43,7 @@ fgcolor: ghost
 	      	</p>
 	      	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>
       	</div>			
-		<div class="wider bigGapBott h90 bgCover" style="background-image:url('assets/work/ahdestination/hackneytop1@2x.png')">
+		<div class="wider bigGapBott h90 bgCover" style="background-image:url('assets/work/ahdestination/mag1.jpg')">
 		</div>
 		<div class="unit whole dBlock xl-m-b xl-m-t">
 			<h2 class="w50 s-m-l">Thoughts & feelings.</h2>
