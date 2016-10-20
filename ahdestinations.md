@@ -54,10 +54,10 @@ fgcolor: ghost
       	</div>		
 	</div>
 
-	<div class="wider bigGapBott h90 bgCover" style="background-image:url('assets/work/ahdestination/mag1.jpg')">
+	<div class="bigGapBott h90 bgCover" style="background-image:url('assets/work/ahdestination/mag1.jpg')">
 	</div>
 
-	
+
 <div class="wider">	      
 	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
 		<div class="unit whole dBlock xl-m-b xl-m-t">
