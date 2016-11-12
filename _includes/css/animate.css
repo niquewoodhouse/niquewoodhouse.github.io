@@ -18,3 +18,32 @@
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);	
 }*/
+
+.post{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+span.icon{
+	display: block;
+	font-size: 200px;
+	color: #111;
+	margin: 30px 0px;
+}
+
+footer.footer{
+	text-align: center;
+	padding: 50px 0px 20px;
+	border-top:1px solid #eee;
+}
+
+
+/* Required */
+
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
