@@ -67,7 +67,7 @@ headline:  Great design has the potential to create great change.
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
-		    <div class="unit one-third s-m-l xl-m-b">
+		    <div class="unit one-third s-m-l xl-m-b darkgrey">
 			        <ul class="listone">
 			        	<li>1x Awwwards Honorable Mention</li>
 			        	<li>2x OnePage Most Loved</li>
@@ -76,7 +76,7 @@ headline:  Great design has the potential to create great change.
 		   
 			        </ul>			        					        
 			</div>
-			<div class="unit one-third s-m-l xl-m-b">
+			<div class="unit one-third s-m-l xl-m-b darkgrey">
 			        <ul class="listone">
 			        	<li>1x PromaxBDA</li>
 			        	<li>2x NORA </li>
