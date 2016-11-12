@@ -10,7 +10,7 @@ headline:  Great design has the potential to create great change.
 			<div class="unit whole">
 				<h1 class="w50 s-m-l ">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit darkestgrey one-third s-m-l m-m-t m-m-b">
+		      <div class="unit darkestgrey one-third s-m-l m-m-t m-m-b chapter">
 		      	<p class="">I’m always looking for opportunities to contribute to that, in any industry. Thank you for looking at my work.  Say hi - </p>
 		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a> </p>
 		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
