@@ -23,8 +23,8 @@ headline:  Great design has the potential to create great change.
 </div>		
 
 
-<div class="wider offBlackBg">
-		<div class="grid">		
+<div class=" wider offBlackBg">
+		<div class="grid post">		
 			<div class="unit whole dBlock xl-m-b xl-m-t">
 				<h1 class="w50 s-m-l ghost">I work for bold brands I believe in.</h1>
 			</div>
@@ -63,7 +63,7 @@ headline:  Great design has the potential to create great change.
 
 
 <div class="wider whiteBg">
-		<div class="grid">
+		<div class="grid post">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
