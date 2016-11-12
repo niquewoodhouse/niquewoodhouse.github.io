@@ -24,38 +24,38 @@ headline:  Great design has the potential to create great change.
 
 
 <div class=" wider offBlackBg">
-		<div class="grid post">		
+		<div class="grid">		
 			<div class="unit whole dBlock xl-m-b xl-m-t">
-				<h1 class="w50 s-m-l ghost">I work for bold brands I believe in.</h1>
+				<h1 class="w50 s-m-l ghost chapter">I work for bold brands I believe in.</h1>
 			</div>
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_mtv.svg"/>
 			</div>
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_spotify.svg"/>
 			</div>	
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_vans.svg"/>
 			</div>						
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_adidas.svg"/>
 			</div>	
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_appearhere.svg"/>
 			</div>
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_nick.svg"/>
 			</div>	
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_aande.svg"/>
 			</div>						
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_paramount.svg"/>
 			</div>				
-			<div class="unit one-fifth">
+			<div class="unit one-fifth chapter">
 				<img src="assets/logos/Logos_remington.svg"/>
 			</div>
-			<div class="unit one-fifth xl-m-b">
+			<div class="unit one-fifth xl-m-b chapter">
 				<img src="assets/logos/Logos_nike.svg"/>
 			</div>	
 		</div>		
@@ -63,7 +63,7 @@ headline:  Great design has the potential to create great change.
 
 
 <div class="wider whiteBg">
-		<div class="grid post">
+		<div class="grid chapter">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
