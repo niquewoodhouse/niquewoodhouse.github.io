@@ -22,9 +22,11 @@ client: Appear Here
 		<div class="grid">
 				<div class="unit whole bigGapBott">
 					<p class="w50 mAuto firstP">
-						Appear Here is the premier platform for renting short term retail space. 
-						As part of a brand &amp; brand refresh, I design how it works pages to guide possible tenants and landlords on how it works.
+						Appear Here is the premier platform worldwide for renting short term retail space. 
 					</p>
+					<p class="w50 mAuto darkgrey">
+						As part of a brand &amp; brand refresh, I design how it works pages to guide possible tenants and landlords on how it works.
+					</p>						
 				</div> 	
 		</div>
 
@@ -37,7 +39,7 @@ client: Appear Here
 					<p class="w50 mAuto uppercase bold">
 						DIFFERENT INTERNATIONAL AUDIENCES
 					</p>
-					<p class="w50 mAuto darkestgrey">
+					<p class="w50 mAuto darkgrey">
 						Tenants are attracted to the concept of joining a community.  As the company expands to become international, I wanted to align product innovation with the storyline of their idea's journey, in a way that visually communicates - even if they didn't read a word.
 					</p>
 				</div> 			 	
@@ -74,7 +76,7 @@ client: Appear Here
 					<p class="w50 mAuto bold uppercase">
 						COMPONENT LIBRRARY
 					</p>		 		
-		 		<p class="w50 padding5 dBlock mAuto darkestgrey">
+		 		<p class="w50 padding5 dBlock mAuto darkgrey">
 		 			Alongside designing the screens, I put each component into Zeplin for the developers seperately.  So we have one golden source to build from, and nothing is left undesigned/considered.  Sometimes, if you just think 
 		 		</p>
 		 	</div>	
