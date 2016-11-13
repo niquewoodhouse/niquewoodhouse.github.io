@@ -20,6 +20,14 @@ h1 {
     position: relative;
 }
 
+.h1-plus {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.2666666667;
+    letter-spacing: 0.02rem;
+    position: relative;
+}
+
 h4 {
    /*
     -webkit-transform: rotate(90deg); 
