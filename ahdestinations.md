@@ -22,10 +22,10 @@ fgcolor: ghost
 <div class="wider">
 	<div class="grid xl-m-b">
 			<div class="unit whole m-m-b s-m-l">
-				<p class="w50 s-m-b firstP ghost">
+				<p class="w50 s-m-b firstP ghost chapter">
 					Appear Here is the premier platform for booking retail space around the world.
 				</p>
-				<p class=" w50 grey">
+				<p class=" w50 grey chapter">
 					They needed a design solution to elevate their city guides above those of competitors. In an ambitious start-up you can't take the brief as the end goal of your work. You should always try to look beyond it, and towards other problems your bosses might not even be talking about that you could solve at the same time.
 				</p>
 			</div> 	

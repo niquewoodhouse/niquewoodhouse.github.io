@@ -207,6 +207,8 @@ h1:before, .underline:before {
     height: 110%;
 }
 
+h1.noline {border-bottom:0px solid !important;}
+
 ul.listone {
     padding:0;
 }
