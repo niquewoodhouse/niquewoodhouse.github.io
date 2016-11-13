@@ -35,7 +35,7 @@ fgcolor: ghost
 <div class="wider whitebg">
 	 <div class="grid maxwidth1400 mAuto xl-m-b"> 
 		<div class="unit whole dBlock xl-m-b xl-m-t">
-			<h1 class="w50 s-m-l">Content first.</h1>
+			<h1 class="w50 s-m-l chapter">Content first.</h1>
 		</div>	 	
       	<div class="unit one-third s-m-l s-m-t m-m-b">
 	      	<p class="">
