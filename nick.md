@@ -10,6 +10,7 @@ role: Creative Director
 jobRole: Creative Director, <br>Product UX/UI Designer
 jobOutput: Native responsive platform, <br>iOS App designs, branding
 featureImg: http://niquewoodhouse.github.io/jekyll-blog/assets/work/Thumbnail/Nick@2x.png
+thumbNail: http://niquewoodhouse.github.io/jekyll-blog/assets/work/Thumbnail/Nick@2x.png
 tags: 
 - work
 client: Nickelodeon
