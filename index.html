@@ -22,10 +22,10 @@ body-class: wider
 			{% for tag in page.tags %}
 			{% if tag == "work" and counter < '8' %}
 			    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
-			 <div class="grid_item"> 
+			 <div class="grid_item chapter"> 
 				 <a href="{{site.baseurl}}{{page.url}}" class="grid__link">
-				 	<img class="chapter" src="{{page.thumbNail}}">
-				 	<div class="grid__lock block chapter">	
+				 	<img class="" src="{{page.thumbNail}}">
+				 	<div class="grid__lock block ">	
 						<h4 class="grid__title block midnight ">{{page.title}}</h4>
 						<p class="subtitle block grey ">{{page.subtitle}}</p>
 					</div>				
