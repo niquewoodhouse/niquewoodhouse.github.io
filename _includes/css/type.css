@@ -28,6 +28,10 @@ h1 {
     position: relative;
 }
 
+.display {
+    font-family: 'Lora', serif !important;
+}
+
 h4 {
    /*
     -webkit-transform: rotate(90deg); 
