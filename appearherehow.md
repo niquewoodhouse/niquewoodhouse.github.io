@@ -25,7 +25,7 @@ client: Appear Here
 						Appear Here is the premier platform worldwide for renting short term retail space. 
 					</p>
 					<p class="w50 mAuto darkgrey">
-						As part of a brand &amp; brand refresh, I design how it works pages to guide possible tenants and landlords on how it works.
+						As part of a brand refresh, I helped re-design how it works pages to guide possible tenants and landlords on how it works.
 					</p>						
 				</div> 	
 		</div>
@@ -37,7 +37,7 @@ client: Appear Here
 		 	</div>
 				<div class="unit whole mediumGapBott">
 					<p class="w50 mAuto uppercase bold">
-						DIFFERENT INTERNATIONAL AUDIENCES
+						Different international audiences
 					</p>
 					<p class="w50 mAuto darkgrey">
 						Tenants are attracted to the concept of joining a community.  As the company expands to become international, I wanted to align product innovation with the storyline of their idea's journey, in a way that visually communicates - even if they didn't read a word.

@@ -20,7 +20,7 @@
 }*/
 
 
-a.grid__link {
+.grid_item {
 	-webkit-transform: translateY(0);
     transform: translateY(0);
     color: inherit;
@@ -37,11 +37,11 @@ a.grid__link {
     transform: translateY(20%);    
 }
 
-a.grid__link:hover {
+a.grid_item:hover {
 	outline: none;
 }
 
-a.grid__link:hover img {
+a.grid_item:hover img {
 	-webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
