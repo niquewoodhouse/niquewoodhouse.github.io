@@ -41,7 +41,7 @@ a.grid__link:hover {
 	outline: none;
 }
 
-a.gtid__link:hover img {
+a.grid__link:hover img {
 	-webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
