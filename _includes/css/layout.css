@@ -260,9 +260,22 @@ img.goesWithHeading {top:60px;right:0px;}
 }
 
 
-.screen.is-active {
-  visibility: visible;
-    opacity: 1;
-    -webkit-overflow-scrolling: touch;
-}
+.menu{position:fixed;background:#1a1a1a;z-index:-999;width:100%;opacity:0;transition:opacity .5s;color:white}
+.menu a{visibility:hidden}
+.menu .menu-wrap{position:relative}
+.menu .menu-wrap ul{position:absolute;font-size:60px;line-height:50px;bottom:7%;left:7%}
+.menu .menu-wrap ul .num{display:none;opacity:.1}
+.menu .menu-wrap ul .num .val{opacity:.1}
+.menu .menu-wrap ul a{color:white;font-size:35px;font-weight:100}
+.menu-show{opacity:1;transition:opacity .5s;z-index:1}
+.menu-show a{visibility:visible}
+.btn-menu{width:100px;height:100px;background:#1a1a1a;display:block;position:fixed;z-index:2;border-radius:50%;margin:7%}
+.btn-menu-pulse{animation:pulse 2.3s infinite;box-shadow:0 0 0 rgba(26,26,26,0.2)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(26,26,26,0.2)}70%{box-shadow:0 0 0 120px transparent}
+100%{box-shadow:0 0 0 0 transparent}}
+.strike{border-bottom:none;opacity:.15}
+.btn-menu-show{box-shadow:none;transition:background .5s;background:white}
+.stop-scrolling{height:100%;overflow:hidden}
+
+
 
