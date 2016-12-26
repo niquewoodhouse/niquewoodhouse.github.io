@@ -15,14 +15,14 @@
 .grid_item {overflow: hidden;}
 
 .grid_item img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+    -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
 }
 .grid_item:hover img {
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);	
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
 }
 
 .post{

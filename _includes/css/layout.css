@@ -151,12 +151,13 @@
   margin-right:5%;
   width:47%;
   margin-top:3rem;
-  overflow-x: hidden;
-  overflow-y:hidden;
+  height:auto;
+  overflow:hidden;
 }
 .grid_item:nth-child(2n) {
   margin-right:0%;
 }
+
 
 .grid__lock {
     padding-left: 5px;
@@ -178,6 +179,8 @@
 }
 */
 a.grid__link {border-bottom-style: none;}
+
+
 
 
 /* Responsive Stuff */
@@ -274,7 +277,7 @@ img.goesWithHeading {top:60px;right:0px;}
 .btn-menu-show{box-shadow:none;transition:background .5s;background:white;}
 .stop-scrolling{height:100%;overflow:hidden;}
 
-
+.
 
 
 
