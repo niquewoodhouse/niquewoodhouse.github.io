@@ -10,13 +10,13 @@ headline:  Great design has the potential to create great change.  I eat chips.
 			<div class="unit whole">
 				<h1 class="w80 s-m-l h1-plus">{{page.headline}}</h1>		
 			</div>
-		      <div class="unit darkestgrey one-third s-m-l m-m-t m-m-b chapter">
+		     <div class="unit darkestgrey one-third s-m-l m-m-t m-m-b chapter">
 		      	<p class="">I’m always looking for opportunities to contribute to that, in any industry. Thank you for taking an interest in my work.  Say hi - </p>
 		      	<p><a href="mailto:nique.shjm.woodhouse@gmail.com">nique.shjm.woodhouse@gmail.com</a></p>
 		      	<p><a href="tel:+4407948888909">+44 0 7948 888 909</a></p>
-		      </div>
-		      <div class="unit one-third">
-		      </div>
+		     </div>
+		     <div class="unit one-third">
+		     </div>
 		 </div> 
 	</div>		 
 </div>		
@@ -60,28 +60,26 @@ headline:  Great design has the potential to create great change.  I eat chips.
 		</div>		
 </div>
 
-
 <div class="wider whiteBg">
 		<div class="grid chapter">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim &amp; I cried at all three Toy Story movies.</h1>
 			</div>
 		    <div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
-			        <ul class="listone">
-			        	<li>1x Awwwards Honorable Mention</li>
-			        	<li>2x OnePage Most Loved</li>
-			        	<li>1x Linkage Site of the week </li>
-			        	<li>1x CSS Design Awards Design</li>
-		   
-			        </ul>			        					        
+		        <ul class="listone">
+		        	<li>1x Awwwards Honorable Mention</li>
+		        	<li>2x OnePage Most Loved</li>
+		        	<li>1x Linkage Site of the week </li>
+		        	<li>1x CSS Design Awards Design</li>
+		        </ul>			        					        
 			</div>
 			<div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
-			        <ul class="listone">
-			        	<li>1x PromaxBDA</li>
-			        	<li>2x NORA </li>
-			        	<li>1x IAB Best Digital Creative</li>
-			        	<li>1x Mashie</li>				        	
-			        </ul>							
+		        <ul class="listone">
+		        	<li>1x PromaxBDA</li>
+		        	<li>2x NORA </li>
+		        	<li>1x IAB Best Digital Creative</li>
+		        	<li>1x Mashie</li>				        	
+		        </ul>							
 	        </div>				
 		</div>	
 </div>	 

@@ -2,12 +2,10 @@
 
 html, body {
 	margin :0;padding:0;
-	
 }
 
 .block {display: block;}
 .none {display:none;}
-
 .relative {position: relative;}
 .absolute {position: absolute;}
 
@@ -25,7 +23,6 @@ a:hover {
 	-webkit-transition: padding-bottom ease-in-out 0.3s; /* Safari */
     transition: padding-bottom ease-in-out 0.3s;
 }
-
 
 /* Sizes */
 

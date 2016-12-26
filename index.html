@@ -1,6 +1,8 @@
 ---
 layout: default
 body-class: wider
+bgcolor: offBlackBg
+fgcolor: ghost
 ---
 
 
@@ -8,8 +10,11 @@ body-class: wider
 <div class="wider h90 mediumMarginBottom">
 	<div class="grid introduction chapter">
 	      <div class="unit whole">
-	        <h1 class="w50 xlargeMarginTop display">I'm Nique. Pro Surfer. (Web only. Afraid of sea.)</h1>
-	        <p class="lead xlargeMarginBottom">Independent <a href="{{site.baseurl}}/about">designer</a> making experiences <a href="{{site.baseurl}}/work">work</a>, simple &amp; a little fun. </p>
+		        <h1 class="w50 xlargeMarginTop display">I'm Nique. Pro Surfer. (Web only. Afraid of sea.)</h1>
+		        <p class="lead xlargeMarginBottom">
+		        	Independent <a href="{{site.baseurl}}/about">designer</a> making experiences 
+		        	<a href="{{site.baseurl}}/work">work</a>, simple &amp; a little fun. 
+		        </p>
 	      </div>
 	 </div>
 </div>	
@@ -24,10 +29,8 @@ body-class: wider
 			    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
 			 <div class="grid_item chapter"> 
 				 <a href="{{site.baseurl}}{{page.url}}" class="grid__link">
-				 	<div>
 				 		<img class="grid_item_img" src="{{page.thumbNail}}">
-				 	</div>
-				 	<div class="grid__lock block ">	
+				 	<div class="grid__lock block whitebg">	
 						<h4 class="grid__title block midnight display">{{page.title}}</h4>
 						<p class="subtitle block grey ">{{page.subtitle}}</p>
 					</div>				
