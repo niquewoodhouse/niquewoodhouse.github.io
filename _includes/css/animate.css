@@ -13,6 +13,13 @@
 
 .grid_item {overflow: hidden;}
 
+.grid_item div {-webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);}
+}
+
+.grid_item div:hover {-webkit-transform: scale3d(0.8, 0.8, 1);
+          transform: scale3d(0.8, 0.8, 1);}
+
 .grid_item:hover { -webkit-transform: scale3d(0.8, 0.8, 1);
           transform: scale3d(0.8, 0.8, 1);}
 
@@ -24,8 +31,8 @@
           overflow: hidden;
 }
 .grid_item:hover img {
-  -webkit-transform: scale3d(1.2, 1.2, 1);
-          transform: scale3d(1.2, 1.2, 1);
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+          transform: scale3d(1.1, 1.1, 1);
 }
 
 .post{
