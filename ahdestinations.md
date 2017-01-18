@@ -67,7 +67,7 @@ fgcolor: ghost
 	      	<p class="">
 	      		Use a split panel for videos, events, FAqs, places to spaces, people's top spaces.  
 	      	</p>
-	      	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>
+	      <!--	<p>SCREENSHOT OF SOME BOARDS COVERED IN CONTENT - LIKE I PRINTED OUT A LOAD OF STUFF</p>-->
       	</div>		 	
 	 	<div class="unit whole">
 	 		<img class="mediumGapBott dBlock mAuto" src="assets/work/ahdestination/hackneytop1@2x.png"/> 
@@ -85,7 +85,7 @@ fgcolor: ghost
 
 <div class="wider">
 	 	<div class="unit whole">
-	 		<img class="mediumGapBott dBlock mAuto" src="https://d13yacurqjgara.cloudfront.net/users/40433/screenshots/1748038/userguide__1_.gif"/> 
+	 		<!--<img class="mediumGapBott dBlock mAuto" src="https://d13yacurqjgara.cloudfront.net/users/40433/screenshots/1748038/userguide__1_.gif"/> -->
 	 	</div>
 			
 
