@@ -7,7 +7,7 @@
 			{% if tag == "work" and counter < '8' %}
 			    {% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
 			 <div class="grid_item chapter"> 
-				 <a href="{{site.baseurl}}{{page.url}}" class="grid__link">
+				 <a href="{{site.baseurl}}{{page.url}}" class="grid__link s-m-t">
 				 		<img class="grid_item_img" src="{{page.thumbNail}}">
 				 	<div class="grid__lock block">	
 						<h4 class="grid__title block midnight display">{{page.title}}</h4>
