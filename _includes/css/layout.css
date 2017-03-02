@@ -170,7 +170,7 @@
 }
 
 .grid__lock p.subtitle {
-  margin: 1rem 0 0.5rem 0;
+  margin: 0.8rem 0 0.5rem 0;
 }
 /*
 .grid_item:nth-child(3n) {
@@ -201,7 +201,7 @@ a.grid__link {border-bottom-style: none;}
   margin-right:0%;
 } 
   .grid__lock h4 {
-    margin:1.3rem 0;
+    margin:1rem 0 0 0;
     font-size:1.3rem;
   }
 
@@ -221,12 +221,12 @@ a.grid__link {border-bottom-style: none;}
   }   
 
   .grid__lock h4 {
-    margin:1.3rem 0;
+    margin:1rem 0 0 0;
     font-size:1.5rem;
   }
 
   .grid__lock p.subtitle {
-    font-size:1.5rem;
+    font-size:1rem;
     margin:1rem 0 1.5rem 0;
   }
 }
