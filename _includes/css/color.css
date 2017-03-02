@@ -6,7 +6,7 @@ body {color:rgb(51, 51, 51);}
 .shark {color:#1D2429;}
 .midnight, nav.header ul li a {color:#232323;}
 .ghost {color:#fafafa;}
-.ghost a {color:#fafafa;}
+.ghost a, a.ghost {color:#fafafa;}
 .yello {color:#FFCC00;}
 .grey, .pFocus {color:rgb(153, 153, 153);}
 .darkestgrey {color:rgb(87, 87, 87);}
