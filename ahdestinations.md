@@ -20,7 +20,7 @@ bgcolor: offBlackBg2
 fgcolor: ghost
 ---
 
-<div class="wider">
+<div class="wider pitchBlackBg">
 	<div class="grid xl-m-b">
 			<div class="unit whole m-m-b s-m-l">
 				<p class="w50 s-m-b firstP ghost chapter">
