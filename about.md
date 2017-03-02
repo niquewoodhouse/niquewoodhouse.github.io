@@ -8,7 +8,7 @@ headline:  Great design has the potential to create great change.  I eat chips.
 	<div class="wideOverlay">
 		<div class="grid midnight hero1 w100">
 			<div class="unit whole">
-				<h1 class="w80 s-m-l h1-plus">{{page.headline}}</h1>		
+				<h1 class="w80 s-m-l h1-plus display">{{page.headline}}</h1>		
 			</div>
 		     <div class="unit darkestgrey one-third s-m-l m-m-t m-m-b chapter">
 		      	<p class="">I’m always looking for opportunities to contribute to that, in any industry. Thank you for taking an interest in my work.  Say hi - </p>
