@@ -15,7 +15,7 @@
 .grid_item {overflow: hidden;}
 
 .grid_item img {
-  width: calc(100% + 60px);
+  width: calc(100% + 30px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-40px,0,0);
@@ -23,8 +23,8 @@
 
 }
 .grid_item:hover img {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  opacity: 1;
+  filter: alpha(opacity=1);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);	
 	
