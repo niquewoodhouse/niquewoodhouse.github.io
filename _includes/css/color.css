@@ -88,3 +88,7 @@ a.textShadow {text-shadow:rgb(255, 255, 255) 0.5px 0.5px, rgb(255, 255, 255) -0.
 .ghostBorder {
   border: 5px solid #fafafa;
 }
+
+/* Opacity */
+
+.opacity07 {opacity: 0.7;}

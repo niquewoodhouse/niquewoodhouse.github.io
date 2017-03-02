@@ -6,6 +6,7 @@ img: http://static1.squarespace.com/static/514e40ffe4b0e29595fe765d/t/5647bbb0e4
 categories: work case
 meta: Responsive website campaign
 longTitle: Discover the world
+microstatement: Designing a system for exploring cities on the world's premier platform for booking retail space.
 year: 2015
 role: Designer
 jobRole: UX, UI 
