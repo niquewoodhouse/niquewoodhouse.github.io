@@ -356,7 +356,6 @@ a.navBtn
  {    width: 60px;
     height: 60px;
     background: black;
-    display: block;
     position: fixed;
     z-index: 2;
     border-radius: 0%;
