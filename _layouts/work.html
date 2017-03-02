@@ -1,12 +1,29 @@
 ---
-layout: default
+layout: work
 ---
 
+<!DOCTYPE html>
 
-{% include workHeader.html %}
+	{% include head.html %}
+
+	<body class="{{ page.bgcolor }}">
+
+	{% include headerwork.html %}
 
 
-{{content}}
+
+		{{content}}
 
 
-{% include disclaimer.html %}
+	{% include disclaimer.html %}
+
+	{% include footer.html %}
+
+
+
+	</body>
+</html>
+
+
+
+
