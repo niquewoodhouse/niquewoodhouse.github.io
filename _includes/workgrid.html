@@ -5,7 +5,7 @@
 			Filter by All
 		</div>
 
-		<div class="unit whole">
+		<div class="unit whole relative">
 			{% assign counter = '0' %}
 			{% for page in site.pages %}
 			{% for tag in page.tags %}
@@ -14,7 +14,7 @@
 			 <div class="grid_item chapter s-m-t"> 
 				 <a href="{{site.baseurl}}{{page.url}}" class="grid__link">
 				 		<img class="grid_item_img" src="{{page.thumbNail}}">
-				 	<div class="grid__lock block">	
+				 	<div class="grid__lock block absolute">	
 						<h4 class="grid__title block midnight display">{{page.title}}</h4>
 						<p class="subtitle block grey ">{{page.subtitle}}</p>
 					</div>				

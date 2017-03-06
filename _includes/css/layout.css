@@ -163,6 +163,8 @@
     padding-right: 5px;
     padding-top: 5px;
     text-align: left;
+    left:-2vw;
+    top:45%;
 }
 
 .grid__lock h4 {
@@ -278,5 +280,5 @@ img.goesWithHeading {top:60px;right:0px;}
 
 
 
-
+#workgrid div.grid_item {margin-top:;}
 
