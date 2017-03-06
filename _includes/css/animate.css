@@ -12,7 +12,6 @@
 
 /* Portfolio Grid Specific */
 
-.grid_item {overflow: hidden;}
 
 .grid_item img {
   width: calc(100% + 30px);
