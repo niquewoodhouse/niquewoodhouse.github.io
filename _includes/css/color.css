@@ -1,7 +1,8 @@
 /* Fills */
 
 
-.gold, p.lead a, .bigNo, .bigNo2, nav a.current, a.gold, .ColourQuote {color:#F7D6CF !important;}
+.gold, p.lead a, .bigNo, .bigNo2, nav a.current, a.gold, .ColourQuote {color:rgb(229, 188, 208) !important;}
+.pink {color:rgb(229, 188, 208};
 body {color:rgb(51, 51, 51);}
 .shark {color:#1D2429;}
 .midnight {color:#232323;}

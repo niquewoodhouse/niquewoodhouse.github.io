@@ -5,7 +5,7 @@ subtitle: Responsive / Interactive
 img: http://static1.squarespace.com/static/514e40ffe4b0e29595fe765d/t/5647bbb0e4b072d19f90d5f1/1447541681826/?format=750w
 categories: work case
 meta: Responsive website campaign
-longTitle: A video player for a new kind of video
+longTitle: Designing the world's most advanced video player
 year: 2015
 role: Designer
 jobRole: UX, UI 
@@ -15,13 +15,18 @@ tags:
 featureImg: assets/work/wwxvideoplyr/mast-sherlock3-personality-icon-high-res.jpg
 thumbNail: assets/work/Thumbnail/WirewaxPlatform@2x.jpg
 client: Wirewax
+microstatement: Designing the world's most advanced video player.
 ---
 
 <div class="wider">
 
 		<div class="grid">
-				<div class="unit whole bigGapBott">
-					<p class="w50 mAuto">
+
+				<div class="unit one-third">
+					<h3>Boom</h3>
+				</div>
+				<div class="unit two-thirds bigGapBott">
+					<p class="w90 mAuto">
 						Wirewax is the world's first ever free to use HTML5 video editor that can make anything in any video interactive. The video player UI needed to let viewers interact with the content, let that content be the focus, as well as satisfy functionality expectations of the most common video players.
 					</p>
 				</div> 	
@@ -99,9 +104,9 @@ client: Wirewax
 
 
 
-
+<!--
 	<div class="grid bigGapBott bigGapTop">
 		{% include disclaimer.html %}
 	</div>
-
+-->
 </div>
