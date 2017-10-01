@@ -1,0 +1,28 @@
+<div class="grid hero1 w100 textCenter chapter l-m-t">
+	<div class="unit whole paddingNo">
+		<img class="s-m-b none" src="http://www.vanschneider.com/wp-content/uploads/2014/10/semplice_badge.png"/>
+		<p class="m-print ghost uppercase alpha-white ">Thank you for reading</p>		
+	</div>
+      <div class="unit whole paddingNo">
+        <h1 class="noline display ghost">I'm available to help on your projects, <a href="mailto:nique.shjm.woodhouse@gmail.com" class="underline">say hi</a>.</h1>
+      </div>
+      <div class="unit whole paddingNo">
+      	
+      	{% include social-links-list.html %}
+
+  
+      </div> 
+
+ </div> 
+
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="{{ site.baseurl }}/js/viewportchecker.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('.chapter').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+      offset: 100    
+     });   
+});            
+</script>

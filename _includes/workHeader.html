@@ -1,56 +1,29 @@
-<div class="wider saturate1 pos5050 pitchBlackBg bgCover">
+<div id="chapterone" class="wider saturate1 pos5050 chapter">
 	<div class="wideOverlay">
-		<div class="grid ghost hero1 w100">
-			<div class="unit whole paddingNo">
+		<div class="grid hero1 w100">
+			<div class="unit whole">
 				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
 			</div>
-		      <div class="unit whole paddingNo chapter">
-		        <h1 class="noline display ">{{ page.longTitle }}</h1>
+		      <div class="unit whole m-m-b">
+		      	<p class="s-print uppercase chapter grey delay-1s">Project {{ page.order }} </p>
+		        <h1 class=" display chapter plus w60">{{ page.longTitle }}</h1>
 		      </div>
-		      <div class="unit whole paddingNo chapter">
-		      	<p class="mediumPrint opacity07 l-m-b">{{page.microstatement}} </p>
+		      <div class="unit whole chapter none">
+		      	<p class="opacity07 m-m-b s-print uppercase">at {{page.client}}, {{page.year}}</span></p>
+		      </div>
+		      <div class="unit whole chapter delay-1s">
+		      		<img id="leading-image" class="w100 block s-m-b" src="{{ page.featureImg}}"/>	
+		      </div>
+		      <div class="storyline half m-m-b chapter">
+		      		<p id="leading-image-caption" class="m-m-b">{{page.featureImgCaption}}</p>	
 		      </div>
 		 </div> 
 
-	</div>	
+
+	</div>
+
 </div>	
 
 
-<img class="w100 block m-m-b" src="{{ page.featureImg}}"/>
-
-<!--
-	<div class="wideOverlay">
-		<div class="grid hero1 s-m-l l-m-b">
-
-		      <div class="unit whole paddingNo">
-		        <h1 class="w50 {{ page.fgcolor }} chapter">{{ page.longTitle }}</h1>
-		      </div>
-		      <div class="unit whole paddingNo">
-		      	<p class="mediumPrint {{ page.fgcolor }} chapter">{{page.client}}	</p>
-		      </div>
-		 </div> 
-	</div>		 
-
-
-<div class="wider bigGapBott h90 bgCover chapter" style="background-image:url('{{ page.featureImg}}')">
-</div>
--->
-<!--
-<div class="wider bigGapBott h100 saturate1 pos5050 greyscale1_saturate1 bgCover" style="background-image:url('{{ page.featureImg}}')">
-	<div class="wideOverlay">
-		<div class="grid ghost hero1 w100">
-			<div class="unit whole paddingNo">
-				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
-			</div>
-		      <div class="unit whole paddingNo chapter">
-		        <h1 class="textCenter noline display">{{ page.longTitle }}</h1>
-		      </div>
-		      <div class="unit whole textCenter paddingNo chapter">
-		      	<p class="mediumPrint">{{page.client}} </p>
-		      </div>
-		 </div> 
-	</div>		 
-</div>	
--->	
 
 

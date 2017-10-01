@@ -1,3 +1,9 @@
+.add-delay {
+	-webkit-transition-delay: 2s; /* Safari */
+    transition-delay: 2s !important;
+}
+
+
 .animate {
     opacity: 1;
     transform: translate3d(0,40px,0);
@@ -12,7 +18,10 @@
 
 /* Portfolio Grid Specific */
 
+.grid_item img {}
 
+
+/*
 .grid_item img {
   width: calc(100% + 30px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
@@ -28,6 +37,8 @@
   transform: translate3d(0,0,0);	
 	
 }
+
+*/
 
 .post{
 	margin-bottom: 80px;
@@ -72,8 +83,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
-	-webkit-backface-visibility: hidden;
+body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq 
+	-webkit-backface-visibility: hidden;*/
 }
 .animated {
 	-webkit-animation-duration: 1s;
@@ -2971,4 +2982,9 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 .animate, .chapter {    
 	opacity: 0;
     transform: translate3d(0,40px,0);
-    transition: opacity 600ms ease-out,transform 400ms ease-out;}
+    transition: opacity 600ms ease-out,transform 400ms ease-out;
+}
+
+.delay-1s {
+animation-delay: 1s;
+}

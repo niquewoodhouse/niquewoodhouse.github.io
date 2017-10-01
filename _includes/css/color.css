@@ -1,9 +1,23 @@
+/*/ THEMES /*/
+
+/* Dark */
+
+.dark .h1 {color:#fafafa;} 
+
+/* Light */
+
+.light .storyline p.heading, .light .storyline h2 {color:black;}
+
 /* Fills */
 
+.brand-primary-color {color:#FFDCD8;}
 
-.gold, p.lead a, .bigNo, .bigNo2, nav a.current, a.gold, .ColourQuote {color:rgb(229, 188, 208) !important};
-.pink {color:rgb(229, 188, 208)};
+
+.gold, .bigNo, .bigNo2, nav a.current, a.gold, .ColourQuote {color:rgb(229, 188, 208) !important};
+.pink {color:#FFDCD8;}
+
 body {color:rgb(51, 51, 51);}
+.pitchBlack {color:#030303;}
 .shark {color:#1D2429;}
 .midnight {color:#232323;}
 .ghost {color:#fafafa;}
@@ -11,22 +25,24 @@ body {color:rgb(51, 51, 51);}
 .yello {color:#FFCC00;}
 .grey, .pFocus {color:rgb(153, 153, 153);}
 .darkestgrey {color:rgb(87, 87, 87);}
-.darkgrey {color:rgb(124,124,124);}
+.darkgrey, .pitch-black-bg .storyline p {color:rgb(124,124,124);}
 .lightgrey {color:rgb(172,172,172);}
-.lightestgrey {color:rgb(214,214,214);}
+.lightestgrey, .pitch-black-bg .storyline .heading, .pitch-black-bg .unit .heading {color:rgb(214,214,214);}
 
+.alpha-white {color:hsla(0,0%,100%,.3);}
 
 /* Borders */
 
 .borderGrey {border:1px solid #EFEFEF;}
+.btn-border {border:1px solid hsla(0,0%,100%,.1);}
 
 /* Gradients */
 
 .ligGreyToWhite{
-   background: -webkit-linear-gradient(#F4F4F4, #fff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F4F4F4, #fff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F4F4F4, #fff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F4F4F4, #fff); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(#F4F4F4, #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F4F4F4, #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F4F4F4, #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F4F4F4, #fff); /* Standard syntax (must be last) */
 }
 
 .DeepBlueToBrightPurp {
@@ -47,19 +63,16 @@ body {color:rgb(51, 51, 51);}
 }
 
 /* Image Treatments */
-
 .saturate1 {
   -webkit-filter: saturate(0.5);
   filter: saturate(0.5);
 }
-
 .greyscale1 {
     -webkit-filter: grayscale(0.2);
   filter: grayscale(0.2);
 }
-
 .greyscale1_saturate1 {
-  -webkit-filter: saturate(0.5) grayscale(0.2);
+  -webkit-filter: saturate(0.5) grayscale(0.4);
   filter: saturate(0.5) grayscale(0.2);
 }
 
@@ -67,12 +80,13 @@ body {color:rgb(51, 51, 51);}
 /* Backgrounds */
 
 .ghostBg {background:#fafafa;}
-.midnightBg {background:#232323;}
-.pitchBlackBg {background:#030303;}
+.midnightBg, .midnight-bg {background:#232323;}
+.pitchBlackBg, .pitch-black-bg {background:#030303;}
 .blackBg09 {background:rgba(0,0,0, 0.9);}
 .whiteBg09 {background:rgba(255,255,255, 0.9);}
 .offBlackBg {background:#191919;}
 .whitebg {background:white;}
+.greybg, .grey-bg {background:#f8f8f9;}
 
 
 .pitchBlackBg a {color:#fff;}
@@ -82,8 +96,6 @@ body {color:rgb(51, 51, 51);}
     -moz-box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
     box-shadow: 0px 0px 32px -8px rgba(0,0,0,0.49);
 }
-
-a.textShadow {text-shadow:rgb(255, 255, 255) 0.5px 0.5px, rgb(255, 255, 255) -0.5px 0.5px, rgb(255, 255, 255) 1px 1px, rgb(255, 255, 255) -1px 1px, rgb(255, 255, 255) 1.5px 1.5px, rgb(255, 255, 255) -1.5px 1.5px, rgb(255, 255, 255) 2px 2px, rgb(255, 255, 255) -2px 2px, rgb(255, 255, 255) 2.5px 2.5px, rgb(255, 255, 255) -2.5px 2.5px, rgb(255, 255, 255) 3px 3px, rgb(255, 255, 255) -3px 3px, rgb(255, 255, 255) 0px 0.5px, rgb(255, 255, 255) 0px 1px, rgb(255, 255, 255) 0px 1.5px, rgb(255, 255, 255) 0px 2px, rgb(255, 255, 255) 0px 2.5px, rgb(255, 255, 255) 0px 3px;}
 
 
 /* Borders */

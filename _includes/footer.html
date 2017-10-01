@@ -1,31 +1,11 @@
-<footer>
-	<div class="wider">
-		<div class="grid bigGapTop bigGapBott">
-			<div class="unit half">
-			      	<ul class="blockLi list">
-			      		<li>Nick is the best god dam designer the world has ever seen</li>
-			      		<li>Independent Product Designer, London.</li>	
-			      	</ul>					
-			</div>
-			<div class="unit one-quarter smallGapBott">
-			      	<ul class="blockLi list">
-			      		<li><a href="http://twitter.com/niquewoodhouse" class="gold textShadow">Twitter</a></li>			      		
-			      		<li><a href="http://linkedin.com/in/niquewoodhouse" class="gold textShadow">Linkedin</a></li>	
-			      	</ul>					
-			</div>	
-			<div class="unit one-quarter smallGapBott">
-			      	<ul class="blockLi list">
-			      		<li><a href="tel:44747888909" class="gold textShadow">+44 7478 888909</a></li>	
-			      		<li><a href="mailto:nique.shjm.woodhouse@gmail.com" class="gold textShadow">nique.shjm.woodhouse@gmail.com</a></li>		
-			      	</ul>					
-			</div>					
-		</div>
-	</div>	
+<footer class="pitch-black-bg l-m-t s-p-b">
+{% include am-i-available.html %}
 </footer>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="{{ site.baseurl }}/js/viewportchecker.js"></script>
+<!--<script src="{{ site.baseurl }}/js/viewportchecker.js"></script>-->
+<script src="https://rawgit.com/dirkgroenen/jQuery-viewport-checker/master/dist/jquery.viewportchecker.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function() {
@@ -33,8 +13,10 @@ jQuery(document).ready(function() {
 	    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
 	    offset: 100    
 	   });   
-});            
+	
+});         
+
+
+         
 </script>
 
-
-<link href="{{ site.baseurl }}css/main.css" rel="stylesheet">

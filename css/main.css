@@ -6,4 +6,5 @@
 {% include css/type.css %}
 {% include css/layout.css %}
 {% include css/color.css %}
+{% include css/responsive.css %}
 {% include css/animate.css %}

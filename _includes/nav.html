@@ -1,25 +1,23 @@
-		<nav class="header chapter fixed w100 {{include.navclass}} zUltimo">
-
-			<a href="#" id="trigger-overlay" class="navBtn none">
-				<span><img src="http://niquewoodhouse.github.io/i/niquewoodhouse-02.svg"></span>
-			</a>
-
-
-
-			<a href="http://www.niquewoodhouse.com" class="fLeft logo relative ghost smallPrint">
-				Nique
-			</a>
-
-
-			<ul class="nav fRight ">
-				<li>					
-					<a href="{{site.baseurl}}/about" class="smallPrint uppercase ghost {% if page.url contains 'about' or page.url contains 'about' %}current{% endif %}">
-						About
-					</a>
-				</li>
-
-			
-			</ul>
-
-		</nav>
+<nav id="site-navigation" class="w100 delay-1s s-m-t header chapter fixed {{include.navclass}} zUltimo wider">
+	<div class="grid">
+		<div class="unit whole">
+				<a href="{{site.baseurl}}/index.html" class="uppercase fLeft logo relative s-print">
+					Nique
+				</a>
+				<ul class="nav fRight">
+					<li>					
+						<a href="{{site.baseurl}}/about" class="s-print uppercase {% if page.url contains 'about' or page.url contains 'about' %}current{% endif %}">
+							About
+						</a>
+					</li>
+					<li>					
+						<a href="{{site.baseurl}}/work" class="s-print uppercase {% if page.url contains 'work' or page.url contains 'work' %}current{% endif %}">
+							Work
+						</a>
+					</li>
+				
+				</ul>
+		</div>
+	</div>
+</nav>
 

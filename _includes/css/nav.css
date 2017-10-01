@@ -1,14 +1,11 @@
 nav.header {
-	padding:15px 0px;
+	padding:15px 0;
 	top:0px;
-	left:0px;
 }
 
 a.current {
 	color:#c69c6d;
 }
-
-img.logoSvg {height:20px;fill:#c69c6d;}
 
 .holdingP .sectionTitleAlt {font-size:0.8em;top:119px;letter-spacing: 0.5em;}
 
@@ -24,7 +21,7 @@ a.holdingLink {
     margin:0px 15px 0 0;
 }
 
-a.holdingLink, .blockLi li {font-size:0.8em;}
+a.holdingLink {font-size:0.8em;}
 
 nav.header a.logo {
 	float:left;
@@ -32,7 +29,7 @@ nav.header a.logo {
 	padding-bottom: 0px;
 	width:100px;
 	overflow:hidden;
-	padding-left:50px;
+	padding-left:0px;
 }
 
 nav.header a.logo:before {
@@ -54,11 +51,16 @@ nav.header a.logo:hover:before {
 }
 
 nav.header ul.nav {
-	margin:0px 30px 0 0;
+	margin:0px 0px 0 0;
 }
 
 nav.header ul li {
 	margin:0 25px 0 0;
+  display:inline-block;
+}
+
+nav.header ul li:nth-child(2) {
+  margin:0 0px 0 0;
 }
 
 nav.header ul.nav a.current:after {
@@ -67,3 +69,5 @@ nav.header ul.nav a.current:after {
 	width:100%;
 	margin:10px 0;
 }
+
+
