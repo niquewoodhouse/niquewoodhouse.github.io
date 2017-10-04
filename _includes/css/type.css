@@ -60,9 +60,8 @@ h4 {
     /*background: rgb(229, 188, 208) !important;
     padding: 30px;
     */
-    
     border-radius: 4px;
-    color: #222;  
+     
    
 }
 
@@ -299,7 +298,7 @@ ul.bullet li {list-style-type: disc;}
 
 .emphasis {font-weight:bold;}
 
-.grid .half p, .grid .half h2, .grid .half h4 {max-width: 770px;}
+.grid .half p, .grid .half h2, .grid .half h4, .grid .half h3, .grid .half ul {max-width: 770px;}
 
 /* Lists */
 ul.shopping-list li {
@@ -307,6 +306,33 @@ ul.shopping-list li {
     width:100%;
     padding-bottom:1rem;
     margin-top:1rem;
+}
+
+/* 
+CASE STUDIES 
+*/
+
+.case-study h4, .case-study h2, .case-study p, .case-study h3, .case-study ul li, .case-study ul {margin:0 auto;}
+
+.case-study h2 {
+    margin-bottom:4rem;
+    margin-top:1rem;
+    font-size:3.8rem;
+}
+
+.case-study h4 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    /* text-align: center; */
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /*background: rgb(229, 188, 208) !important;
+    padding: 30px;
+    */
+    border-radius: 4px;
+    color: #222;    
 }
 
 /* Chat */
@@ -334,3 +360,5 @@ p.personA, p.personB {
 }
 
 .storyline ul {padding:0;}
+
+
