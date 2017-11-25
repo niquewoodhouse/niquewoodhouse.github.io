@@ -1,43 +1,54 @@
 ---
 layout: default
 featureImg: assets/peaceYo.jpg
-headline:  Pro Surfer. Web only - afraid of sea.
+headline:  Pro surfer. Web only - afraid of sea.
+page-type: about
 ---
 
 
-<div id="" class="wider h100 saturate1 pos5050 greyscale1_saturate1 bgCover pitch-black-bg" style="background-image:url('{{ page.featureImgs}}')">
-	<div class="wideOverlay">
-		<div class="grid ghost hero1 w100 chapter">
-			<div class="unit whole s-m-l">
-				<h1 class="plus w80 display ">{{page.headline}}</h1>		
-			</div>
-		     <div class="unit half s-m-l m-m-b ">
-		      	<p class="m-m-b">Hey, I'm an independent designer in London, focused on making experiences simple &amp; a little more fun.
-		      	</p>
-
-				<ul id="how-to-contact" class="listone">
-					<li> 
-						
-						<a href="mailto:nique.shjm.woodhouse@gmail.com?subject=Question%20about%20your%20work%20/%20Quote%20request%20/%20Work%20proposal&amp;body=Hi%20Nique,%0D%0A%0D%0A">nique.shjm.woodhouse@gmail.com</a>
-					</li>
-					<li> 
-						 <a class="tel" href="tel:+4474788888909">+44 747 888 8909</a> 
-					</li>
-					<li>
-						 
-						<a href="http://twitter.com/niquewoodhouse" target="_blank" class="external">twitter.com/nique</a>
-					</li>
-				</ul>
-
-		     </div>
-		     <div class="unit one-third">
-		     </div>
-		 </div> 
-	</div>		 
-</div>		
 
 
-<div class=" wider pitchBlackBg">
+<div class="{{page.top-color}} first-chapter l-m-b">
+	<div class="grid case-study-intro">
+		<div class="storyline half xs-m-l l-m-b chapter">
+			<div class="chapter">	 		
+			 	<h1 class=" display m-auto s-m-b">
+			 		I'm an independent product designer, passionate about making experiences simple &amp; rewarding.
+			 	</h1>
+			 	<h1 class=" display m-auto s-m-b">
+			 		I've had the pleasure of designing software and experiences used by brands like Spotify, NBC, MTV &amp; the BBC to tell their stories worldwide.  
+			 	</h1>
+			 	<h1 class=" display m-auto m-mb">
+			 		Based in London, I spend my time developing my own products and helping others with theirs.  Now you know about me, tell me about you. Don't be shy.  
+			 	</h1> 		
+				<p class="s-print {{page.bottom-color}} opacity05 uppercase s-m-t">
+		 			<a class="underline xs-m-r" href="mailto:nique.shjm.woodhouse@gmail.com">email</a>  
+		 			<a href="http://twitter.com/niquewoodhouse" target="_blank" class="xs-m-r underline external">twitter</a>  
+		 			<a href="http://instagram.com/niquewoodhouse" target="_blank" class="underline external">instagram</a>
+	 			</p>
+
+		 	</div>			
+		</div>
+	</div>
+</div>
+
+<div class="grid">
+
+	<div class="storyline half xs-m-l xl-m-b m-m-t chapter">
+		<div class="chapter">	 		
+		 	<h1 class=" display m-auto s-m-b">
+		 		Oh, you need to know more.  
+		 	</h1>
+		 	<h1 class=" display m-auto s-m-b">
+		 		I can't swim and I cried at all three Toy Stories movies.  Happy now?
+		 	</h1>
+	 	</div>			
+	</div>
+	
+</div>
+
+
+<!-- <div class=" wider pitchBlackBg">
 		<div class="grid">		
 			<div class="unit whole dBlock l-m-b xl-m-t">
 				<h1 class="s-m-l ghost chapter">I work for bold brands I believe in.</h1>
@@ -73,9 +84,9 @@ headline:  Pro Surfer. Web only - afraid of sea.
 				<img src="assets/logos/Logos_nike.svg"/>
 			</div>	
 		</div>		
-</div>
+</div> -->
 
-<div class="wider whiteBg">
+<!-- <div class="wider whiteBg">
 		<div class="grid chapter">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim and I cried at all three Toy Story movies.</h1>
@@ -98,6 +109,6 @@ headline:  Pro Surfer. Web only - afraid of sea.
 		        </ul>							
 	        </div>				
 		</div>	
-</div>	 
+</div>	  -->
 
 

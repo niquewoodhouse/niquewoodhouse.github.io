@@ -1,8 +1,8 @@
-<div class="wider pitch-black-bg">
+<div class="wider pitch-black-bg work-footer">
 	<div class="wideOverlay">
 		{% include am-i-available.html %}
 
-		<div id="work-grid-case-study" class="wider s-m-t s-p-b">
+		<div id="work-grid-case-study" class="wider s-m-t l-p-b">
 
 			<div class="grid">
 
@@ -18,8 +18,8 @@
 						 class="grid__link">
 						 		<img class="grid_item_img greyscale1_saturate1" src="{{p.thumbNail}}">
 						 	<div class="grid__lock block">
-								<p class="grid__title block ghost ">{{p.longTitle}}</p>
-								<p class="subtitle block grey">{{p.client}}</p>
+								<p class="grid__title block ghost s-m-t ">{{p.longTitle}}</p>
+								<p class="subtitle block opacity07">{{p.client}}</p>
 							</div>				
 						</a>
 					</div>
@@ -42,10 +42,11 @@
 <script type="text/javascript">
 jQuery(document).ready(function() {
 	jQuery('.chapter').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+	    classToAdd: 'visible animated fadeInUp autoplay', // Class to add to the elements when they are visible
 	    offset: 100    
 	   });   
 });            
 </script>
+
 
 

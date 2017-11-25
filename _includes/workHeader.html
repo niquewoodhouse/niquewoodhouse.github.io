@@ -1,29 +1,57 @@
-<div id="chapterone" class="wider saturate1 pos5050 chapter">
-	<div class="wideOverlay">
-		<div class="grid hero1 w100">
-			<div class="unit whole">
-				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
-			</div>
-		      <div class="unit whole m-m-b">
-		      	<p class="s-print uppercase chapter grey delay-1s">Project {{ page.order }} </p>
-		        <h1 class=" display chapter plus w60">{{ page.longTitle }}</h1>
-		      </div>
-		      <div class="unit whole chapter none">
-		      	<p class="opacity07 m-m-b s-print uppercase">at {{page.client}}, {{page.year}}</span></p>
-		      </div>
-		      <div class="unit whole chapter delay-1s">
-		      		<img id="leading-image" class="w100 block s-m-b" src="{{ page.featureImg}}"/>	
-		      </div>
-		      <div class="storyline half m-m-b chapter">
-		      		<p id="leading-image-caption" class="m-m-b">{{page.featureImgCaption}}</p>	
-		      </div>
-		 </div> 
 
 
+<div class="{{page.top-color}} first-chapter l-m-b">
+	<div class="grid case-study-intro">
+		<div class="storyline half xs-m-l l-m-b chapter">
+		 	<div class="chapter">	 		
+		 		<h1 class=" display m-auto s-m-b l-m-t">{{ page.longTitle }}</h1>		 		
+		 	</div>	
+		 </div>					
+		 	<div class="two-thirds chapter m-auto delay-1s">
+				<video class="w100 s-m-b" autoplay="" loop="">
+						  <source src="{{page.feature-video}}.mp4" type="video/mp4">
+						  <source src="{{page.feature-video}}.ogg" type="video/ogg">
+						  Your browser does not support HTML5 video
+				</video>	
+		 	</div>
+		 	<div class="storyline half l-m-b chapter">
+			 		<p class="s-print {{page.bottom-color}} opacity05 uppercase xs-m-l">	
+			 			{{page.year}}
+			 		</p>
+			 		<p class="s-print {{page.bottom-color}} opacity05 uppercase xs-m-t">
+						{{page.role}}
+					</p>	
+					
+				 		
+		 	</div>
 	</div>
 
-</div>	
 
+
+		 <div class="unit half m-auto">
+<!-- 				<div class="unit one-third float-left l-m-b m-auto">
+				 	<div class="chapter">	
+				 		<p class="s-print {{page.bottom-color}} opacity05 uppercase">
+				 			Year
+				 		</p>
+				 		<p class="s-print {{page.bottom-color}} uppercase xs-m-t">
+							{{page.year}}
+						</p>
+				 	</div>	
+				 </div>	
+
+				<div class="unit one-third float-left l-m-b m-auto">
+				 	<div class="chapter">	
+				 		<p class="s-print {{page.bottom-color}} opacity05 uppercase">
+				 			Role
+				 		</p>
+				 		<p class="s-print {{page.bottom-color}} uppercase xs-m-t">
+							{{page.role}}
+						</p>
+				 	</div>	
+				 </div>	 -->
+			</div>
+	</div>
 
 
 

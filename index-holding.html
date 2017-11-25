@@ -1,0 +1,162 @@
+---
+layout: holding
+body-class: holding-one
+bgcolor: pitch-black-bg
+fgcolor: white
+---
+
+<nav id="site-navigation" class="w100 delay-1s s-m-t header chapter fixed {{include.navclass}} zUltimo wider">
+	<div class="grid">
+		<div class="unit whole">
+
+				<ul class="nav fRight">
+					<li>					
+						<a href="http://instagram.com/niquewoodhouse" class="s-print uppercase grey" target="_blank">
+							Instagram
+						</a>
+					</li>
+					<li>					
+						<a href="mailto:nique.shjm.woodhouse@gmail.com" class="s-print uppercase grey" target="_blank">
+							Email
+						</a>
+					</li>
+				
+				</ul>
+		</div>
+	</div>
+</nav>
+
+
+
+<div class="wider xl-m-b xl-m-t">
+	<div class="grid introduction">
+	      <div class="unit whole">
+		        <h1 class="plus-minus s-m-t s-p-l chapter ghost">Pro Surfer. Web only - afraid of sea.</h1>
+		        <p class="lead s-p-l mediumMarginBottom grey s-m-t chapter delay-1s">
+		        	Independent product designer in London making experiences simple &amp; a little fun.  Next available in November - <a href="mailto:nique.shjm.woodhouse@gmail.com?subject=work" class="underline">holla for case studies</a>.
+		        </p>
+	      </div>
+	 </div> 
+</div>	
+
+
+<!-- 👋
+
+
+VERSION 1
+<div id="chapterone" class="wider saturate1 pos5050 chapter">
+	<div class="wideOverlay">
+		<div class="grid hero1 w100">
+			<div class="unit whole">
+				<p class="mediumPrint">{{ page.date | date: '%B %d, %Y' }}	</p>		
+			</div>
+		      <div class="unit whole m-m-b">
+		      	<p class="s-print uppercase chapter grey delay-1s">Project {{ page.order }} </p>
+		        <h1 class=" display chapter plus w60">{{ page.longTitle }}</h1>
+		      </div>
+		      <div class="unit whole chapter none">
+		      	<p class="opacity07 m-m-b s-print uppercase">at {{page.client}}, {{page.year}}</span></p>
+		      </div>
+		      <div class="unit whole chapter delay-1s">
+		      		<img id="leading-image" class="w100 block s-m-b" src="{{ page.featureImg}}"/>	
+		      </div>
+		      <div class="storyline half m-m-b chapter">
+		      		<p id="leading-image-caption" class="m-m-b">{{page.featureImgCaption}}</p>	
+		      </div>
+		 </div> 
+	</div>
+</div>	
+
+
+
+VERSION 2
+<div class="grid case-study-intro">
+	<div class="unit whole case-study-media m-m-b m-auto">
+	 	<div class="grid_item chapter">	 		
+	 		<h1 class=" display chapter m-auto plus">{{ page.longTitle }}</h1>
+	 	</div>						
+	 	<div class="grid_item chapter delay-1s">
+	 		<img id="leading-image" class="w100 block s-m-b" src="{{ page.featureImg}}"/>		
+	 	</div>
+	 </div>		
+</div>
+-->
+
+<div class="wider pitchBlackBg">
+		<div class="grid">		
+			<div class="unit whole dBlock l-m-b xl-m-t">
+				<h1 class="s-m-l chapter pinky">I work for brands I can believe in.</h1>
+			</div>
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_mtv.svg"/>
+			</div>
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_spotify.svg"/>
+			</div>	
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_vans.svg"/>
+			</div>						
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_adidas.svg"/>
+			</div>	
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_nick.svg"/>
+			</div>	
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_aande.svg"/>
+			</div>						
+			<div class="unit one-quarter chapter">
+				<img src="assets/logos/Logos_paramount.svg"/>
+			</div>				
+			<div class="unit one-quarter chapter xl-m-b">
+				<img src="assets/logos/Logos_remington.svg"/>
+			</div>
+		</div>		
+</div>
+
+
+<div class="wider whiteBg">
+		<div class="grid chapter">
+			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
+				<h1 class="w50 s-m-l">I can't swim and I cried at all three Toy Story movies.</h1>
+			</div>
+		    <div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
+		        <ul class="listone">
+		        	<li>1x Awwwards</li>
+		        	<li>1x BAFTA</li>
+		        	<li>2x OnePage Most Loved</li>
+		        	<li>1x Linkage Site of the week </li>
+		        	<li>1x CSS Design Awards Design</li>
+		        </ul>			        					        
+			</div>
+			<div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
+		        <ul class="listone">
+		        	<li>1x PromaxBDA</li>
+		        	<li>2x NORA </li>
+		        	<li>1x IAB Best Digital Creative</li>
+		        	<li>1x Mashie</li>				        	
+		        </ul>							
+	        </div>				
+		</div>	
+</div>	
+
+ -->
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="https://rawgit.com/dirkgroenen/jQuery-viewport-checker/master/dist/jquery.viewportchecker.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.chapter').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+	
+});         
+   
+</script>
+

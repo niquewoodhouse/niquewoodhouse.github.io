@@ -92,7 +92,7 @@ h3 {font-size: 1.84rem;line-height: 2.32rem;margin-bottom:2rem !important;}
 p, ul, ol {line-height: 1.82rem;font-size:1.24rem;}
 
 .smallPrint,.s-print {
-    font-size:0.95rem !important; letter-spacing: 0.01rem;
+    font-size:0.95rem !important; letter-spacing: 0.01rem;line-height: 1.3rem;
 }
 
 .mediumPrint, .m-print {
@@ -259,6 +259,8 @@ ul.bullet li {list-style-type: disc;}
 /* Case Studies */
 .light .storyline p, .light .grid p {opacity:0.7;}
 .light .storyline p.heading, .light .storyline h2,  .light .storyline h3, .light .storyline .big-statement, .light .storyline p b {opacity:1;}
+.light .pitch-black-bg .storyline h2 {color:white;}
+
 
 .storyline {
     max-width:860px;
@@ -298,7 +300,7 @@ ul.bullet li {list-style-type: disc;}
 
 .emphasis {font-weight:bold;}
 
-.grid .half p, .grid .half h2, .grid .half h4, .grid .half h3, .grid .half ul {max-width: 770px;}
+.grid .half p, .grid .half h2, .grid .half h4, .grid .half h3, .grid .half ul {max-width: 680px;}
 
 /* Lists */
 ul.shopping-list li {
@@ -307,6 +309,9 @@ ul.shopping-list li {
     padding-bottom:1rem;
     margin-top:1rem;
 }
+
+
+
 
 /* 
 CASE STUDIES 
@@ -319,6 +324,8 @@ CASE STUDIES
     margin-top:1rem;
     font-size:3.8rem;
 }
+
+.case-study .first-chapter p {max-width: none;}
 
 .case-study h4 {
     font-size: 2rem;
@@ -338,18 +345,19 @@ CASE STUDIES
 /* Chat */
 div.conversation {
     max-width:1000px;
-    padding-top:10rem;
 }
 
 p.personA {
     background:rgba(214,214,214, 0.5);
-    color:rgba(25,25,25, 1);    
+    color:rgba(25,25,25, 1);   
+    float:left; 
 }
 
 p.personB {
     margin-left:50%;
     background:rgba(214,214,214, 1);
     color:rgba(25,25,25, 1);
+    float:right;
 }
 
 p.personA, p.personB {

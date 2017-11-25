@@ -1,124 +1,72 @@
 ---
-layout: holding
-body-class: holding-one
+layout: home
+body-class:
 bgcolor: pitch-black-bg
 fgcolor: white
 ---
 
-<nav id="site-navigation" class="w100 delay-1s s-m-t header chapter fixed {{include.navclass}} zUltimo wider">
-	<div class="grid">
-		<div class="unit whole">
 
-				<ul class="nav fRight">
-					<li>					
-						<a href="http://instagram.com/niquewoodhouse" class="s-print uppercase grey" target="_blank">
-							Instagram
-						</a>
-					</li>
-					<li>					
-						<a href="mailto:nique.shjm.woodhouse@gmail.com" class="s-print uppercase grey" target="_blank">
-							Email
-						</a>
-					</li>
-				
-				</ul>
+
+<div class="{{page.top-color}} first-chapter l-m-b xl-m-t">
+	<div class="grid case-study-intro">
+		<div class="storyline half xs-m-l chapter">
+			<div class="chapter">	 		
+			 	<h1 class=" display s-m-b ghost">
+			 		Nique Woodhouse.
+			 	</h1>
+			 	<h1 class=" display m-auto s-m-b">
+			 		Pro surfer. Web only - afraid of sea.  
+			 	</h1> 		
+		 	</div>			
 		</div>
 	</div>
-</nav>
-
-
-
-<div class="wider xl-m-b xl-m-t">
-	<div class="grid introduction">
-	      <div class="unit whole">
-		        <h1 class="plus-minus s-m-t s-p-l chapter ghost">Pro Surfer. Web only - afraid of sea.</h1>
-		        <p class="lead s-p-l mediumMarginBottom grey s-m-t chapter delay-1s">
-		        	Independent product designer in London making experiences simple &amp; a little fun.  Next available in November - <a href="mailto:nique.shjm.woodhouse@gmail.com?subject=work" class="underline">holla for case studies</a>.
-		        </p>
-	      </div>
-	 </div> 
-</div>	
-
-
-<!-- 👋
-
-
-
-<div class="wider pitchBlackBg">
-		<div class="grid">		
-			<div class="unit whole dBlock l-m-b xl-m-t">
-				<h1 class="s-m-l chapter pinky">I work for brands I can believe in.</h1>
-			</div>
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_mtv.svg"/>
-			</div>
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_spotify.svg"/>
-			</div>	
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_vans.svg"/>
-			</div>						
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_adidas.svg"/>
-			</div>	
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_nick.svg"/>
-			</div>	
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_aande.svg"/>
-			</div>						
-			<div class="unit one-quarter chapter">
-				<img src="assets/logos/Logos_paramount.svg"/>
-			</div>				
-			<div class="unit one-quarter chapter xl-m-b">
-				<img src="assets/logos/Logos_remington.svg"/>
-			</div>
-		</div>		
 </div>
 
 
-<div class="wider whiteBg">
-		<div class="grid chapter">
-			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
-				<h1 class="w50 s-m-l">I can't swim and I cried at all three Toy Story movies.</h1>
+
+<!-- <div class="wider xl-m-b xl-m-t">
+	<div class="grid introduction chapter">
+	      <div class="unit whole text-center">
+		        <h1 class="plus-minus s-m-t s-p-l noline ghost">Pro Surfer. Web only - afraid of sea.</h1>
+		        <p class="lead s-p-l mediumMarginBottom grey s-m-t">
+		        	Independent <a href="{{site.baseurl}}/about" class="underline">designer</a> making experiences 
+		        	simple &amp; a little fun. 
+		        </p>
+	      </div>
+	 </div>
+</div>	 -->
+
+
+<div id="work-grid" class="wider s-m-t">
+	<div class="grid">
+
+		<div class="unit whole">
+			<p class="m-print uppercase none">
+				Featured work
+			</p>
+		</div>
+
+
+		<div class="unit whole">
+			{% assign counter = '0' %}
+			{% for p in site.pages %}
+			{% for tag in p.tags %}
+			{% if tag == "featured-work" %}
+			    {% capture counter %}{{ counter | plus:'0' }}{% endcapture %}
+			 <div class="grid_item chapter delay-1s s-m-t"> 
+				 <a href="{{site.baseurl}}{{p.url}}" 
+				 class="grid__link {% if page.url == p.url %} none {% endif %}">
+				 		<img class="grid_item_img greyscale1_saturate1 mAuto w100" src="{{p.thumbNail}}">
+				 	<div class="grid__lock block">
+						<p class="ghost">{{p.longTitle}}</p>
+						<p class="subtitle block opacity07">{{p.client}}</p>
+					</div>				
+				</a>
 			</div>
-		    <div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
-		        <ul class="listone">
-		        	<li>1x Awwwards</li>
-		        	<li>1x BAFTA</li>
-		        	<li>2x OnePage Most Loved</li>
-		        	<li>1x Linkage Site of the week </li>
-		        	<li>1x CSS Design Awards Design</li>
-		        </ul>			        					        
-			</div>
-			<div class="unit one-third s-m-l xl-m-b darkestgrey chapter">
-		        <ul class="listone">
-		        	<li>1x PromaxBDA</li>
-		        	<li>2x NORA </li>
-		        	<li>1x IAB Best Digital Creative</li>
-		        	<li>1x Mashie</li>				        	
-		        </ul>							
-	        </div>				
-		</div>	
-</div>	
+			{% endif %}
+			{% endfor %}
+			{% endfor %}
+	</div>
+</div>
 
- -->
-
-
-
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="https://rawgit.com/dirkgroenen/jQuery-viewport-checker/master/dist/jquery.viewportchecker.min.js"></script>
-
-<script type="text/javascript">
-jQuery(document).ready(function() {
-	jQuery('.chapter').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
-	    offset: 100    
-	   });   
-	
-});         
-   
-</script>
 
