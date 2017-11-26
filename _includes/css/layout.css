@@ -272,7 +272,16 @@ body.case-study .dark h1 {color:white;}
 body.case-study .case-study-media .copy {width:50%;margin:0 auto;}
 /*body.case-study .case-study-intro {margin-top:13rem;}*/
 body.case-study .case-study-intro .grid_item {margin-top:0rem !important;}
+body.case-study video {
+    background-image: url("../assets/global/loading-1-light.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 5%;
+  }
 
+body.case-study .pitch-black-bg video, body.case-study .dark video {
+  background-image: url("../assets/global/loading-1-dark.gif");
+}
 
 
 /*

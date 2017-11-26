@@ -257,7 +257,7 @@ ul.bullet li {list-style-type: disc;}
 }
 
 /* Case Studies */
-.light .storyline p, .light .grid p {opacity:0.7;}
+.light .storyline p, .light .grid p, .case-study-media p {opacity:0.7;}
 .light .storyline p.heading, .light .storyline h2,  .light .storyline h3, .light .storyline .big-statement, .light .storyline p b {opacity:1;}
 .light .pitch-black-bg .storyline h2 {color:white;}
 
@@ -349,19 +349,22 @@ div.conversation {
 
 p.personA {
     background:rgba(214,214,214, 0.5);
+    border-radius: 0.8rem 0.8rem 0.8rem 0px;;
     color:rgba(25,25,25, 1);   
     float:left; 
 }
 
 p.personB {
     margin-left:50%;
-    background:rgba(214,214,214, 1);
+    background:rgba(214,214,214, 0.2);
+    border: 2px solid rgba(214,214,214, 0.3);
     color:rgba(25,25,25, 1);
     float:right;
+    border-radius: 0.8rem 0.8rem 0px 0.8rem;;
 }
 
 p.personA, p.personB {
-    border-radius:0.5rem;
+    /*border-radius:0.5rem;*/
     padding:1.2rem 1.5rem;
     width:50%;
     margin-bottom:2rem;
