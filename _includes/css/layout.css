@@ -25,6 +25,11 @@
   padding-right: 6%;
 }
 
+.grid .one-quarter {
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+}
+
 .case-study .grid .unit {
   float: none;
 }

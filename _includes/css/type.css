@@ -89,7 +89,9 @@ h2.ColourQuote {line-height:145%;font-size:2.25rem;}
 
 h3 {font-size: 1.84rem;line-height: 2.32rem;margin-bottom:2rem !important;}
 
-p, ul, ol {line-height: 1.82rem;font-size:1.24rem;}
+.case-study h3 {margin:4rem auto;} 
+
+p, ul, ol {line-height: 1.82rem;font-size:1.34rem;}
 
 .smallPrint,.s-print {
     font-size:0.95rem !important; letter-spacing: 0.01rem;line-height: 1.3rem;
@@ -317,7 +319,7 @@ ul.shopping-list li {
 CASE STUDIES 
 */
 
-.case-study h4, .case-study h2, .case-study p, .case-study h3, .case-study ul li, .case-study ul {margin:0 auto;}
+.case-study h4, .case-study h2, .case-study p, .case-study ul li, .case-study ul {margin:0 auto;}
 
 .case-study h2 {
     margin-bottom:4rem;
