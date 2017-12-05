@@ -34,7 +34,7 @@ body {color:rgb(51, 51, 51);}
 
 /* Borders */
 
-.borderGrey {border:1px solid #EFEFEF;}
+.borderGrey, .border-grey {border:1px solid #EFEFEF;}
 .btn-border {border:1px solid hsla(0,0%,100%,.1);}
 .border-grey-1 {border:3px solid #EFEFEF;}
 
