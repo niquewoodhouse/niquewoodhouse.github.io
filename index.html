@@ -22,36 +22,11 @@ fgcolor: white
 	</div>
 </div>
 
-<div id="work-grid" class="wider s-m-t">
-	<div class="grid">
 
-		<div class="unit whole">
-			<p class="m-print uppercase none">
-				Featured work
-			</p>
-		</div>
-
-
-		<div class="unit whole">
-			{% assign counter = '0' %}
-			{% for p in site.pages %}
-			{% for tag in p.tags %}
-			{% if tag == "featured-work" %}
-			    {% capture counter %}{{ counter | plus:'0' }}{% endcapture %}
-			 <div class="grid_item chapter delay-1s s-m-t"> 
-				 <a href="{{site.baseurl}}{{p.url}}" 
-				 class="grid__link {% if page.url == p.url %} none {% endif %}">
-				 		<img class="grid_item_img mAuto w100" src="{{p.thumbNail}}">
-				 	<div class="grid__lock block">
-						<p class="">{{p.longTitle}}</p>
-						<p class="subtitle block opacity07">{{p.client}}</p>
-					</div>				
-				</a>
-			</div>
-			{% endif %}
-			{% endfor %}
-			{% endfor %}
-	</div>
+<div class="grid">
+	
+		{% include workgrid.html %}	
+		
 </div>
 
 

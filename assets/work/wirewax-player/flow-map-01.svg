@@ -1,301 +1,496 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="446.48mm" height="205.71mm" viewBox="0 0 1265.6 583.12">
-  <title>flow-map</title>
-  <rect y="-1.5" width="1265.6" height="586.12" style="fill: #fafafa"/>
-  <rect x="605.15" y="40.08" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="605.45" y="78.58" width="47" height="25" style="fill: none"/>
-  <text transform="translate(618.98 83.5)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Player</text>
-  <line x1="629.3" y1="95.08" x2="629.3" y2="227.52" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <line x1="114.99" y1="227.62" x2="1143.6" y2="227.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="607.59" y="245.42" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(620.45 288.75)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.11083984375em">T</tspan><tspan x="3.5" y="0">ag list</tspan></text>
-  <g>
-    <line x1="629.69" y1="227.62" x2="629.69" y2="237.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="627.49 236.72 629.69 240.62 631.89 236.72 627.49 236.72" style="fill: #808184"/>
-  </g>
-  <rect x="1118.73" y="245.42" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="1118.93" y="283.92" width="47.5" height="25" style="fill: none"/>
-  <g style="isolation: isolate">
-    <text transform="translate(1123.02 288.75)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">End of video</text>
-  </g>
-  <g>
-    <line x1="1142.73" y1="227.62" x2="1142.73" y2="237.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1140.43 236.72 1142.73 240.62 1144.93 236.72 1140.43 236.72" style="fill: #808184"/>
-  </g>
-  <rect x="1059.63" y="329.12" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(1072.48 372.52)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Replay</text>
-  <rect x="1119.03" y="329.42" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(1131.06 372.77)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Creator</text>
-  <g>
-    <line x1="1083.43" y1="312.42" x2="1083.43" y2="322.12" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1081.23 321.52 1083.43 325.42 1085.73 321.52 1081.23 321.52" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="1202.73" y1="312.42" x2="1202.73" y2="322.12" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1200.53 321.52 1202.73 325.42 1205.03 321.52 1200.53 321.52" style="fill: #808184"/>
-  </g>
-  <rect x="554.29" y="327.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(559.12 371.02)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Linear order</text>
-  <rect x="661.79" y="327.92" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(660.79 371.27)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Popularity order</text>
-  <g>
-    <line x1="578.09" y1="310.92" x2="578.09" y2="320.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="575.89 320.02 578.09 323.92 580.39 320.02 575.89 320.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="685.49" y1="310.92" x2="685.49" y2="320.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="683.29 320.02 685.49 323.92 687.79 320.02 683.29 320.02" style="fill: #808184"/>
-  </g>
-  <line x1="578.09" y1="310.92" x2="685.49" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <line x1="631.39" y1="302.42" x2="631.39" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="514.19" y="403.22" width="31.9" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(521.58 446.7)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.11083984375em">T</tspan><tspan x="3.5" y="0">ag 1</tspan></text>
-  <text transform="translate(581.98 446.7)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.11083984375em">T</tspan><tspan x="3.5" y="0">ag 2</tspan></text>
-  <rect x="574.59" y="403.22" width="31.9" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="530.09" y1="386.92" x2="530.09" y2="396.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="527.89 396.02 530.09 399.92 532.39 396.02 527.89 396.02" style="fill: #808184"/>
-  </g>
-  <line x1="530.09" y1="386.92" x2="608.69" y2="386.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <line x1="575.59" y1="378.42" x2="575.59" y2="386.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="590.59" y1="386.92" x2="590.59" y2="396.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="588.29 396.02 590.59 399.92 592.79 396.02 588.29 396.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="608.49" y1="386.92" x2="608.69" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-    <line x1="610.49" y1="386.92" x2="618.79" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 0.4609000086784363,1.8437999486923218"/>
-    <line x1="619.79" y1="386.92" x2="619.99" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-  </g>
-  <g>
-    <line x1="590.59" y1="451.92" x2="590.59" y2="461.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="588.29 461.02 590.59 464.92 592.79 461.02 588.29 461.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="528.59" y1="451.92" x2="528.59" y2="461.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="526.29 461.02 528.59 464.92 530.79 461.02 526.29 461.02" style="fill: #808184"/>
-  </g>
-  <rect x="273.4" y="245.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(285.48 289)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.05517578125em">V</tspan><tspan x="4.28" y="0">olume</tspan></text>
-  <g>
-    <line x1="297.2" y1="227.62" x2="297.2" y2="239.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="294.9 238.72 297.2 242.62 299.4 238.72 294.9 238.72" style="fill: #808184"/>
-  </g>
-  <rect x="413.49" y="245.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(426.35 289)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Quality</text>
-  <g>
-    <line x1="437.29" y1="227.62" x2="437.29" y2="239.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="434.99 238.72 437.29 242.62 439.49 238.72 434.99 238.72" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="964.08" y1="302.42" x2="964.08" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <rect x="908.58" y="328.32" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <text transform="translate(927.66 371.65)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">On</text>
-    <rect x="968.08" y="328.52" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <text transform="translate(987.23 371.9)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">O<tspan x="5.44" y="0" style="letter-spacing: -0.01806640625em">f</tspan><tspan x="7.26" y="0">f</tspan></text>
-    <g>
-      <line x1="992.78" y1="311.52" x2="992.78" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-      <polygon points="990.58 320.62 992.78 324.52 994.98 320.62 990.58 320.62" style="fill: #808184"/>
-    </g>
-    <line x1="932.98" y1="311.52" x2="992.78" y2="311.52" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <g>
-      <line x1="933.08" y1="311.52" x2="933.08" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-      <polygon points="930.78 320.62 933.08 324.52 935.28 320.62 930.78 320.62" style="fill: #808184"/>
-    </g>
-  </g>
-  <line x1="299.15" y1="302.42" x2="299.15" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="243.65" y="328.32" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(262.73 371.65)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">On</text>
-  <rect x="303.15" y="328.52" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(322.3 371.9)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">O<tspan x="5.44" y="0" style="letter-spacing: -0.01806640625em">f</tspan><tspan x="7.26" y="0">f</tspan></text>
-  <g>
-    <line x1="327.85" y1="311.52" x2="327.85" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="325.65 320.62 327.85 324.52 330.05 320.62 325.65 320.62" style="fill: #808184"/>
-  </g>
-  <line x1="268.05" y1="311.52" x2="327.85" y2="311.52" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="268.15" y1="311.52" x2="268.15" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="265.85 320.62 268.15 324.52 270.35 320.62 265.85 320.62" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="174.74" y1="445.72" x2="174.74" y2="455.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="172.54 454.82 174.74 458.72 177.04 454.82 172.54 454.82" style="fill: #808184"/>
-  </g>
-  <rect x="91.59" y="319.92" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(104.28 363.3)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Pause</text>
-  <rect x="31.44" y="395.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(43.32 439.03)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Paused</text>
-  <rect x="151.04" y="395.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(157.09 439.03)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Screenshot</text>
-  <rect x="151.04" y="464.82" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(165.45 508.23)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Share</text>
-  <rect x="90.48" y="395.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(102.75 439.03)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Playing</text>
-  <g>
-    <line x1="54.74" y1="378.92" x2="54.74" y2="388.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="52.44 388.02 54.74 391.92 56.94 388.02 52.44 388.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="115.14" y1="378.92" x2="115.14" y2="388.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="112.84 388.02 115.14 391.92 117.34 388.02 112.84 388.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="174.84" y1="378.92" x2="174.84" y2="388.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="172.54 388.02 174.84 391.92 177.04 388.02 172.54 388.02" style="fill: #808184"/>
-  </g>
-  <line x1="54.74" y1="378.92" x2="174.84" y2="378.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-  <line x1="114.99" y1="370.42" x2="114.99" y2="378.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="115.39" y1="302.42" x2="115.39" y2="314.22" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="113.19 313.52 115.39 317.42 117.69 313.52 113.19 313.52" style="fill: #808184"/>
-  </g>
-  <rect x="90.89" y="245.12" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(107.83 288.5)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Play</text>
-  <g>
-    <line x1="114.69" y1="227.62" x2="114.69" y2="239.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="112.49 238.72 114.69 242.62 116.99 238.72 112.49 238.72" style="fill: #808184"/>
-  </g>
-  <rect x="792.74" y="246.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(807.15 290)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Share</text>
-  <g>
-    <line x1="816.84" y1="227.62" x2="816.84" y2="239.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="814.64 238.72 816.84 242.62 819.14 238.72 814.64 238.72" style="fill: #808184"/>
-  </g>
-  <line x1="1083.33" y1="312.42" x2="1202.73" y2="312.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="1143.03" y1="302.42" x2="1143.03" y2="322.12" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1140.83 321.52 1143.03 325.42 1145.33 321.52 1140.83 321.52" style="fill: #808184"/>
-  </g>
-  <rect x="1179.13" y="329.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(1189.46 373.03)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Wirewax</text>
-  <rect x="1130.16" y="397.72" width="25.23" height="16.59" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="1127.23" y="400.8" width="31.1" height="20.45" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(1122.93 444.7)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Other videos</text>
-  <rect x="1121.78" y="404.08" width="41.99" height="27.6" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="1142.83" y1="379.12" x2="1142.83" y2="388.82" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1140.53 388.22 1142.83 392.12 1145.03 388.22 1140.53 388.22" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="1202.93" y1="379.12" x2="1202.93" y2="388.82" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="1200.63 388.22 1202.93 392.12 1205.13 388.22 1200.63 388.22" style="fill: #808184"/>
-  </g>
-  <rect x="940.88" y="246.62" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(947.51 290)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Full screen</text>
-  <g>
-    <line x1="964.98" y1="227.62" x2="964.98" y2="239.42" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="962.78 238.72 964.98 242.62 967.28 238.72 962.78 238.72" style="fill: #808184"/>
-  </g>
-  <line x1="815.94" y1="302.42" x2="815.94" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="760.44" y="328.32" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(771.94 371.65)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Embed</text>
-  <rect x="819.94" y="328.52" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(830.7 371.9)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Copy link</text>
-  <g>
-    <line x1="844.64" y1="311.52" x2="844.64" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="842.44 320.62 844.64 324.52 846.84 320.62 842.44 320.62" style="fill: #808184"/>
-  </g>
-  <line x1="784.84" y1="311.52" x2="844.64" y2="311.52" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="784.94" y1="311.52" x2="784.94" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="782.64 320.62 784.94 324.52 787.14 320.62 782.64 320.62" style="fill: #808184"/>
-  </g>
-  <line x1="964.08" y1="302.42" x2="964.08" y2="310.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <rect x="908.58" y="328.32" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(927.66 371.65)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">On</text>
-  <rect x="968.08" y="328.52" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(987.23 371.9)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">O<tspan x="5.44" y="0" style="letter-spacing: -0.01806640625em">f</tspan><tspan x="7.26" y="0">f</tspan></text>
-  <g>
-    <line x1="992.78" y1="311.52" x2="992.78" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="990.58 320.62 992.78 324.52 994.98 320.62 990.58 320.62" style="fill: #808184"/>
-  </g>
-  <line x1="932.98" y1="311.52" x2="992.78" y2="311.52" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="933.08" y1="311.52" x2="933.08" y2="321.32" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="930.78 320.62 933.08 324.52 935.28 320.62 930.78 320.62" style="fill: #808184"/>
-  </g>
-  <g>
-    <rect x="254.78" y="397.75" width="25.23" height="16.59" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <rect x="251.85" y="400.83" width="31.1" height="20.45" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <text transform="translate(257.28 444.72)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Levels</text>
-    <rect x="246.41" y="404.11" width="41.99" height="27.6" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <g>
-      <line x1="267.45" y1="379.15" x2="267.45" y2="388.85" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-      <polygon points="265.15 388.25 267.45 392.15 269.65 388.25 265.15 388.25" style="fill: #808184"/>
-    </g>
-  </g>
-  <g>
-    <rect x="424.62" y="321.02" width="25.23" height="16.59" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <rect x="421.69" y="324.1" width="31.1" height="20.45" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <text transform="translate(427.12 368)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Levels</text>
-    <rect x="416.24" y="327.38" width="41.99" height="27.6" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-    <g>
-      <line x1="437.29" y1="302.42" x2="437.29" y2="312.12" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-      <polygon points="434.99 311.52 437.29 315.42 439.49 311.52 434.99 311.52" style="fill: #808184"/>
-    </g>
-  </g>
-  <rect x="475.52" y="488.66" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(492.46 532.07)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Play</text>
-  <rect x="595.12" y="488.66" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(607.2 532.07)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Interact</text>
-  <rect x="534.55" y="488.66" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(548.96 532.07)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Share</text>
-  <g>
-    <line x1="498.82" y1="471.96" x2="498.82" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="496.52 481.06 498.82 484.96 501.02 481.06 496.52 481.06" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="559.22" y1="471.96" x2="559.22" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="556.92 481.06 559.22 484.96 561.42 481.06 556.92 481.06" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="618.92" y1="471.96" x2="618.92" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="616.62 481.06 618.92 484.96 621.12 481.06 616.62 481.06" style="fill: #808184"/>
-  </g>
-  <line x1="498.82" y1="471.96" x2="618.92" y2="471.96" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-  <rect x="634.27" y="403.22" width="31.9" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(641.66 446.7)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.11083984375em">T</tspan><tspan x="3.5" y="0">ag 1</tspan></text>
-  <text transform="translate(702.06 446.7)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial"><tspan style="letter-spacing: -0.11083984375em">T</tspan><tspan x="3.5" y="0">ag 2</tspan></text>
-  <rect x="694.67" y="403.22" width="31.9" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="650.17" y1="386.92" x2="650.17" y2="396.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="647.97 396.02 650.17 399.92 652.47 396.02 647.97 396.02" style="fill: #808184"/>
-  </g>
-  <line x1="650.17" y1="386.92" x2="728.77" y2="386.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <line x1="695.67" y1="378.42" x2="695.67" y2="386.92" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-  <g>
-    <line x1="710.67" y1="386.92" x2="710.67" y2="396.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="708.37 396.02 710.67 399.92 712.87 396.02 708.37 396.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="728.57" y1="386.92" x2="728.77" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-    <line x1="730.57" y1="386.92" x2="738.87" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 0.4609000086784363,1.8437999486923218"/>
-    <line x1="739.87" y1="386.92" x2="740.07" y2="386.92" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-  </g>
-  <g>
-    <line x1="710.67" y1="451.92" x2="710.67" y2="461.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="708.37 461.02 710.67 464.92 712.87 461.02 708.37 461.02" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="648.67" y1="451.92" x2="648.67" y2="461.62" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="646.37 461.02 648.67 464.92 650.87 461.02 646.37 461.02" style="fill: #808184"/>
-  </g>
-  <rect x="715.19" y="488.66" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(727.27 532.07)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Interact</text>
-  <rect x="654.63" y="488.66" width="47.5" height="31.5" style="fill: #fff;stroke: #808184;stroke-miterlimit: 10"/>
-  <text transform="translate(669.04 532.07)" style="isolation: isolate;font-size: 7px;fill: #6d6e70;font-family: ArialMT, Arial">Share</text>
-  <g>
-    <line x1="618.89" y1="471.96" x2="618.89" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="616.59 481.06 618.89 484.96 621.09 481.06 616.59 481.06" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="679.29" y1="471.96" x2="679.29" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="676.99 481.06 679.29 484.96 681.49 481.06 676.99 481.06" style="fill: #808184"/>
-  </g>
-  <g>
-    <line x1="738.99" y1="471.96" x2="738.99" y2="481.66" style="fill: none;stroke: #808184;stroke-miterlimit: 10"/>
-    <polygon points="736.69 481.06 738.99 484.96 741.19 481.06 736.69 481.06" style="fill: #808184"/>
-  </g>
-  <line x1="618.89" y1="471.96" x2="738.99" y2="471.96" style="fill: none;stroke: #808184;stroke-linecap: round;stroke-linejoin: round"/>
-  <text transform="translate(104.28 60.08)" style="font-size: 16px;font-family: SFUIText-Regular, SF UI Text">New player journey map</text>
-  <text transform="translate(104.28 83.08)" style="opacity: 0.5;font-size: 13px;font-family: SFUIText-Regular, SF UI Text">Draft 1.3</text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1265.6 583.1" style="enable-background:new 0 0 1265.6 583.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFAFA;}
+	.st1{fill:#FFFFFF;stroke:#808184;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#6D6E70;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:7px;}
+	.st6{fill:none;stroke:#808184;stroke-miterlimit:10;}
+	.st7{fill:#808184;}
+	.st8{fill:none;stroke:#808184;stroke-linecap:round;stroke-linejoin:round;}
+	.st9{fill:none;stroke:#808184;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.4609,1.8438;}
+	.st10{fill:none;stroke:#808184;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{font-family:'SFUIText-Regular';}
+	.st12{font-size:16px;}
+	.st13{opacity:0.5;}
+	.st14{font-size:13px;}
+</style>
+<rect y="-1.5" class="st0" width="1265.6" height="586.1"/>
+<rect x="605.2" y="40.1" class="st1" width="47.5" height="31.5"/>
+<rect x="605.5" y="78.6" class="st2" width="47" height="25"/>
+<text transform="matrix(1 0 0 1 618.9788 83.4978)" class="st3 st4 st5">Player</text>
+<line class="st6" x1="629.3" y1="95.1" x2="629.3" y2="227.5"/>
+<line class="st6" x1="115" y1="227.6" x2="1143.6" y2="227.6"/>
+<rect x="607.6" y="245.4" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 620.4507 288.7518)" class="st3 st4 st5">Tag list</text>
+<g>
+	<g>
+		<line class="st6" x1="629.7" y1="227.6" x2="629.7" y2="237.4"/>
+		<g>
+			<polygon class="st7" points="627.5,236.7 629.7,240.6 631.9,236.7 			"/>
+		</g>
+	</g>
+</g>
+<rect x="1118.7" y="245.4" class="st1" width="47.5" height="31.5"/>
+<rect x="1118.9" y="283.9" class="st2" width="47.5" height="25"/>
+<text transform="matrix(1 0 0 1 1123.0184 288.7518)" class="st3 st4 st5">End of video</text>
+<g>
+	<g>
+		<line class="st6" x1="1142.7" y1="227.6" x2="1142.7" y2="237.4"/>
+		<g>
+			<polygon class="st7" points="1140.4,236.7 1142.7,240.6 1144.9,236.7 			"/>
+		</g>
+	</g>
+</g>
+<rect x="1059.6" y="329.1" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 1072.4824 372.5169)" class="st3 st4 st5">Replay</text>
+<rect x="1119" y="329.4" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 1131.0576 372.7669)" class="st3 st4 st5">Creator</text>
+<g>
+	<g>
+		<line class="st6" x1="1083.4" y1="312.4" x2="1083.4" y2="322.1"/>
+		<g>
+			<polygon class="st7" points="1081.2,321.5 1083.4,325.4 1085.7,321.5 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="1202.7" y1="312.4" x2="1202.7" y2="322.1"/>
+		<g>
+			<polygon class="st7" points="1200.5,321.5 1202.7,325.4 1205,321.5 			"/>
+		</g>
+	</g>
+</g>
+<rect x="554.3" y="327.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 559.1227 371.0169)" class="st3 st4 st5">Linear order</text>
+<rect x="661.8" y="327.9" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 660.7881 371.2669)" class="st3 st4 st5">Popularity order</text>
+<g>
+	<g>
+		<line class="st6" x1="578.1" y1="310.9" x2="578.1" y2="320.6"/>
+		<g>
+			<polygon class="st7" points="575.9,320 578.1,323.9 580.4,320 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="685.5" y1="310.9" x2="685.5" y2="320.6"/>
+		<g>
+			<polygon class="st7" points="683.3,320 685.5,323.9 687.8,320 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="578.1" y1="310.9" x2="685.5" y2="310.9"/>
+<line class="st6" x1="631.4" y1="302.4" x2="631.4" y2="310.9"/>
+<rect x="514.2" y="403.2" class="st1" width="31.9" height="31.5"/>
+<text transform="matrix(1 0 0 1 521.1925 446.6966)" class="st3 st4 st5">Tag 1</text>
+<text transform="matrix(1 0 0 1 581.5925 446.6966)" class="st3 st4 st5">Tag 2</text>
+<rect x="574.6" y="403.2" class="st1" width="31.9" height="31.5"/>
+<g>
+	<g>
+		<line class="st6" x1="530.1" y1="386.9" x2="530.1" y2="396.6"/>
+		<g>
+			<polygon class="st7" points="527.9,396 530.1,399.9 532.4,396 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="530.1" y1="386.9" x2="608.7" y2="386.9"/>
+<line class="st6" x1="575.6" y1="378.4" x2="575.6" y2="386.9"/>
+<g>
+	<g>
+		<line class="st6" x1="590.6" y1="386.9" x2="590.6" y2="396.6"/>
+		<g>
+			<polygon class="st7" points="588.3,396 590.6,399.9 592.8,396 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st8" x1="608.5" y1="386.9" x2="608.7" y2="386.9"/>
+		<line class="st9" x1="610.5" y1="386.9" x2="618.8" y2="386.9"/>
+		<line class="st8" x1="619.8" y1="386.9" x2="620" y2="386.9"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="590.6" y1="451.9" x2="590.6" y2="461.6"/>
+		<g>
+			<polygon class="st7" points="588.3,461 590.6,464.9 592.8,461 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="528.6" y1="451.9" x2="528.6" y2="461.6"/>
+		<g>
+			<polygon class="st7" points="526.3,461 528.6,464.9 530.8,461 			"/>
+		</g>
+	</g>
+</g>
+<rect x="273.4" y="245.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 285.2827 289.0018)" class="st3 st4 st5">Volume</text>
+<g>
+	<g>
+		<line class="st6" x1="297.2" y1="227.6" x2="297.2" y2="239.4"/>
+		<g>
+			<polygon class="st7" points="294.9,238.7 297.2,242.6 299.4,238.7 			"/>
+		</g>
+	</g>
+</g>
+<rect x="413.5" y="245.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 426.3451 289.0018)" class="st3 st4 st5">Quality</text>
+<g>
+	<g>
+		<line class="st6" x1="437.3" y1="227.6" x2="437.3" y2="239.4"/>
+		<g>
+			<polygon class="st7" points="435,238.7 437.3,242.6 439.5,238.7 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line class="st6" x1="964.1" y1="302.4" x2="964.1" y2="310.9"/>
+	<rect x="908.6" y="328.3" class="st1" width="47.5" height="31.5"/>
+	<text transform="matrix(1 0 0 1 927.6624 371.6509)" class="st3 st4 st5">On</text>
+	<rect x="968.1" y="328.5" class="st1" width="47.5" height="31.5"/>
+	<text transform="matrix(1 0 0 1 987.1639 371.9009)" class="st3 st4 st5">Off</text>
+	<g>
+		<g>
+			<line class="st6" x1="992.8" y1="311.5" x2="992.8" y2="321.3"/>
+			<g>
+				<polygon class="st7" points="990.6,320.6 992.8,324.5 995,320.6 				"/>
+			</g>
+		</g>
+	</g>
+	<line class="st6" x1="933" y1="311.5" x2="992.8" y2="311.5"/>
+	<g>
+		<g>
+			<line class="st6" x1="933.1" y1="311.5" x2="933.1" y2="321.3"/>
+			<g>
+				<polygon class="st7" points="930.8,320.6 933.1,324.5 935.3,320.6 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="299.1" y1="302.4" x2="299.1" y2="310.9"/>
+<rect x="243.6" y="328.3" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 262.7312 371.6509)" class="st3 st4 st5">On</text>
+<rect x="303.1" y="328.5" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 322.2328 371.9009)" class="st3 st4 st5">Off</text>
+<g>
+	<g>
+		<line class="st6" x1="327.9" y1="311.5" x2="327.9" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="325.6,320.6 327.9,324.5 330,320.6 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="268" y1="311.5" x2="327.9" y2="311.5"/>
+<g>
+	<g>
+		<line class="st6" x1="268.1" y1="311.5" x2="268.1" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="265.9,320.6 268.1,324.5 270.4,320.6 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="174.7" y1="445.7" x2="174.7" y2="455.4"/>
+		<g>
+			<polygon class="st7" points="172.5,454.8 174.7,458.7 177,454.8 			"/>
+		</g>
+	</g>
+</g>
+<rect x="91.6" y="319.9" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 104.2795 363.3018)" class="st3 st4 st5">Pause</text>
+<rect x="31.4" y="395.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 43.3214 439.0317)" class="st3 st4 st5">Paused</text>
+<rect x="151" y="395.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 157.087 439.0317)" class="st3 st4 st5">Screenshot</text>
+<rect x="151" y="464.8" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 165.4522 508.2279)" class="st3 st4 st5">Share</text>
+<rect x="90.5" y="395.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 102.7497 439.0317)" class="st3 st4 st5">Playing</text>
+<g>
+	<g>
+		<line class="st6" x1="54.7" y1="378.9" x2="54.7" y2="388.6"/>
+		<g>
+			<polygon class="st7" points="52.4,388 54.7,391.9 56.9,388 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="115.1" y1="378.9" x2="115.1" y2="388.6"/>
+		<g>
+			<polygon class="st7" points="112.8,388 115.1,391.9 117.3,388 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="174.8" y1="378.9" x2="174.8" y2="388.6"/>
+		<g>
+			<polygon class="st7" points="172.5,388 174.8,391.9 177,388 			"/>
+		</g>
+	</g>
+</g>
+<line class="st10" x1="54.7" y1="378.9" x2="174.8" y2="378.9"/>
+<line class="st6" x1="115" y1="370.4" x2="115" y2="378.9"/>
+<g>
+	<g>
+		<line class="st6" x1="115.4" y1="302.4" x2="115.4" y2="314.2"/>
+		<g>
+			<polygon class="st7" points="113.2,313.5 115.4,317.4 117.7,313.5 			"/>
+		</g>
+	</g>
+</g>
+<rect x="90.9" y="245.1" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 107.8336 288.5018)" class="st3 st4 st5">Play</text>
+<g>
+	<g>
+		<line class="st6" x1="114.7" y1="227.6" x2="114.7" y2="239.4"/>
+		<g>
+			<polygon class="st7" points="112.5,238.7 114.7,242.6 117,238.7 			"/>
+		</g>
+	</g>
+</g>
+<rect x="792.7" y="246.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 807.1471 290.0018)" class="st3 st4 st5">Share</text>
+<g>
+	<g>
+		<line class="st6" x1="816.8" y1="227.6" x2="816.8" y2="239.4"/>
+		<g>
+			<polygon class="st7" points="814.6,238.7 816.8,242.6 819.1,238.7 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="1083.3" y1="312.4" x2="1202.7" y2="312.4"/>
+<g>
+	<g>
+		<line class="st6" x1="1143" y1="302.4" x2="1143" y2="322.1"/>
+		<g>
+			<polygon class="st7" points="1140.8,321.5 1143,325.4 1145.3,321.5 			"/>
+		</g>
+	</g>
+</g>
+<rect x="1179.1" y="329.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 1189.4595 373.0291)" class="st3 st4 st5">Wirewax</text>
+<rect x="1130.2" y="397.7" class="st1" width="25.2" height="16.6"/>
+<rect x="1127.2" y="400.8" class="st1" width="31.1" height="20.5"/>
+<text transform="matrix(1 0 0 1 1122.9338 444.6966)" class="st3 st4 st5">Other videos</text>
+<rect x="1121.8" y="404.1" class="st1" width="42" height="27.6"/>
+<g>
+	<g>
+		<line class="st6" x1="1142.8" y1="379.1" x2="1142.8" y2="388.8"/>
+		<g>
+			<polygon class="st7" points="1140.5,388.2 1142.8,392.1 1145,388.2 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="1202.9" y1="379.1" x2="1202.9" y2="388.8"/>
+		<g>
+			<polygon class="st7" points="1200.6,388.2 1202.9,392.1 1205.1,388.2 			"/>
+		</g>
+	</g>
+</g>
+<rect x="940.9" y="246.6" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 947.5142 290.0018)" class="st3 st4 st5">Full screen</text>
+<g>
+	<g>
+		<line class="st6" x1="965" y1="227.6" x2="965" y2="239.4"/>
+		<g>
+			<polygon class="st7" points="962.8,238.7 965,242.6 967.3,238.7 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="815.9" y1="302.4" x2="815.9" y2="310.9"/>
+<rect x="760.4" y="328.3" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 771.9429 371.6509)" class="st3 st4 st5">Embed</text>
+<rect x="819.9" y="328.5" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 830.6964 371.9009)" class="st3 st4 st5">Copy link</text>
+<g>
+	<g>
+		<line class="st6" x1="844.6" y1="311.5" x2="844.6" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="842.4,320.6 844.6,324.5 846.8,320.6 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="784.8" y1="311.5" x2="844.6" y2="311.5"/>
+<g>
+	<g>
+		<line class="st6" x1="784.9" y1="311.5" x2="784.9" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="782.6,320.6 784.9,324.5 787.1,320.6 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="964.1" y1="302.4" x2="964.1" y2="310.9"/>
+<rect x="908.6" y="328.3" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 927.6624 371.6509)" class="st3 st4 st5">On</text>
+<rect x="968.1" y="328.5" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 987.1639 371.9009)" class="st3 st4 st5">Off</text>
+<g>
+	<g>
+		<line class="st6" x1="992.8" y1="311.5" x2="992.8" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="990.6,320.6 992.8,324.5 995,320.6 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="933" y1="311.5" x2="992.8" y2="311.5"/>
+<g>
+	<g>
+		<line class="st6" x1="933.1" y1="311.5" x2="933.1" y2="321.3"/>
+		<g>
+			<polygon class="st7" points="930.8,320.6 933.1,324.5 935.3,320.6 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="254.8" y="397.8" class="st1" width="25.2" height="16.6"/>
+	<rect x="251.8" y="400.8" class="st1" width="31.1" height="20.5"/>
+	<text transform="matrix(1 0 0 1 257.282 444.7243)" class="st3 st4 st5">Levels</text>
+	<rect x="246.4" y="404.1" class="st1" width="42" height="27.6"/>
+	<g>
+		<g>
+			<line class="st6" x1="267.5" y1="379.1" x2="267.5" y2="388.8"/>
+			<g>
+				<polygon class="st7" points="265.2,388.2 267.5,392.1 269.7,388.2 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="424.6" y="321" class="st1" width="25.2" height="16.6"/>
+	<rect x="421.7" y="324.1" class="st1" width="31.1" height="20.5"/>
+	<text transform="matrix(1 0 0 1 427.1201 367.9966)" class="st3 st4 st5">Levels</text>
+	<rect x="416.2" y="327.4" class="st1" width="42" height="27.6"/>
+	<g>
+		<g>
+			<line class="st6" x1="437.3" y1="302.4" x2="437.3" y2="312.1"/>
+			<g>
+				<polygon class="st7" points="435,311.5 437.3,315.4 439.5,311.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<rect x="475.5" y="488.7" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 492.459 532.0707)" class="st3 st4 st5">Play</text>
+<rect x="595.1" y="488.7" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 607.1951 532.0707)" class="st3 st4 st5">Interact</text>
+<rect x="534.6" y="488.7" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 548.9648 532.0707)" class="st3 st4 st5">Share</text>
+<g>
+	<g>
+		<line class="st6" x1="498.8" y1="472" x2="498.8" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="496.5,481.1 498.8,485 501,481.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="559.2" y1="472" x2="559.2" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="556.9,481.1 559.2,485 561.4,481.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="618.9" y1="472" x2="618.9" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="616.6,481.1 618.9,485 621.1,481.1 			"/>
+		</g>
+	</g>
+</g>
+<line class="st10" x1="498.8" y1="472" x2="618.9" y2="472"/>
+<rect x="634.3" y="403.2" class="st1" width="31.9" height="31.5"/>
+<text transform="matrix(1 0 0 1 641.2679 446.6966)" class="st3 st4 st5">Tag 1</text>
+<text transform="matrix(1 0 0 1 701.668 446.6966)" class="st3 st4 st5">Tag 2</text>
+<rect x="694.7" y="403.2" class="st1" width="31.9" height="31.5"/>
+<g>
+	<g>
+		<line class="st6" x1="650.2" y1="386.9" x2="650.2" y2="396.6"/>
+		<g>
+			<polygon class="st7" points="648,396 650.2,399.9 652.5,396 			"/>
+		</g>
+	</g>
+</g>
+<line class="st6" x1="650.2" y1="386.9" x2="728.8" y2="386.9"/>
+<line class="st6" x1="695.7" y1="378.4" x2="695.7" y2="386.9"/>
+<g>
+	<g>
+		<line class="st6" x1="710.7" y1="386.9" x2="710.7" y2="396.6"/>
+		<g>
+			<polygon class="st7" points="708.4,396 710.7,399.9 712.9,396 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st8" x1="728.6" y1="386.9" x2="728.8" y2="386.9"/>
+		<line class="st9" x1="730.6" y1="386.9" x2="738.9" y2="386.9"/>
+		<line class="st8" x1="739.9" y1="386.9" x2="740.1" y2="386.9"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="710.7" y1="451.9" x2="710.7" y2="461.6"/>
+		<g>
+			<polygon class="st7" points="708.4,461 710.7,464.9 712.9,461 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="648.7" y1="451.9" x2="648.7" y2="461.6"/>
+		<g>
+			<polygon class="st7" points="646.4,461 648.7,464.9 650.9,461 			"/>
+		</g>
+	</g>
+</g>
+<rect x="715.2" y="488.7" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 727.2706 532.0707)" class="st3 st4 st5">Interact</text>
+<rect x="654.6" y="488.7" class="st1" width="47.5" height="31.5"/>
+<text transform="matrix(1 0 0 1 669.0402 532.0707)" class="st3 st4 st5">Share</text>
+<g>
+	<g>
+		<line class="st6" x1="618.9" y1="472" x2="618.9" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="616.6,481.1 618.9,485 621.1,481.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="679.3" y1="472" x2="679.3" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="677,481.1 679.3,485 681.5,481.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st6" x1="739" y1="472" x2="739" y2="481.7"/>
+		<g>
+			<polygon class="st7" points="736.7,481.1 739,485 741.2,481.1 			"/>
+		</g>
+	</g>
+</g>
+<line class="st10" x1="618.9" y1="472" x2="739" y2="472"/>
+<text transform="matrix(1 0 0 1 104.2795 60.0788)" class="st11 st12">New player journey map</text>
+<g>
+	<text transform="matrix(1 0 0 1 104.2795 83.0788)" class="st13 st11 st14">Draft 1.3</text>
+</g>
 </svg>

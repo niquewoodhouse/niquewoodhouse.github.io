@@ -302,7 +302,7 @@ ul.bullet li {list-style-type: disc;}
 
 .emphasis {font-weight:bold;}
 
-.grid .half p, .grid .half h2, .grid .half h4, .grid .half h3, .grid .half ul {max-width: 680px;}
+.grid .half p, .grid .half h2, .grid .half h4, .grid .half h3, .grid .half ul, .storyline p {max-width: 680px;}
 
 /* Lists */
 ul.shopping-list li {

@@ -24,7 +24,8 @@ page-type: about
 				<p class="s-print {{page.bottom-color}} opacity05 uppercase s-m-t">
 		 			<a class="underline xs-m-r" href="mailto:nique.shjm.woodhouse@gmail.com">email</a>  
 		 			<a href="http://twitter.com/niquewoodhouse" target="_blank" class="xs-m-r underline external">twitter</a>  
-		 			<a href="http://instagram.com/niquewoodhouse" target="_blank" class="underline external">instagram</a>
+		 			<a href="http://instagram.com/niquewoodhouse" target="_blank" class="xs-m-r underline external">instagram</a>
+		 			<a href="http://dribbble.com/nique" target="_blank" class="underline external">Dribbble</a>
 	 			</p>
 
 		 	</div>			

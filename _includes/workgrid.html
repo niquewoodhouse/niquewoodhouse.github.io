@@ -1,22 +1,20 @@
 <div id="work-grid" class="wider s-m-t">
 	<div class="grid">
-
 		<div class="unit whole none">
 			Filter by All
 		</div>
-
 		<div class="unit whole ">
 			{% assign counter = '0' %}
 			{% for p in site.pages %}
 			{% for tag in p.tags %}
 			{% if tag == "featured-work" %}
 			    {% capture counter %}{{ counter | plus:'0' }}{% endcapture %}
-			 <div class="grid_item chapter s-m-t"> 
+			 <div class="grid-item chapter s-m-t"> 
 				 <a href="{{site.baseurl}}{{p.url}}" 
 				 class="grid__link {% if page.url == p.url %} none {% endif %}">
-				 		<img class="grid_item_img greyscale1_saturate1" src="{{p.thumbNail}}">
-				 	<div class="grid__lock block">
-						<p class="grid__title block pitchBlack ">{{p.longTitle}}</p>
+				 		<img class="grid_item_img" src="{{p.thumbNail}}">
+				 	<div class="grid-lock block">
+						<p class="grid-title block pitchBlack ">{{p.longTitle}}</p>
 						<p class="subtitle block opacity07">{{p.client}}</p>
 					</div>				
 				</a>
@@ -24,5 +22,6 @@
 			{% endif %}
 			{% endfor %}
 			{% endfor %}
+		</div>
 	</div>
 </div>
