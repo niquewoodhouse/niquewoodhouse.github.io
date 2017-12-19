@@ -108,5 +108,5 @@ body {color:rgb(51, 51, 51);}
 
 /* Opacity */
 
-.opacity07 {opacity: 0.7;}
+.opacity07, p.personA, p.personB {opacity: 0.7;}
 .opacity05 {opacity: 0.5;}

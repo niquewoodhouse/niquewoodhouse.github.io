@@ -190,8 +190,8 @@
   margin: 0.8rem 0 0.5rem 0;
 }
 
-#work-grid .grid-lock p.grid-title {
-  font-size:1.7rem;
+#work-grid .grid-lock p.grid-title, #work-grid-case-study .grid-lock p.grid-title {
+  font-size:1.4rem;
   margin-bottom: 0px; 
 }
 /*

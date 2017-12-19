@@ -259,7 +259,7 @@ ul.bullet li {list-style-type: disc;}
 }
 
 /* Case Studies */
-.light .storyline p, .light .grid p, .case-study-media p {opacity:0.7;}
+.light .storyline p, .light .grid p, .case-study-media p, .storyline p.s-print {opacity:0.7 !important;}
 .light .storyline p.heading, .light .storyline h2,  .light .storyline h3, .light .storyline .big-statement, .light .storyline p b {opacity:1;}
 .light .pitch-black-bg .storyline h2 {color:white;}
 
