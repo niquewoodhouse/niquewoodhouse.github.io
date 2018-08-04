@@ -18,13 +18,13 @@ thumbNail: ../assets/work/gigbloc/project-thumbnail-1.gif
 feature-video: ../assets/work/gigbloc/gigbloc-intro-video-1
 client: Gigbloc
 --- 
-
+	
 <div class="wider light">
 		<div class="grid">
 				<div class="storyline half l-m-b chapter">
 					<p class="s-print uppercase">The challenge</p>
 					<h2>Sprint from the start</h2>
-					<p class="">
+					<p class="">   swswsw
 						Some old colleagues are re-launching their own product - Gigbloc. They want a product design and brand to share with potential investors, and work towards.
 					</p>
 					<p class="">
