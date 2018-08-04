@@ -21,7 +21,7 @@ client: Gigbloc
 	
 <div class="wider light">
 		<div class="grid">
-				<div class="storyline half l-m-b chapter">
+				<div class="storyline half l-m-b  ">
 					<p class="s-print uppercase">The challenge</p>
 					<h2>Sprint from the start</h2>
 					<p class="">   swswsw
@@ -34,42 +34,25 @@ client: Gigbloc
 				</div>
 		</div>
 
-		<div class="grid">
-				<div class="storyline half m-m-b chapter">
-					<p class="m-print uppercase">
-						Day 1 / 5
-					</p>
-					<h2 class="heading">Uncover the insights first</h2>
-					<p class="">
-						The first step in designing a product or a feature is understanding.  The context, target users, brief and ultimately, what is behind the brief.  <span class="bold">What is the actual problem we're solving and why should we? </span>
-					</p>	
-				</div>	
-		</div>
+
 </div>
 
 <div class="wider">
 		<div class="grid conversation mAuto">
 		     <div class="unit whole paddingNo block">
-		        <p class="personA s-m-b chapter">Why are you starting Gigbloc?</p>
+		        <p class="personA s-m-b  ">Why are you starting Gigbloc?</p>
 		      </div>
 			<div class="unit whole">
-				 <p class="personB s-m-b chapter">We love music, and we love discovering and supporting up and coming bands.</p>		
+				 <p class="personB s-m-b  ">We love music, and we love discovering and supporting up and coming bands.</p>		
 			</div>
 
-		     <div class="unit paddingNo block">
-		        <p class="personA s-m-b chapter">How does Gigbloc help people do that?</p>
-		      </div>
-			<div class="unit whole">
-				 <p class="personB chapter">So music lovers can discover local bands playing in their area to support them. And to help bands promote themselves when they’re getting started.
-				 </p>					 	
-			</div>			
-		 </div> 
+
 </div>	
 
 
 <div class="wider light">
 		<div class="grid">
-				<div class="storyline half l-m-b l-m-t chapter">
+				<div class="storyline half l-m-b l-m-t  ">
 					<p class="">
 						I put these conversations into thoughts &amp; feelings we want users to have, and not have, when they interact with Gigbloc.  I think its important to get these recorded as they become the north stars we use to guide us at each decision point.  They provide something to hold ourselves mutually accountable to.  
 					</p>
@@ -87,7 +70,7 @@ client: Gigbloc
 
 <div class="wider light">
 		<div class="grid">
-				<div class="storyline half l-m-b chapter">
+				<div class="storyline half l-m-b  ">
 					<p class="m-print uppercase">
 						Day 2 / 5
 					</p>					
@@ -102,7 +85,7 @@ client: Gigbloc
 				
 
 	<div class="grid m-m-b">
-		<div class="unit two-thirds m-auto chapter">
+		<div class="unit two-thirds m-auto  ">
 			<img class="m-auto" src="../assets/work/gigbloc/drawings-collage-1@2x.png"/>
 			<img class="m-auto" src="../assets/work/gigbloc/drawings-collage-2@2x.png"/>
 		</div>
@@ -111,7 +94,7 @@ client: Gigbloc
 
 
 		<div class="grid">
-				<div class="storyline half m-m-b chapter">
+				<div class="storyline half m-m-b  ">
 					<h4>Branding: research &amp; execution</h4>
 					<p class="">
 						To make prototypes really effective for user testing, they have to be as close to the real thing as possible.  Part of this means giving Gigbloc a cohesive brand.
@@ -121,7 +104,7 @@ client: Gigbloc
 					</p>
 				</div>
 				<div class="unit whole">
-						<img class="dBlock mAuto chapter m-m-b" src="../assets/work/gigbloc/research-images-1.png"/>
+						<img class="dBlock mAuto   m-m-b" src="../assets/work/gigbloc/research-images-1.png"/>
 
 				</div>
 				<div class="storyline half mAuto">
@@ -130,7 +113,7 @@ client: Gigbloc
 					</p>					
 				</div>	 	
 			 	<div class="unit two-thirds m-auto">
-			 		<img class="dBlock m-auto chapter m-m-b m-m-t" src="../assets/work/gigbloc/logo-1.gif"/>
+			 		<img class="dBlock m-auto   m-m-b m-m-t" src="../assets/work/gigbloc/logo-1.gif"/>
 			 	</div>
 				<div class="storyline half mAuto l-m-b">
 					<p> 
@@ -144,7 +127,7 @@ client: Gigbloc
 
 <div class="wider pitch-black-bg">
 		<div class="grid ">
-				<div class="storyline half l-m-b chapter l-m-t">
+				<div class="storyline half l-m-b   l-m-t">
 					<p class="m-print uppercase step-title">
 						Day 3 / 5
 					</p>					
@@ -157,9 +140,9 @@ client: Gigbloc
 					</p>	
 				</div>
 			 	<div class="unit whole">
-			 		<img class="dBlock mAuto chapter m-m-b " src="../assets/work/gigbloc/flows-2@2x.png"/>	
+			 		<img class="dBlock mAuto   m-m-b " src="../assets/work/gigbloc/flows-2@2x.png"/>	
 			 	</div>	
-				<div class="storyline half l-m-b chapter l-m-t">
+				<div class="storyline half l-m-b   l-m-t">
 					<h3>
 						Take a step back when looking at flows because people use products to solve problems.  What was their problem, how did they discover your solution, what happens afterwards?  Context matters. 
 					</h3>	
@@ -169,7 +152,7 @@ client: Gigbloc
 
 				</div>	
 	
-				<div class="storyline half l-m-b chapter l-m-t">
+				<div class="storyline half l-m-b   l-m-t">
 					<p class="m-print uppercase">
 						Day 4 / 5
 					</p>					
@@ -187,13 +170,13 @@ client: Gigbloc
 		
 		<div class="grid">
 			<div class="unit two-thirds m-auto">
-				<video class="dBlock mAuto chapter" autoplay="" loop="">
+				<video class="dBlock mAuto  " autoplay="" loop="">
 						  <source src="../assets/work/gigbloc/prototypes-collage-1.mp4" type="video/mp4">
 						  <source src="../assets/work/gigbloc/prototypes-collage-1.ogg" type="video/ogg">
 						  Your browser does not support HTML5 video
 				</video>
 			</div>			
-			<div class="storyline half l-m-b chapter l-m-t">
+			<div class="storyline half l-m-b   l-m-t">
 				<p class="">
 					I used this as an opportunity to try out Framer to prototype the flows.  I found the learning curve a little steep to execute to the realistic level needed in a day, so I returned to Flinto which I was more familiar with.  Even with a small taste, Framer was very appealing to use and something I'll look to learn in my spare time for the next chance.
 
@@ -207,14 +190,14 @@ client: Gigbloc
 				</p>
 			</div>	
 			<div class="unit whole case-study-media l-m-b m-auto">
-				 	<div class="grid_item chapter">
+				 	<div class="grid_item  ">
 						<img src="../assets/work/gigbloc/framer-eg-1.png"/>
 				 	</div>				
-				 	<div class="grid_item chapter">
+				 	<div class="grid_item  ">
 						<img src="../assets/work/gigbloc/flinto-eg-1.png"/>				
 				 	</div>								
 			 </div>	
-			<div class="storyline half l-m-b chapter l-m-t">
+			<div class="storyline half l-m-b   l-m-t">
 				<p class="">
 					I used this as an opportunity to try out <a href="http://framer.com" class="underline" target="_blank">Framer</a> to prototype the flows.  I found the learning curve a little steep to execute to the realistic level needed in a day, so I returned to Flinto which I was more familiar with.  Even with a small taste, Framer was very appealing to use and something I'll look to learn in my spare time for the next chance.
 
@@ -227,7 +210,7 @@ client: Gigbloc
 
 <div class="wider">
 		<div class="grid l-m-t">
-			<div class="storyline half l-m-b chapter">
+			<div class="storyline half l-m-b  ">
 				<p class="m-print uppercase">
 					Day 5 / 5
 				</p>	
@@ -239,34 +222,34 @@ client: Gigbloc
 			<div class="unit whole">
 				<div class="phone-screens-collage">
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/splash-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/splash-1@2x.png"/>
 					</div>
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/onboard-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/onboard-1@2x.png"/>
 					</div>	
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/onboard-2@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/onboard-2@2x.png"/>
 					</div>
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/your-feed-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/your-feed-1@2x.png"/>
 					</div>	
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/feed-settings-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/feed-settings-1@2x.png"/>
 					</div>
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/filter-feed-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/filter-feed-1@2x.png"/>
 					</div>
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/play-list-loading-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/play-list-loading-1@2x.png"/>
 					</div>	
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/playlist-playing-track-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/playlist-playing-track-1@2x.png"/>
 					</div>
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/search-calendar-1@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/search-calendar-1@2x.png"/>
 					</div>	
 					<div class="one-fifth float-left">
-						<img class=" m-auto chapter m-m-b w90" src="../assets/work/gigbloc/buy-tickets-2@2x.png"/>
+						<img class=" m-auto   m-m-b w90" src="../assets/work/gigbloc/buy-tickets-2@2x.png"/>
 					</div>
 				</div>															
 			</div>
@@ -275,7 +258,7 @@ client: Gigbloc
 
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 1</p>
 			 		<h3 class="xs-m-t">Your personal soundtrack</h3>
@@ -287,9 +270,9 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>						
-		 	<div class="grid_item chapter">
-				<!-- <img class=" phone m-auto chapter m-m-b w50" src="../assets/work/gigbloc/your-feed-1@2x.png"/> -->
-				<video autoplay loop class="phone m-auto chapter m-m-b w50 autoplay">
+		 	<div class="grid_item  ">
+				<!-- <img class=" phone m-auto   m-m-b w50" src="../assets/work/gigbloc/your-feed-1@2x.png"/> -->
+				<video autoplay loop class="phone m-auto   m-m-b w50 autoplay">
 					  <source src="../assets/work/gigbloc/onboarding-2.mp4" type="video/mp4">
 					  <source src="../assets/work/gigbloc/onboarding-2.ogg" type="video/ogg">
 					  Your browser does not support HTML5 video
@@ -299,21 +282,21 @@ client: Gigbloc
 		 <div class="grid xl-m-b phone-screens">
 			 <div class="unit whole">
 					<div class="one-quarter float-left">
-						<video autoplay loop class="m-auto chapter m-m-b autoplay">
+						<video autoplay loop class="m-auto   m-m-b autoplay">
 							  <source src="../assets/work/gigbloc/gigbloc-flinto-filters-1.mp4" type="video/mp4">
 							  <source src="../assets/work/gigbloc/onboarding-2.ogg" type="video/ogg">
 							  Your browser does not support HTML5 video
 						</video>
 					</div>	
 					<div class="one-third float-left m-m-t">
-						<img class=" m-auto chapter m-m-b w50" src="../assets/work/gigbloc/filter-cost-1@2x.png"/>
+						<img class=" m-auto   m-m-b w50" src="../assets/work/gigbloc/filter-cost-1@2x.png"/>
 					</div>								 	
 			 </div>	
 		</div>
 
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 2</p>
 			 		<h3 class="xs-m-t">Play your night</h3>
@@ -322,8 +305,8 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>				
-		 	<div class="grid_item chapter">
-				<video autoplay loop class="phone m-auto chapter m-m-b w50 autoplay">
+		 	<div class="grid_item  ">
+				<video autoplay loop class="phone m-auto   m-m-b w50 autoplay">
 					  <source src="../assets/work/gigbloc/playing-2.mp4" type="video/mp4">
 					  <source src="../assets/work/gigbloc/playing-2.ogg" type="video/ogg">
 					  Your browser does not support HTML5 video
@@ -333,19 +316,19 @@ client: Gigbloc
 		 <div class="grid xl-m-b phone-screens">
 			 <div class="unit whole">
 					<div class="one-quarter float-right">
-						<img class="m-auto chapter shadow-one" src="../assets/work/gigbloc/play-list-loading-1@2x.png"/>
+						<img class="m-auto   shadow-one" src="../assets/work/gigbloc/play-list-loading-1@2x.png"/>
 					</div>	
 					<div class="one-third float-right m-m-t">
-						<img class=" m-auto chapter m-m-b w50" src="../assets/work/gigbloc/playlist-playing-track-1-interact-with-track-1@2x.png"/>
+						<img class=" m-auto   m-m-b w50" src="../assets/work/gigbloc/playlist-playing-track-1-interact-with-track-1@2x.png"/>
 					</div>												 	
 			 </div>	
 		</div>	
-		<div class="storyline half xl-m-b chapter">
+		<div class="storyline half xl-m-b  ">
 			<p>
 				First impressions take seconds.  Gigbloc 2.0 will play through the opening 10 seconds of a track, before moving onto the next.  The experience becomes fluid, and doesn't require the user to make a decision at every turn. If the user interacts with the timeline, we switch to playing the full song, or until they swipe or skip.
 			</p>
 			<center>
-				<img class="w50 m-auto m-m-t m-m-b chapter" src="../assets/work/gigbloc/interaction-explain-1.png"/>
+				<img class="w50 m-auto m-m-t m-m-b  " src="../assets/work/gigbloc/interaction-explain-1.png"/>
 			</center>
 			<p>
 				The whole discovery interaction exists within two core swipes.  Listening to a track, if you like it, swipe the Y axis to see the gig details.  Not liking a track, swipe the X axis to move on.  Keeping these actions simple is important.
@@ -356,7 +339,7 @@ client: Gigbloc
 
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 3</p>
 			 		<h3 class="xs-m-t">Find what you need</h3>
@@ -365,24 +348,24 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>				
-		 	<div class="grid_item chapter">
-				<img class=" phone m-auto chapter m-m-b w50" src="../assets/work/gigbloc/navigation-search-1@2x.png"/>		
+		 	<div class="grid_item  ">
+				<img class=" phone m-auto   m-m-b w50" src="../assets/work/gigbloc/navigation-search-1@2x.png"/>		
 		 	</div>								
 		 </div>	
 		 <div class="grid xl-m-b phone-screens">
 			 <div class="unit whole">
 					<div class="one-quarter float-left">
-						<img class="m-auto chapter shadow-one" src="../assets/work/gigbloc/navigation-search-entry-1@2x.png"/>
+						<img class="m-auto   shadow-one" src="../assets/work/gigbloc/navigation-search-entry-1@2x.png"/>
 					</div>	
 					<div class="one-third float-left m-m-t">
-						<img class=" m-auto chapter w50" src="../assets/work/gigbloc/no-results-1@2x.png"/>					
+						<img class=" m-auto   w50" src="../assets/work/gigbloc/no-results-1@2x.png"/>					
 					</div>										 	
 			 </div>	
 		</div>
 
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 4</p>
 			 		<h3 class="xs-m-t">Plan ahead</h3>
@@ -391,31 +374,31 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>				
-		 	<div class="grid_item chapter">
-				<img class=" phone m-auto chapter m-m-b w50" src="../assets/work/gigbloc/playlist-playing-track-1-share-it@2x.png"/>		
+		 	<div class="grid_item  ">
+				<img class=" phone m-auto   m-m-b w50" src="../assets/work/gigbloc/playlist-playing-track-1-share-it@2x.png"/>		
 		 	</div>								
 		 </div>	
 		 <div class="grid xl-m-b  phone-screens">
 			 <div class="unit whole">
 					<div class="one-quarter float-left">
-						<img class="m-auto chapter shadow-one" src="../assets/work/gigbloc/receiving-gig-1@2x.png"/>
+						<img class="m-auto   shadow-one" src="../assets/work/gigbloc/receiving-gig-1@2x.png"/>
 					</div>	
 					<div class="one-quarter float-left m-m-t">
-						<img class=" m-auto chapter w50" src="../assets/work/gigbloc/notice-they-didnt-like-it@2x.png"/>
+						<img class=" m-auto   w50" src="../assets/work/gigbloc/notice-they-didnt-like-it@2x.png"/>
 						
 					</div>	
 									 	
 			 </div>	
 		</div>
 
-		<div class="storyline half xl-m-b chapter">
+		<div class="storyline half xl-m-b  ">
 			<p>
 				Recieving a gig should feel exciting, and whatever your response, Gigbloc should reward you.  The reciever needs a dislike option but we removed this for the general Gigbloc user to remain true to that emotional discovery &amp; delight.
 			</p>
 		</div>		
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 5</p>
 			 		<h3 class="xs-m-t">Get your tickets</h3>
@@ -424,8 +407,8 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>						
-		 	<div class="grid_item chapter">
-				<video autoplay loop class="phone m-auto chapter m-m-b w50 autoplay">
+		 	<div class="grid_item  ">
+				<video autoplay loop class="phone m-auto   m-m-b w50 autoplay">
 					  <source src="../assets/work/gigbloc/gigbloc-ticket-purchase-1.mp4" type="video/mp4">
 					  <source src="../assets/work/gigbloc/onboarding-2.ogg" type="video/ogg">
 					  Your browser does not support HTML5 video
@@ -435,31 +418,31 @@ client: Gigbloc
 		 <div class="grid xl-m-b phone-screens">
 			 <div class="unit whole">
 					<div class="one-quarter float-left">
-						<img class="m-auto chapter shadow-one" src="../assets/work/gigbloc/tickets-list-2@2x.png"/>
+						<img class="m-auto   shadow-one" src="../assets/work/gigbloc/tickets-list-2@2x.png"/>
 					</div>	
 					<div class="one-third float-left m-m-t">
-						<img class=" m-auto chapter m-m-b w50" src="../assets/work/gigbloc/buy-tickets-2-buying@2x.png"/>
+						<img class=" m-auto   m-m-b w50" src="../assets/work/gigbloc/buy-tickets-2-buying@2x.png"/>
 					</div>											 	
 			 </div>	
 		</div>
 
-		<div class="storyline half xl-m-b chapter">
+		<div class="storyline half xl-m-b  ">
 			<p>
 				The day of the gig is a time to build anticipation, excitement and re-assure of all details so they can focus on enjoying local music.
 			</p>
 		</div>	
 
 		<div class="unit whole case-study-media l-m-b">
-		 	<div class="grid_item chapter">
-				<img class="chapter w50 center-media" src="../assets/work/gigbloc/notification-post-gig-1@2x.png"/>
+		 	<div class="grid_item  ">
+				<img class="  w50 center-media" src="../assets/work/gigbloc/notification-post-gig-1@2x.png"/>
 		 	</div>	
-		 	<div class="grid_item chapter">
-		 		<img class="chapter w50 s-m-b center-media" src="../assets/work/gigbloc/notification-post-gig-2@2x.png"/>
+		 	<div class="grid_item  ">
+		 		<img class="  w50 s-m-b center-media" src="../assets/work/gigbloc/notification-post-gig-2@2x.png"/>
 		 	</div>					
 		</div>	
 
 		<div class="unit whole case-study-media l-m-b m-auto">
-		 	<div class="grid_item chapter">
+		 	<div class="grid_item  ">
 		 		<div class="copy">
 		 			<p class="s-print uppercase opacity07">Feature 7</p>
 			 		<h3 class="xs-m-t">Banding together</h3>
@@ -468,8 +451,8 @@ client: Gigbloc
 			 		</p>
 			 	</div>
 		 	</div>						
-		 	<div class="grid_item chapter">
-				<img class=" phone m-auto chapter m-m-b w50" src="../assets/work/gigbloc/artist-profile-1@2x.png"/>
+		 	<div class="grid_item  ">
+				<img class=" phone m-auto   m-m-b w50" src="../assets/work/gigbloc/artist-profile-1@2x.png"/>
 		 	</div>
 		 </div>	
 
@@ -481,7 +464,7 @@ client: Gigbloc
 <div classer="wider">
 
 		<div class="grid l-m-t">
-			<div class="storyline half l-m-b chapter">
+			<div class="storyline half l-m-b  ">
 				<p class="m-print uppercase">
 					Day 6 / 5
 				</p>	
@@ -496,7 +479,7 @@ client: Gigbloc
 					Ultimately, the sprint is a process that forces you to keep momentum day by day and thus build up energy.  Those forces are powerful and being super aware of them is something I'll certainly be taking into my next project.
 				</p>
 			</div>
-			<div class="unit two-thirds chapter m-auto">
+			<div class="unit two-thirds   m-auto">
 				<img class="m-m-b w100" src="../assets/work/gigbloc/ending-1.png"/> 
 			</div>				
 
