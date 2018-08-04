@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: lab
 top-color: dark
 bottom-color: white
 type: case-study
