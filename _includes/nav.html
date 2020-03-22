@@ -1,17 +1,22 @@
 <nav id="site-navigation" class="w100 delay-1s s-m-t header chapter fixed {{include.navclass}} zUltimo wider">
 	<div class="grid">
 		<div class="unit whole">
-<!-- 				<a href="{{site.baseurl}}/index.html" class="uppercase fLeft logo relative s-print">
-					Nique
-				</a> -->
+			<!--
+			<ul class="nav fLeft">
+				<li>
+	 				<a href="{{site.baseurl}}/index.html" class="fLeft logo relative s-print">
+						Nique 
+					</a> 
+				</li>
+			</ul>-->
 				<ul class="nav fRight">
 					<li>					
-						<a href="{{site.baseurl}}/about" class="underline s-print uppercase {% if page.url contains 'about' or page.url contains 'about' %}current{% endif %}">
-							About
+						<a href="{{site.baseurl}}/about" class="underline s-print {% if page.url contains 'about' or page.url contains 'about' %}current{% endif %}">
+							Info
 						</a>
 					</li>
 					<li>					
-						<a href="{{site.baseurl}}/index.html" class="underline s-print uppercase {% if page.url contains 'work' or page.url contains 'work' %}current{% endif %}">
+						<a href="{{site.baseurl}}/index.html" class="underline s-print {% if page.url contains 'work' or page.url contains 'work' %}current{% endif %}">
 							Work
 						</a>
 					</li>

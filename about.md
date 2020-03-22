@@ -3,6 +3,7 @@ layout: default
 featureImg: assets/peaceYo.jpg
 headline:  Pro surfer. Web only - afraid of sea.
 page-type: about
+top-color: midnight-bg
 ---
 
 
@@ -10,46 +11,26 @@ page-type: about
 
 <div class="{{page.top-color}} first-chapter l-m-b">
 	<div class="grid case-study-intro">
-		<div class="storyline half xs-m-l l-m-b chapter">
-			<div class="chapter">	 		
-			 	<h1 class=" display m-auto s-m-b">
-			 		I'm an independent product designer, passionate about making experiences simple &amp; rewarding.
-			 	</h1>
-			 	<h1 class=" display m-auto s-m-b">
-			 		I've had the pleasure of designing software and experiences used by brands like Spotify, NBC, MTV &amp; the BBC to tell their stories worldwide.  
-			 	</h1>
-			 	<h1 class=" display m-auto m-mb">
-			 		Based in London, I spend my time developing my own products and helping others with theirs.  Now you know about me, tell me about you. Don't be shy.  
-			 	</h1> 		
-				<p class="s-print {{page.bottom-color}} opacity05 uppercase s-m-t">
-		 			<a class="underline xs-m-r" href="mailto:nique.shjm.woodhouse@gmail.com">email</a>  
-		 			<a href="http://twitter.com/niquewoodhouse" target="_blank" class="xs-m-r underline external">twitter</a>  
-		 			<a href="http://instagram.com/niquewoodhouse" target="_blank" class="xs-m-r underline external">instagram</a>
-		 			<a href="http://dribbble.com/nique" target="_blank" class="underline external">Dribbble</a>
-	 			</p>
-
+		<div class="storyline chapter half xs-m-l l-m-b">
+			<div class="">	 		
+				<h1 class="display s-m-b white">London based product designer, helping small teams with big ideas make them happen. </h1>
+			 	<p class=" display m-auto xs-m-b white">
+			 		With over ten years experience, I've made games for kids with Nickelodeon, software the BBC won Baftas with, reimagined messaging for emerging markets and much more.  I strongly believe in including users &amp; respecting the incredible opportunity we have to make the world better for someone. 
+			 	</p>	
+			 	<p class=" display m-auto xs-m-b white">
+			 		Today, I'm especially interested in working to provide better healthcare, more renewable energy, and privacy for marginalised groups. 
+			 	</p>
+			 	<p class=" display m-auto xs-m-b white">
+			 		<a class="underline" href="mailto:nique.shjm.woodhouse@gmail.com">Say hi</a>
+			 	</p>	 			
 		 	</div>			
 		</div>
 	</div>
 </div>
 
-<div class="grid">
 
-	<div class="storyline half xs-m-l xl-m-b m-m-t chapter">
-		<div class="chapter">	 		
-		 	<h1 class=" display m-auto s-m-b">
-		 		Oh, you need to know more.  
-		 	</h1>
-		 	<h1 class=" display m-auto s-m-b">
-		 		I can't swim and I cried at all three Toy Stories movies.  Happy now?
-		 	</h1>
-	 	</div>			
-	</div>
-	
-</div>
-
-
-<!-- <div class=" wider pitchBlackBg">
+<!--
+<div class=" wider pitchBlackBg">
 		<div class="grid">		
 			<div class="unit whole dBlock l-m-b xl-m-t">
 				<h1 class="s-m-l ghost chapter">I work for bold brands I believe in.</h1>
@@ -85,9 +66,12 @@ page-type: about
 				<img src="assets/logos/Logos_nike.svg"/>
 			</div>	
 		</div>		
-</div> -->
+</div> 
+-->
 
-<!-- <div class="wider whiteBg">
+<!--
+
+ <div class="wider whiteBg">
 		<div class="grid chapter">
 			<div class="unit whole dBlock xl-m-t l-m-b m-s-l">
 				<h1 class="w50 s-m-l">I can't swim and I cried at all three Toy Story movies.</h1>
@@ -110,6 +94,7 @@ page-type: about
 		        </ul>							
 	        </div>				
 		</div>	
-</div>	  -->
+</div>	 
+--> 
 
 

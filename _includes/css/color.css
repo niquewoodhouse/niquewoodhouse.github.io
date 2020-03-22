@@ -82,13 +82,15 @@ body {color:rgb(51, 51, 51);}
 /* Backgrounds */
 
 .ghostBg, .ghost-bg {background:#fafafa;}
-.midnightBg, .midnight-bg {background:#232323;}
+.midnightBg, .midnight-bg, body.about {background:#1a1a1b;}
 .pitchBlackBg, .pitch-black-bg {background:#030303;}
 .blackBg09 {background:rgba(0,0,0, 0.9);}
 .whiteBg09 {background:rgba(255,255,255, 0.9);}
 .offBlackBg {background:#191919;}
 .whitebg {background:white;}
 .greybg, .grey-bg {background:#f8f8f9;}
+.overlay-bg {background:rgba(0, 0, 0, 0.5);}
+.light-pink-bg {background:#fcf0ec;}
 
 
 .pitchBlackBg a {color:#fff;}

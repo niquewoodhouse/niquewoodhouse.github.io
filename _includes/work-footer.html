@@ -1,4 +1,4 @@
-<div class="wider pitch-black-bg work-footer">
+<div class="wider work-footer">
 	<div class="wideOverlay">
 		{% include am-i-available.html %}
 
@@ -7,8 +7,8 @@
 			<div class="grid">
 
 				<div class="unit whole ">
-					<p class="m-print uppercase chapter text-center">More studies</p>
-					{% assign counter = 0 %}
+					<p class="s-print chapter text-center m-m-t">More</p>
+ 					{% assign counter = 0 %}
 					{% for p in site.pages %}
 					{% for tag in p.tags %}
 					{% if tag == "work" and page.url != p.url and counter < 2 %}
@@ -18,7 +18,7 @@
 						 class="grid__link">
 						 		<img class="grid_item_img" src="{{p.thumbNail}}">
 						 	<div class="grid-lock block">
-								<p class="grid-title block ghost s-m-t ">{{p.longTitle}}</p>
+								<p class="grid-title block s-m-t ">{{p.longTitle}}</p>
 								<p class="subtitle block opacity07">{{p.client}}</p>
 							</div>				
 						</a>

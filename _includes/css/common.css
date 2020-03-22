@@ -65,7 +65,7 @@ a.underline:hover:after, .case-study .storyline p a:hover:after {
 	transform: scale3d(1, 1, 1); 
 }
 
-.case-study .pitch-black-bg .storyline p a:before, .case-study .pitch-black-bg .storyline p a:after  {
+.case-study .pitch-black-bg .storyline p a:before, .case-study .pitch-black-bg .storyline p a:after, .midnight-bg p a:after, .midnight-bg p a:before  {
 	background: #fff;
 }
 
@@ -293,7 +293,7 @@ ul.contact-social li:first-child {margin:0 1 0 0rem;}
 	padding-bottom:5rem !important;
 }
 
-/* Ms */
+/* Margins */
 
 .xs-m-t {margin-top:1rem !important;}
 
@@ -313,8 +313,10 @@ ul.contact-social li:first-child {margin:0 1 0 0rem;}
 .s-m-r {margin-right:4rem !important;}
 .xs-m-r {margin-right:2rem !important;}
 
+.mAuto, .m-auto {margin: 0 auto;}
+.mTopNone {margin-top:0px !important;}
 
-/* Ps */
+/* Paddingss */
 
 .xs-p-r {padding-right:2rem;}
 .xs-p-l {padding-left:1rem;}
@@ -337,9 +339,6 @@ ul.contact-social li:first-child {margin:0 1 0 0rem;}
 
 .padding5 {padding:5%;}
 
-.mAuto, .m-auto {margin: 0 auto;}
-
-.mTopNone {margin-top:0px !important;}
 
 /* Cursor */
 
@@ -433,6 +432,7 @@ ul.recentWork li a:after {
 ul.work li {
 	vertical-align: middle;
 }
+
 
 
 
