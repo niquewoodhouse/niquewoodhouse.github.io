@@ -253,13 +253,6 @@ img.goesWithHeading {top:60px;right:0px;}
 .maxwidth500 {max-width: 500px !important;}
 .maxwidth1400 {max-width:1200px !important;padding-left:0 !important;padding-right:0 !important;}
 
-/*
-.introduction {
-    padding-bottom: 10vh;
-    padding-top: 25vh;
-}
-*/
-
 
 
 ul#how-to-contact b {width:100px;display:inline-block;font-weight: normal;opacity: 0.7;}
